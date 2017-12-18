@@ -1,0 +1,73 @@
+.TH "Color.cpp" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Color.cpp \- Модуль работы с цветом в консоли\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <windows\&.h>\fP
+.br
+\fC#include <iostream>\fP
+.br
+\fC#include 'Color\&.h'\fP
+.br
+
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "void \fBv_set_color\fP (\fBcolor\fP ConsoleText, \fBcolor\fP ConsoleBackground)"
+.br
+.ti -1c
+.RI "void \fBv_set_color\fP (\fBcolor\fP ConsoleText)"
+.br
+.ti -1c
+.RI "void \fBv_color_reset\fP ()"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+Модуль работы с цветом в консоли\&. 
+
+Модуль позволяет менять цвет текста и цвет фона в консоли\&. 
+.PP
+См\&. определение в файле \fBColor\&.cpp\fP
+.SH "Функции"
+.PP 
+.SS "void v_color_reset ()"
+Вернуть цвет текста и цвет заднего фона в консоли к стандартным значениям\&. 
+.PP
+См\&. определение в файле Color\&.cpp строка 35
+.SS "void v_set_color (\fBcolor\fP ConsoleText, \fBcolor\fP ConsoleBackground)"
+Изменение цвета текста и цвета заднего фона в консоли 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIConsoleText\fP цвет текста 
+.br
+\fIConsoleBackground\fP цвет заднего фона 
+.RE
+.PP
+
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBcolor\&.cpp\fP\&.
+.PP
+См\&. определение в файле Color\&.cpp строка 21
+.SS "void v_set_color (\fBcolor\fP ConsoleText)"
+Изменение цвета текста в консоли\&. Задний фон по умолчанию чёрный\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIConsoleText\fP цвет текста 
+.RE
+.PP
+
+.PP
+См\&. определение в файле Color\&.cpp строка 29
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

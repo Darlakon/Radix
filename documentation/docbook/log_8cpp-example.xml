@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="log_8cpp-example">
+    <title>log.cpp</title>
+
+<para><formalpara><title>Автор: </title>
+
+<para>SavaLione <literallayout><computeroutput><emphasis class="preprocessor">#include&#32;&quot;..\io\Logger.h&quot;</emphasis>
+
+<emphasis class="keywordtype">int</emphasis>&#32;<link linkend="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>()&#32;{
+&#32;&#32;&#32;&#32;<link linkend="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959">log</link>(<emphasis class="stringliteral">&quot;LOG&quot;</emphasis>,&#32;<emphasis class="stringliteral">&quot;Hello&#32;World!!!&quot;</emphasis>);
+&#32;&#32;&#32;&#32;<emphasis class="keywordflow">return</emphasis>&#32;0;
+}
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+
+</section>

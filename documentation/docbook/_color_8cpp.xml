@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_color_8cpp">
+    <title>Color.cpp File Reference</title>
+    <programlisting>#include &lt;windows.h&gt;</programlisting>
+    <programlisting>#include &lt;iostream&gt;</programlisting>
+    <programlisting>#include &quot;Color.h&quot;</programlisting>
+<para>Include dependency diagram for Color.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_color_8cpp__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for Color.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_color_8cpp__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Функции</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f">v_set_color</link> (
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8f">color</link> ConsoleText, <link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8f">color</link> ConsoleBackground)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_color_8cpp_1ac4b485399ce8f366e640bbfe8ea40f7b">v_set_color</link> (
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8f">color</link> ConsoleText)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_color_8cpp_1a85ab2b1666a933ebb14c6ffb2db6d4a6">v_color_reset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Подробное описание</title>
+
+<para>Модуль работы с цветом в консоли. </para>
+
+<para>Модуль позволяет менять цвет текста и цвет фона в консоли. </para>
+    <para>Definition in file Color.cpp</para>
+    </simplesect>
+</section>

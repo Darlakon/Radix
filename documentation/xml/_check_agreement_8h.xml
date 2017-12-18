@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_check_agreement_8h" kind="file" language="C++">
+    <compoundname>CheckAgreement.h</compoundname>
+    <includedby refid="_radix_8cpp" local="yes">Radix.cpp</includedby>
+    <invincdepgraph>
+      <node id="29">
+        <label>CheckAgreement.h</label>
+        <link refid="_check_agreement_8h"/>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Radix.cpp</label>
+        <link refid="_radix_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_check_agreement_8h_1a3d3fea8d8c6da49b2f73fc0b2c2e7574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int i_checkagreement</definition>
+        <argsstring>()</argsstring>
+        <name>i_checkagreement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вызов модуля проверки согласия пользователя с правилами. <simplesect kind="return"><para>0 - пользователь не согласен с условиями программы, выход из программы. 1 - пользователь согласен с условиями программы, запуск программы. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ui/CheckAgreement.h" line="12" column="1" bodyfile="src/ui/CheckAgreement.cpp" bodystart="66" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Заголовочный файл с подключением модуля проверки согласия с лицензией. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>SavaLione </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>CHECKAGREEMENT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CHECKAGREEMENT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_check_agreement_8h_1a3d3fea8d8c6da49b2f73fc0b2c2e7574" kindref="member">i_checkagreement</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHECKAGREEMENT_H</highlight></codeline>
+    </programlisting>
+    <location file="src/ui/CheckAgreement.h"/>
+  </compounddef>
+</doxygen>

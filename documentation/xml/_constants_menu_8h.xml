@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_constants_menu_8h" kind="file" language="C++">
+    <compoundname>ConstantsMenu.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="_check_agreement_8cpp" local="yes">CheckAgreement.cpp</includedby>
+    <includedby refid="_exit_8cpp" local="yes">Exit.cpp</includedby>
+    <includedby refid="_load_scale_8cpp" local="yes">LoadScale.cpp</includedby>
+    <includedby refid="_main_menu_8cpp" local="yes">MainMenu.cpp</includedby>
+    <includedby refid="_manual_8cpp" local="yes">Manual.cpp</includedby>
+    <includedby refid="_query_menu_8cpp" local="yes">QueryMenu.cpp</includedby>
+    <incdepgraph>
+      <node id="66">
+        <label>string</label>
+      </node>
+      <node id="65">
+        <label>ConstantsMenu.h</label>
+        <link refid="_constants_menu_8h"/>
+        <childnode refid="66" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="71">
+        <label>MainMenu.cpp</label>
+        <link refid="_main_menu_8cpp"/>
+      </node>
+      <node id="72">
+        <label>Manual.cpp</label>
+        <link refid="_manual_8cpp"/>
+      </node>
+      <node id="69">
+        <label>Exit.cpp</label>
+        <link refid="_exit_8cpp"/>
+      </node>
+      <node id="67">
+        <label>ConstantsMenu.h</label>
+        <link refid="_constants_menu_8h"/>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>CheckAgreement.cpp</label>
+        <link refid="_check_agreement_8cpp"/>
+      </node>
+      <node id="73">
+        <label>QueryMenu.cpp</label>
+        <link refid="_query_menu_8cpp"/>
+      </node>
+      <node id="70">
+        <label>LoadScale.cpp</label>
+        <link refid="_load_scale_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacemenu">menu</innernamespace>
+    <briefdescription>
+<para>Заголовочный файл с константами меню. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>SavaLione </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>CONSTANTSMENU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSTANTSMENU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespacemenu" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacemenu" kindref="compound">menu</ref><sp/>{</highlight></codeline>
+<codeline lineno="12" refid="namespacemenu_1ac0906d6effd5dc68552a724a3edb9330" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacemenu_1ac0906d6effd5dc68552a724a3edb9330" kindref="member">indentation</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="15" refid="namespacemenu_1ab9230afa22bdf260e3944290026a5a86" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacemenu_1ab9230afa22bdf260e3944290026a5a86" kindref="member">frame_left</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="18" refid="namespacemenu_1a3f786c7ab3caec7dfef9e1fa61b52ae7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacemenu_1a3f786c7ab3caec7dfef9e1fa61b52ae7" kindref="member">frame_right</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&gt;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="namespacemenu_1aa3bc0d7f62e04dc52dd8f276902448ae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespacemenu_1aa3bc0d7f62e04dc52dd8f276902448ae" kindref="member">loading_size</ref><sp/>=<sp/>25;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24" refid="namespacemenu_1aaea5c70964114a416caa58676ddf8066" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespacemenu_1aaea5c70964114a416caa58676ddf8066" kindref="member">loading_check_module</ref><sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="namespacemenu_1a69bce854c4a150920a5c77eede8cab0a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespacemenu_1a69bce854c4a150920a5c77eede8cab0a" kindref="member">loading_check_module_sleep</ref><sp/>=<sp/>1000;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30" refid="namespacemenu_1a56af6a2d586e2b6baa4ebf128a690266" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespacemenu_1a56af6a2d586e2b6baa4ebf128a690266" kindref="member">loading_left</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;[&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="33" refid="namespacemenu_1a272b2c0c591457b2aeccaae0c122a1fc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespacemenu_1a272b2c0c591457b2aeccaae0c122a1fc" kindref="member">loading_right</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;]&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36" refid="namespacemenu_1ab79f369195d81dcb241b1ab5269c9d3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespacemenu_1ab79f369195d81dcb241b1ab5269c9d3d" kindref="member">loading_progress</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;|&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="39" refid="namespacemenu_1ad004c327a8a1c14388a6c7f23d6953a6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespacemenu_1ad004c327a8a1c14388a6c7f23d6953a6" kindref="member">loading_indenting</ref><sp/>=<sp/></highlight><highlight class="charliteral">&apos;<sp/>&apos;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONSTANTSMENU_H</highlight></codeline>
+    </programlisting>
+    <location file="src/core/ConstantsMenu.h"/>
+  </compounddef>
+</doxygen>

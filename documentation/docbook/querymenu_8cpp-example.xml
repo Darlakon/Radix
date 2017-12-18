@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="querymenu_8cpp-example">
+    <title>querymenu.cpp</title>
+
+<para><formalpara><title>Автор: </title>
+
+<para>SavaLione <literallayout><computeroutput><emphasis class="preprocessor">#include&#32;&quot;..\ui\QueryMenu.cpp&quot;</emphasis>
+
+<emphasis class="keywordtype">int</emphasis>&#32;<link linkend="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>()&#32;{
+&#32;&#32;&#32;&#32;<emphasis class="keywordflow">return</emphasis>&#32;<link linkend="_query_menu_8cpp_1a04810c013cfcaa8934da6d97d2ff79fd">i_querymenu</link>(<emphasis class="stringliteral">&quot;Exit&quot;</emphasis>);
+}
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+
+</section>

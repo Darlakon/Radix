@@ -1,0 +1,75 @@
+\hypertarget{_query_menu_8cpp}{}\section{Файл Query\+Menu.\+cpp}
+\label{_query_menu_8cpp}\index{Query\+Menu.\+cpp@{Query\+Menu.\+cpp}}
+
+
+Модуль сообщения с вопросом для пользователя.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$conio.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$Windows.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}core\textbackslash{}\+Color.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}core\textbackslash{}\+Logo.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}core\textbackslash{}\+Constants\+Menu.\+h\char`\"{}}\newline
+Граф включаемых заголовочных файлов для Query\+Menu.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_query_menu_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_query_menu_8cpp_a26af9c00eae4fa982218b4448247ed9b}{v\+\_\+querymenu\+\_\+choice} (size\+\_\+t choice, string s)
+\item 
+int \hyperlink{_query_menu_8cpp_a04810c013cfcaa8934da6d97d2ff79fd}{i\+\_\+querymenu} (string s)
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Модуль сообщения с вопросом для пользователя. 
+
+
+
+\subsection{Функции}
+\mbox{\Hypertarget{_query_menu_8cpp_a04810c013cfcaa8934da6d97d2ff79fd}\label{_query_menu_8cpp_a04810c013cfcaa8934da6d97d2ff79fd}} 
+\index{Query\+Menu.\+cpp@{Query\+Menu.\+cpp}!i\+\_\+querymenu@{i\+\_\+querymenu}}
+\index{i\+\_\+querymenu@{i\+\_\+querymenu}!Query\+Menu.\+cpp@{Query\+Menu.\+cpp}}
+\subsubsection{\texorpdfstring{i\+\_\+querymenu()}{i\_querymenu()}}
+{\footnotesize\ttfamily int i\+\_\+querymenu (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+Вызов модуля сообщения с вопросом для пользователя. 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em s} & вопрос \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+0 -\/ пользователь не готов продолжить, выход из программы. 1 -\/ пользователь готов продолжить, продолжить. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Примеры\+: ]\par
+\hyperlink{querymenu_8cpp-example}{querymenu.\+cpp}.\end{Desc}
+
+
+См. определение в файле Query\+Menu.\+cpp строка 64
+
+\mbox{\Hypertarget{_query_menu_8cpp_a26af9c00eae4fa982218b4448247ed9b}\label{_query_menu_8cpp_a26af9c00eae4fa982218b4448247ed9b}} 
+\index{Query\+Menu.\+cpp@{Query\+Menu.\+cpp}!v\+\_\+querymenu\+\_\+choice@{v\+\_\+querymenu\+\_\+choice}}
+\index{v\+\_\+querymenu\+\_\+choice@{v\+\_\+querymenu\+\_\+choice}!Query\+Menu.\+cpp@{Query\+Menu.\+cpp}}
+\subsubsection{\texorpdfstring{v\+\_\+querymenu\+\_\+choice()}{v\_querymenu\_choice()}}
+{\footnotesize\ttfamily void v\+\_\+querymenu\+\_\+choice (\begin{DoxyParamCaption}\item[{size\+\_\+t}]{choice,  }\item[{string}]{s }\end{DoxyParamCaption})}
+
+Переключение пунктов меню 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em choice} & выбор \\
+\hline
+\mbox{\tt in}  & {\em s} & вопрос \\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Query\+Menu.\+cpp строка 24
+

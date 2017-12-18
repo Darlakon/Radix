@@ -1,0 +1,2678 @@
+AutoGen Definitions dummy;
+file = {
+  file-id   = '_a_d_b__mod_8cpp';
+  file-name = 'ADB_mod.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__mod_8cpp_1a5d0a3a01ef690bcd93495becd3273063';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'adb';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+LPSTR
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'cmdArgs';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_mod.cpp';
+      func-mem-desc-line = '16';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов adb-интерфейса.
+\param[in] cmdArgs - команда для adb вида "adb X".
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__mod_8cpp_1a3b7f80fa75c7705429c3d7402fec0eb0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'fastboot';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+LPSTR
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'cmdArgs';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_mod.cpp';
+      func-mem-desc-line = '40';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов fastboot-интерфейса.
+\param[in] cmdArgs - команда для fastboot вида "fastboot X".
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/ADB_mod.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль работы с adb.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author Darlakon
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_a_d_b__mod_8h';
+  file-name = 'ADB_mod.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__mod_8h_1a5d0a3a01ef690bcd93495becd3273063';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'adb';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+LPSTR
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'cmdArgs';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_mod.h';
+      func-mem-desc-line = '13';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов adb-интерфейса.
+\param[in] cmdArgs - команда для adb вида "adb X".
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__mod_8h_1a3b7f80fa75c7705429c3d7402fec0eb0';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'fastboot';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+LPSTR
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'cmdArgs';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_mod.h';
+      func-mem-desc-line = '18';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов fastboot-интерфейса.
+\param[in] cmdArgs - команда для fastboot вида "fastboot X".
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/ADB_mod.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля работы с adb.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author Darlakon
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_a_d_b__slave_8cpp';
+  file-name = 'ADB_slave.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__slave_8cpp_1ad1f1e991625b5f039ea46c20d003ed0f';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'adb_state';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_slave.cpp';
+      func-mem-desc-line = '11';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля проверки состояния устройства.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__slave_8cpp_1a6b830192de1fd9a84e95434750984282';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'adb_flash';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_slave.cpp';
+      func-mem-desc-line = '24';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля установки кастомной рекавери.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__slave_8cpp_1abe46e301720694fb6fcec4868d54f516';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'adb_root';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_slave.cpp';
+      func-mem-desc-line = '51';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля получения root-прав.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/ADB_slave.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль работы с adb.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author Darlakon
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_a_d_b__slave_8h';
+  file-name = 'ADB_slave.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__slave_8h_1ad1f1e991625b5f039ea46c20d003ed0f';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'adb_state';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_slave.h';
+      func-mem-desc-line = '12';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля проверки состояния устройства.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__slave_8h_1a6b830192de1fd9a84e95434750984282';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'adb_flash';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_slave.h';
+      func-mem-desc-line = '17';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля установки кастомной рекавери.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_a_d_b__slave_8h_1abe46e301720694fb6fcec4868d54f516';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'adb_root';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ADB_slave.h';
+      func-mem-desc-line = '22';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля получения root-прав.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/ADB_slave.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля работы с adb.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author Darlakon
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_check_agreement_8cpp';
+  file-name = 'CheckAgreement.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_check_agreement_8cpp_1acf2bff465d8177c63f6904d73e1cafdf';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_checkagreement_choice';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'choice';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/CheckAgreement.cpp';
+      func-mem-desc-line = '21';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Переключение пунктов меню
+\param[in] choice выбор
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_check_agreement_8cpp_1a3d3fea8d8c6da49b2f73fc0b2c2e7574';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'i_checkagreement';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/CheckAgreement.cpp';
+      func-mem-desc-line = '66';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля проверки согласия пользователя с правилами.
+\return 0 - пользователь не согласен с условиями программы, выход из программы. 1 - пользователь согласен с условиями программы, запуск программы.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/CheckAgreement.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль проверки согласия пользователя с правилами.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_check_agreement_8h';
+  file-name = 'CheckAgreement.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_check_agreement_8h_1a3d3fea8d8c6da49b2f73fc0b2c2e7574';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'i_checkagreement';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/CheckAgreement.h';
+      func-mem-desc-line = '12';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля проверки согласия пользователя с правилами.
+\return 0 - пользователь не согласен с условиями программы, выход из программы. 1 - пользователь согласен с условиями программы, запуск программы.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/CheckAgreement.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля проверки согласия с лицензией.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_checking_files_8cpp';
+  file-name = 'CheckingFiles.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_checking_files_8cpp_1a06ba6d957eba855cc9f88ce7ac641722';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'b_file_exists';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ch_file_name';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/CheckingFiles.cpp';
+      func-mem-desc-line = '23';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля проверки файла на наличие в папке.
+\param[in] ch_file_name Путь и файл, для проверки.
+\return наличие файла.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_checking_files_8cpp_1a5f44f09549aae42fa22e71e761b40abc';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'i_checking_files';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/CheckingFiles.cpp';
+      func-mem-desc-line = '30';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля проверки файлов.
+\return 0 - неуспешная проверка файлов. 1 - успешная проверка файлов.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/CheckingFiles.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль проверки файлов для рутирования телефона.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+Модуль проверяет наличие файлов для рутирования телефона.
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_checking_files_8h';
+  file-name = 'CheckingFiles.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_checking_files_8h_1a06ba6d957eba855cc9f88ce7ac641722';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'b_file_exists';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+const char *
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ch_file_name';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/CheckingFiles.h';
+      func-mem-desc-line = '19';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля проверки файла на наличие в папке.
+\param[in] ch_file_name Путь и файл, для проверки.
+\return наличие файла.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_checking_files_8h_1a5f44f09549aae42fa22e71e761b40abc';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'i_checking_files';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/CheckingFiles.h';
+      func-mem-desc-line = '24';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля проверки файлов.
+\return 0 - неуспешная проверка файлов. 1 - успешная проверка файлов.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/CheckingFiles.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с вызовом модуля проверки файлов для рутирования телефона.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов:
+@code 
+    void v_checking_files();
+    \endcode
+
+\author SavaLione
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_color_8cpp';
+  file-name = 'Color.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_set_color';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+color
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ConsoleText';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+color
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ConsoleBackground';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Color.cpp';
+      func-mem-desc-line = '21';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Изменение цвета текста и цвета заднего фона в консоли
+\param[in] ConsoleText цвет текста
+\param[in] ConsoleBackground цвет заднего фона
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_color_8cpp_1ac4b485399ce8f366e640bbfe8ea40f7b';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_set_color';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+color
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ConsoleText';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Color.cpp';
+      func-mem-desc-line = '29';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Изменение цвета текста в консоли. Задний фон по умолчанию чёрный.
+\param[in] ConsoleText цвет текста
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_color_8cpp_1a85ab2b1666a933ebb14c6ffb2db6d4a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_color_reset';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Color.cpp';
+      func-mem-desc-line = '35';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вернуть цвет текста и цвет заднего фона в консоли к стандартным значениям.  
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Color.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль работы с цветом в консоли.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+Модуль позволяет менять цвет текста и цвет фона в консоли.
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_color_8h';
+  file-name = 'Color.h';
+    enum = {
+    enum-member = {
+      enum-mem-kind = 'enum';
+      enum-mem-id   = '_color_8h_1a37dbdc30935031c05304482e1be89d8f';
+      enum-mem-virt = normal;
+      enum-mem-prot = public;
+      enum-mem-name = 'color';
+      enum-mem-enum = { enum-name = BLACK; enum-value = '= 0'; };
+      enum-mem-enum = { enum-name = BLUE; enum-value = '= 1'; };
+      enum-mem-enum = { enum-name = GREEN; enum-value = '= 2'; };
+      enum-mem-enum = { enum-name = CYAN; enum-value = '= 3'; };
+      enum-mem-enum = { enum-name = RED; enum-value = '= 4'; };
+      enum-mem-enum = { enum-name = MAGENTA; enum-value = '= 5'; };
+      enum-mem-enum = { enum-name = BROWN; enum-value = '= 6'; };
+      enum-mem-enum = { enum-name = LIGHTGRAY; enum-value = '= 7'; };
+      enum-mem-enum = { enum-name = DARKGRAY; enum-value = '= 8'; };
+      enum-mem-enum = { enum-name = LIGHTBLUE; enum-value = '= 9'; };
+      enum-mem-enum = { enum-name = LIGHTGREEN; enum-value = '= 10'; };
+      enum-mem-enum = { enum-name = LIGHTCYAN; enum-value = '= 11'; };
+      enum-mem-enum = { enum-name = LIGHTRED; enum-value = '= 12'; };
+      enum-mem-enum = { enum-name = LIGHTMAGENTA; enum-value = '= 13'; };
+      enum-mem-enum = { enum-name = LIGHTYELLOW; enum-value = '= 14'; };
+      enum-mem-enum = { enum-name = WHITE; enum-value = '= 15'; };
+      enum-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Color.h';
+      enum-mem-desc-line = '9';
+      enum-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      enum-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Цвета  
+_EnD_oF_dEf_TeXt_;
+    }; /* enum-member */
+    };
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_color_8h_1a8bfe4542d1f10bae3f4ff0ec688aa67f';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_set_color';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+color
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ConsoleText';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+color
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ConsoleBackground';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Color.h';
+      func-mem-desc-line = '31';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Изменение цвета текста и цвета заднего фона в консоли
+\param[in] ConsoleText цвет текста
+\param[in] ConsoleBackground цвет заднего фона
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_color_8h_1ac4b485399ce8f366e640bbfe8ea40f7b';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_set_color';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+color
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ConsoleText';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Color.h';
+      func-mem-desc-line = '36';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Изменение цвета текста в консоли. Задний фон по умолчанию чёрный.
+\param[in] ConsoleText цвет текста
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_color_8h_1a85ab2b1666a933ebb14c6ffb2db6d4a6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_color_reset';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Color.h';
+      func-mem-desc-line = '39';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вернуть цвет текста и цвет заднего фона в консоли к стандартным значениям.  
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Color.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с цветами и модулем смены цвета в консоли.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_constants_8h';
+  file-name = 'Constants.h';
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a82e81e89088b6430b7ec11a8a0329e9c';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const size_t
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'buff_size';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 32
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '15';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Размер буфера.
+В основном используется для чтения строк из файла.
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a8f000aabf647d34fd877c33958bad711';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const size_t
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'buff_ruleslist';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 256
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '21';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Размер буфера для чтения правил программы.
+В основном используется для чтения правил программы.
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a11c5bfe5c65a0f88a2a950111c6ffc09';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'logger_list';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "logger.log"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '24';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Файл с выводом логера.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a43bff57dbd1b7dcebee0228ccbab7f17';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'settings_list';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "settings.ini"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '27';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Файл с настройками программы.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a73b088a3e903cc2845c2299b9ab8ccaf';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'rules_list';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "rules.txt"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '30';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Файл с пользовательским соглашением.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a123392a7ece6e11efaf3ad3df291ff3d';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'firmware_way';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "\\assets\\firmware\\"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '33';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Путь к прошивкам.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1aa90f63f1d0143b58469670ccbb86cfc4';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'patch';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "\\assets\\"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '36';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Путь к дополнительным файлам программы.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a01a09f0b88f6fd375ea20667bd318035';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'expansion_file';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= ".zip"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '39';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Расширение прошивок.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a91c21d6be385236a564ef5bf1f3f3602';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'recovery_file';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "recovery.img"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '42';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Файл с прошивкой.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1abcd4cb3ab01a6a642ba224e2d9b1eda5';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'su_file';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "su.zip"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '45';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Файл с su для root.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a9f0187ab8d7f9931ed08159a233408c0';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'not_found';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= " not found."
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '48';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Сообщение о том, что файл не найден.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1a27726ea7eb8e2bea153425bce9328be5';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'found';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= " found."
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '51';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Сообщение о том, что файл не найден.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1ad5e76eca849713be360ed8478545d801';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'ch_user_continue';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "The user continued the program despite the error."
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '54';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Сообщение о том, что пользователь продолжил выполнение программы, невзирая на ошибку.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespaceradix_1afd1855af7805a1bb408ea9175a626ac7';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'ch_user_not_continue';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "The user did not continue the program despite the error."
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Constants.h';
+      var-mem-desc-line = '57';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Сообщение о том, что пользователь не продолжил выполнение программы, невзирая на ошибку.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Constants.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с константами.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_constants_menu_8h';
+  file-name = 'ConstantsMenu.h';
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1ac0906d6effd5dc68552a724a3edb9330';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'indentation';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "       "
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '12';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Отступ между пунктами меню.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1ab9230afa22bdf260e3944290026a5a86';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'frame_left';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "       <"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '15';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Левая скобка и отступ слева.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1a3f786c7ab3caec7dfef9e1fa61b52ae7';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'frame_right';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= ">       "
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '18';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Правая скобка и отступ справа.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1aa3bc0d7f62e04dc52dd8f276902448ae';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const size_t
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'loading_size';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 25
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '21';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Размер шкалы модуля загрузки.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1aaea5c70964114a416caa58676ddf8066';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const bool
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'loading_check_module';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= false
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '24';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Включение задержки, для проверки работоспособности модуля загрузки.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1a69bce854c4a150920a5c77eede8cab0a';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const size_t
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'loading_check_module_sleep';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= 1000
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '27';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Пауза в мс для проверки работоспособности модуля загрузки . 
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1a56af6a2d586e2b6baa4ebf128a690266';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'loading_left';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= '['
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '30';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Модуль загрузки. Левая скобка.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1a272b2c0c591457b2aeccaae0c122a1fc';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'loading_right';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= ']'
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '33';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Модуль загрузки. Правая скобка.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1ab79f369195d81dcb241b1ab5269c9d3d';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'loading_progress';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= '|'
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '36';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Модуль загрузки. Шкала прогресса.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacemenu_1ad004c327a8a1c14388a6c7f23d6953a6';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const char
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'loading_indenting';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= ' '
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+      var-mem-desc-line = '39';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Модуль загрузки. Значение после шкалы прогресса.  
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/ConstantsMenu.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с константами меню.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_exit_8cpp';
+  file-name = 'Exit.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_exit_8cpp_1a540f8b6f2205a3bcf98d2b8f81e8aa09';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_exit';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/Exit.cpp';
+      func-mem-desc-line = '16';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вывод текста. Выход из программы.  
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/Exit.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль выхода из программы.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_exit_8h';
+  file-name = 'Exit.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_exit_8h_1a540f8b6f2205a3bcf98d2b8f81e8aa09';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_exit';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/Exit.h';
+      func-mem-desc-line = '10';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вывод текста. Выход из программы.  
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/Exit.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля выхода из программы.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_initialization_8cpp';
+  file-name = 'Initialization.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_initialization_8cpp_1a61271965777637ec3d70f6d7ab0a466a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_initialization_logger_log';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Initialization.cpp';
+      func-mem-desc-line = '26';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Проверка файла logger.log.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Проверка файла logger.log
+
+При отсутствии файла создаёт его
+
+При наличии файла пропуск
+
+Всё логируется
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_initialization_8cpp_1a9f137f3ae0426a1e7c1a398ad930dc70';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_initialization_settings_ini';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Initialization.cpp';
+      func-mem-desc-line = '27';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Проверка файла settings.ini.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Проверка файла settings.ini
+
+При отсутствии файла создаёт его
+
+При наличии файла пропуск
+
+Всё логируется
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_initialization_8cpp_1a86860ef24d9abdaddea8e817e84528a7';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_initialization_rules_txt';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Initialization.cpp';
+      func-mem-desc-line = '28';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+Проверка файла rules.txt.
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Проверка файла rules.txt
+
+При отсутствии файла создаёт его
+
+При наличии файла пропуск
+
+Всё логируется
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_initialization_8cpp_1a11b373fd61e18cd28810a5b607e1749a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_initialization';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Initialization.cpp';
+      func-mem-desc-line = '42';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Функция проверяет наличие 3 стандартных файлов программы
+@verbatim
+logger.log
+
+rules.txt
+
+settings.ini@endverbatim
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Initialization.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль проверки стандартных файлов программы.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+Модуль проверяет наличие стандартных файлов программы
+
+Файлы:
+@verbatim
+logger.log - вывод логера
+
+rules.txt - правила программы, с которыми должен согласиться пользователь
+
+settings.ini - файл настроек@endverbatim
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_initialization_8h';
+  file-name = 'Initialization.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_initialization_8h_1a11b373fd61e18cd28810a5b607e1749a';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_initialization';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Initialization.h';
+      func-mem-desc-line = '24';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Функция проверяет наличие 3 стандартных файлов программы
+@verbatim
+logger.log
+
+rules.txt
+
+settings.ini@endverbatim
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Initialization.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с вызовом модуля инициализации
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов:
+@code 
+    void v_initialization();
+    \endcode
+
+\author SavaLione
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_load_scale_8cpp';
+  file-name = 'LoadScale.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_load_scale_8cpp_1ab957e5514a924cccac4e53b2a576d063';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_loadscale';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'position';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/LoadScale.cpp';
+      func-mem-desc-line = '19';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Переключение пунктов меню
+\param[in] position значение до которого отрисовывать шкалу.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/LoadScale.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль вывода шкалы загрузки.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_load_scale_8h';
+  file-name = 'LoadScale.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_load_scale_8h_1ab957e5514a924cccac4e53b2a576d063';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_loadscale';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'position';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/LoadScale.h';
+      func-mem-desc-line = '12';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Переключение пунктов меню
+\param[in] position значение до которого отрисовывать шкалу.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/LoadScale.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля вывода шкалы загрузки.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_logger_8cpp';
+  file-name = 'Logger.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_logger_8cpp_1a37ded7634d8547536bbd135208109766';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'log_thr';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 's';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string &
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'level';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Logger.cpp';
+      func-mem-desc-line = '45';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Функция, для записи лога в файл
+    \param[in] &s Передача ссылки с сообщением для логирования
+    \param[in] &level Передача ссылки с уровнем логирования
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_logger_8cpp_1a85cbef1702d055318336f0f3a5036959';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'log';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'level';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 's';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Logger.cpp';
+      func-mem-desc-line = '54';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Логирование сообщений в файл logger.log
+\param[in] level Уровень логирования
+\param[in] s Логируемая информация
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/io/Logger.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль логирования
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+@code 
+Логгер
+Логгирование сообщений в файл logger.log
+Уровеней лога - 3
+Уровень 0:
+Вывод сообщений вида:
+    [                   ] {MESSAGE}
+Применение:
+    Обработка простых сообщений, без времени и префикса ([PREFIX])
+Уровень 1:
+Вывод сообщений вида:
+    [{YEAR}/{MONTH}/{DAY} {HOUR}:{MINUTE}:{SECOND}] [LOG] {MESSAGE}
+Применение:
+    Обработка простых сообщений(загрузка модуля, отключение модуля, вход в программу, выход из программы и тд.) С временем и префиксом ([LOG])
+Уровень 2:
+Вывод сообщений вида:
+    [{YEAR}/{MONTH}/{DAY} {HOUR}:{MINUTE}:{SECOND}] [WARN] {MESSAGE}
+Применение:
+    Обработка важных сообщений ошибки(не удачная загрузка модуля, не удачный вход в программу, экстренный выход из программы и тд.) С временем и префиксом ([WARN])
+\endcode
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_logger_8h';
+  file-name = 'Logger.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_logger_8h_1ad35770e66782b0d5c63307682c5de765';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'log';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+std::string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'level';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+std::string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 's';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Logger.h';
+      func-mem-desc-line = '14';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Логирование сообщений в файл logger.log
+\param[in] level Уровень логирования
+\param[in] s Логируемая информация
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/io/Logger.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля логирования.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_logo_8h';
+  file-name = 'Logo.h';
+    var = {
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'border';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "===========================\n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '17';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Линия. 
+@code 
+    ===========================
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1adf18ab31906b644891fc8311df747a9d';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'little_help';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "==== <- use to move -> ====\n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '24';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Помощь по управлению.
+@code 
+    ==== <- use to move -> ====
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1ae5491adc000fde7d3d8229372c877da2';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'license';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Do you agree with the license?\n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '31';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вопрос о согласии с лицензионным соглашением.
+@code 
+    Do you agree with the license?
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'move_indentation';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "       "
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '38';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Отступ. Используется в связке с move.
+@code 
+    {       }<- use to move ->
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1a03b6b80b5648e7dbbbf00b258df733b6';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'move';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "<- use to move ->\n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '45';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Помощь по управлению.
+@code 
+    <- use to move ->
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1abbbdbfbbcae50e2017f3ed1bdf0e1fa3';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'radix';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "  _____           _ _      \n |  __ \\         | (_)     \n | |__) |__ _  __| |___  __\n |  _  // _` |/ _` | \\ \\/ /\n | | \\ \\ (_| | (_| | |>  < \n |_|  \\_\\__,_|\\__,_|_/_/\\_\\ \n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '58';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Логотип программы
+@code 
+     _____           _ _      
+    |  __ \         | (_)     
+    | |__) |__ _  __| |___  __
+    |  _  // _` |/ _` | \ \/ /
+    | | \ \ (_| | (_| | |>  < 
+    |_|  \_\__,_|\__,_|_/_/\_\
+
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1ad29ac81055f7eb3624a283f55af8d5ad';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'loading';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "  _                     _ \n | |                   | |\n | |     ___   __ _  __| |\n | |    / _ \\ / _` |/ _` |\n | |___| (_) | (_| | (_| |\n |______\\___/ \\__,_|\\__,_|\n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '71';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Логотип загрузки
+@code 
+     _                     _ 
+    | |                   | |
+    | |     ___   __ _  __| |
+    | |    / _ \ / _` |/ _` |
+    | |___| (_) | (_| | (_| |
+    |______\___/ \__,_|\__,_|  
+
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1aba8ca66bcf8abe6a0991a13887671863';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'exit';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "  ______      _ _   \n |  ____|    (_) |  \n | |__  __  ___| |_ \n |  __| \\ \\/ / | __|\n | |____ >  <| | |_ \n |______/_/\\_\\_|\\__|\n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '84';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Выход
+@code 
+     ______      _ _   
+    |  ____|    (_) |  
+    | |__  __  ___| |_ 
+    |  __| \ \/ / | __|
+    | |____ >  <| | |_ 
+    |______/_/\_\_|\__|
+
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1a6bb2bd19b13072f69598ed9f64b77350';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 's_continue';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Continue?\n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '91';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вопрос о продолжении выполнения программы.
+@code 
+    Continue?
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1a0a26b9dd91d59364dce6d78c217af1a0';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 's_manual';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "		Manual\n1) Put the file recovery.img in the root of the program.\n2) Put the file su.zip in the root of the program.\n3) Continue.\n"
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '101';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Инструкция к программе.
+@code 
+            Manual
+    1) Put the file recovery.img in the root of the program.
+    2) Put the file su.zip in the root of the program.
+    3) Continue.
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    var-member = {
+      var-mem-kind = 'variable';
+      var-mem-id   = 'namespacelogo_1ac55b3c4624556820a987ccdf67101bae';
+      var-mem-virt = normal;
+      var-mem-prot = public;
+      var-mem-type = <<_EnD_oF_dEf_TeXt_
+const std::string
+_EnD_oF_dEf_TeXt_;
+      var-mem-name = 'enter';
+      var-mem-initializer = <<_EnD_oF_dEf_TeXt_
+= "Press any key to continue."
+_EnD_oF_dEf_TeXt_;
+      var-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Logo.h';
+      var-mem-desc-line = '108';
+      var-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      var-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Продолжить выполнение программы по нажатию любой клавиши.
+@code 
+   Press any key to continue.
+\endcode
+_EnD_oF_dEf_TeXt_;
+    }; /* var-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Logo.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с логотипами.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_main_8cpp';
+  file-name = 'Main.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'main';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Main.cpp';
+      func-mem-desc-line = '14';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+\return Код завершения программы
+Вызов программы компилятором
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Main.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Главный файл программы
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_main_menu_8cpp';
+  file-name = 'MainMenu.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_main_menu_8cpp_1ad224308b960ec4f2215ffa68350131f8';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_menu_choice';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'choice';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/MainMenu.cpp';
+      func-mem-desc-line = '20';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Переключение пунктов меню
+\param[in] choice выбор
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_main_menu_8cpp_1a784c09041cf40075e8eb016a2d8419d6';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'root';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/MainMenu.cpp';
+      func-mem-desc-line = '21';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Пункт рутирования телефона.  
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_main_menu_8cpp_1adc9252b438b3b385bf6ccb207688fd4e';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'i_mainmenu';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/MainMenu.cpp';
+      func-mem-desc-line = '65';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля главного меню.
+\return 0 - Выход из программы.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/MainMenu.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль вывода главного меню программы.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_main_menu_8h';
+  file-name = 'MainMenu.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_main_menu_8h_1adc9252b438b3b385bf6ccb207688fd4e';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'i_mainmenu';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/MainMenu.h';
+      func-mem-desc-line = '12';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля главного меню.
+\return 0 - Выход из программы.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/MainMenu.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля главного меню.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_manual_8cpp';
+  file-name = 'Manual.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_manual_8cpp_1ae0f9a7fdce9e3a275336f70656c0c4fc';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_manual';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/Manual.cpp';
+      func-mem-desc-line = '22';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля инструкции.
+Вывод инструкции в консоль.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/Manual.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль инструкции.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_manual_8h';
+  file-name = 'Manual.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_manual_8h_1ae0f9a7fdce9e3a275336f70656c0c4fc';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_manual';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/Manual.h';
+      func-mem-desc-line = '13';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля инструкции.
+Вывод инструкции в консоль.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/Manual.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля инструкции.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_query_menu_8cpp';
+  file-name = 'QueryMenu.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_query_menu_8cpp_1a26af9c00eae4fa982218b4448247ed9b';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_querymenu_choice';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+size_t
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'choice';
+      }; /*        func-mem-param--param */
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 's';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/QueryMenu.cpp';
+      func-mem-desc-line = '18';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Переключение пунктов меню
+\param[in] choice выбор
+\param[in] s вопрос
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_query_menu_8cpp_1a04810c013cfcaa8934da6d97d2ff79fd';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'i_querymenu';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 's';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/QueryMenu.cpp';
+      func-mem-desc-line = '64';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля сообщения с вопросом для пользователя.
+\param[in] s вопрос
+\return 0 - пользователь не готов продолжить, выход из программы. 1 - пользователь готов продолжить, продолжить.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/QueryMenu.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль сообщения с вопросом для пользователя.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_query_menu_8h';
+  file-name = 'QueryMenu.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_query_menu_8h_1aa08088d1947d336889fbb7a02ccb2b3f';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+int
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'i_querymenu';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+std::string
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 's';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/ui/QueryMenu.h';
+      func-mem-desc-line = '15';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Вызов модуля сообщения с вопросом для пользователя.
+\param[in] s вопрос
+\return 0 - пользователь не готов продолжить, выход из программы. 1 - пользователь готов продолжить, продолжить.
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/ui/QueryMenu.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля сообщения с вопросом для пользователя.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_radix_8cpp';
+  file-name = 'Radix.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_radix_8cpp_1a86a56c401ce2783ee9288b33af746520';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'Radix';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Radix.cpp';
+      func-mem-desc-line = '16';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Запуск программы  
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Radix.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Главный файл программы
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_radix_8h';
+  file-name = 'Radix.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_radix_8h_1a86a56c401ce2783ee9288b33af746520';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'Radix';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/core/Radix.h';
+      func-mem-desc-line = '10';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Запуск программы  
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/core/Radix.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с вызовом главной функции программы
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_rules_list_8cpp';
+  file-name = 'RulesList.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_rules_list_8cpp_1a7c6f9bd6ee5089b03c66028f99271e15';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+string
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 's_ruleslist';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/RulesList.cpp';
+      func-mem-desc-line = '17';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Чтение правил программы
+\return строка с правилами
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/io/RulesList.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль чтения правил.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_rules_list_8h';
+  file-name = 'RulesList.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_rules_list_8h_1a5010d1a6599fe48d9bd963375613da92';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+std::string
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 's_ruleslist';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/RulesList.h';
+      func-mem-desc-line = '14';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Чтение правил программы
+\return строка с правилами
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/io/RulesList.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля чтения правил.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_settings_8cpp';
+  file-name = 'Settings.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_settings_8cpp_1a7fcd42142e325cb27a380f49d655f9de';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'b_settings';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ch_arr_value';
+        func-mem-param-array = '[]';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Settings.cpp';
+      func-mem-desc-line = '22';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Парсинг параметров
+\param[in] ch_arr_value[] Значение, которое надо найти в файле
+\return Значение переменной
+    true
+    false
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/io/Settings.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Модуль настроек. Парсит переменные в файлах
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_settings_8h';
+  file-name = 'Settings.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_settings_8h_1a7fcd42142e325cb27a380f49d655f9de';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+bool
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'b_settings';
+      func-mem-param = {
+        func-mem-param-type = <<_EnD_oF_dEf_TeXt_
+char
+_EnD_oF_dEf_TeXt_;
+        func-mem-param-declname = 'ch_arr_value';
+        func-mem-param-array = '[]';
+      }; /*        func-mem-param--param */
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Settings.h';
+      func-mem-desc-line = '16';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Парсинг параметров
+\param[in] ch_arr_value[] Значение, которое надо найти в файле
+\return Значение переменной
+    true
+    false
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/io/Settings.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля настроек.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_templates_8cpp';
+  file-name = 'Templates.cpp';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_templates_8cpp_1abeb0b4d4d31b9c74744a0b9881d95066';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_templates_create_logger_log';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Templates.cpp';
+      func-mem-desc-line = '22';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Создание файла пользовательского соглашения.
+@verbatim
+logger.log - файл с логом вывода@endverbatim
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_templates_8cpp_1afbd4b91587b894d5e8b6ea50209ed5dc';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_templates_create_rules_txt';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Templates.cpp';
+      func-mem-desc-line = '42';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Создание файла пользовательского соглашения.
+@verbatim
+rules.txt - файл с пользовательским соглашением@endverbatim
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_templates_8cpp_1a593e33d5988d6a49d581f52d94471895';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_templates_create_settings_ini';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Templates.cpp';
+      func-mem-desc-line = '66';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Создание файла настроек.
+@verbatim
+settings.ini - файл с настройками@endverbatim
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/io/Templates.cpp';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Функции для создания стандартных файлов программы.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+
+
+
+_EnD_oF_dEf_TeXt_;
+}; /* file */
+file = {
+  file-id   = '_templates_8h';
+  file-name = 'Templates.h';
+    func = {
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_templates_8h_1abeb0b4d4d31b9c74744a0b9881d95066';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_templates_create_logger_log';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Templates.h';
+      func-mem-desc-line = '13';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Создание файла пользовательского соглашения.
+@verbatim
+logger.log - файл с логом вывода@endverbatim
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_templates_8h_1afbd4b91587b894d5e8b6ea50209ed5dc';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_templates_create_rules_txt';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Templates.h';
+      func-mem-desc-line = '19';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Создание файла пользовательского соглашения.
+@verbatim
+rules.txt - файл с пользовательским соглашением@endverbatim
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    func-member = {
+      func-mem-kind = 'function';
+      func-mem-id   = '_templates_8h_1a593e33d5988d6a49d581f52d94471895';
+      func-mem-virt = normal;
+      func-mem-prot = public;
+      func-mem-type = <<_EnD_oF_dEf_TeXt_
+void
+_EnD_oF_dEf_TeXt_;
+      func-mem-name = 'v_templates_create_settings_ini';
+      func-mem-desc-file = 'D:/Программирование/git/Radix/src/io/Templates.h';
+      func-mem-desc-line = '25';
+      func-mem-briefdesc =    <<_EnD_oF_dEf_TeXt_
+
+_EnD_oF_dEf_TeXt_;
+      func-mem-documentation = <<_EnD_oF_dEf_TeXt_
+Создание файла настроек.
+@verbatim
+settings.ini - файл с настройками@endverbatim
+_EnD_oF_dEf_TeXt_;
+    }; /* func-member */
+    };
+  file-full-name  = 'D:/Программирование/git/Radix/src/io/Templates.h';
+  file-first-line = '1';
+  file-briefdesc  = <<_EnD_oF_dEf_TeXt_
+Заголовочный файл с подключением модуля создания стандартных файлов программы.
+_EnD_oF_dEf_TeXt_;
+  file-documentation = <<_EnD_oF_dEf_TeXt_
+\author SavaLione   
+_EnD_oF_dEf_TeXt_;
+}; /* file */

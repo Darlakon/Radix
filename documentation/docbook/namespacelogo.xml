@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="namespacelogo">
+<title>logo</title>
+        <section>
+            <title>Переменные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b">border</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1adf18ab31906b644891fc8311df747a9d">little_help</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1ae5491adc000fde7d3d8229372c877da2">license</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53">move_indentation</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1a03b6b80b5648e7dbbbf00b258df733b6">move</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1abbbdbfbbcae50e2017f3ed1bdf0e1fa3">radix</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1ad29ac81055f7eb3624a283f55af8d5ad">loading</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1aba8ca66bcf8abe6a0991a13887671863">exit</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1a6bb2bd19b13072f69598ed9f64b77350">s_continue</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1a0a26b9dd91d59364dce6d78c217af1a0">s_manual</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const std::string <link linkend="namespacelogo_1ac55b3c4624556820a987ccdf67101bae">enter</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

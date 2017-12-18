@@ -1,0 +1,25 @@
+\hypertarget{checkingfiles_8cpp-example}{}\section{checkingfiles.\+cpp}
+\begin{DoxyAuthor}{Автор}
+Sava\+Lione
+\end{DoxyAuthor}
+
+\begin{DoxyCodeInclude}
+\textcolor{preprocessor}{#include "..\(\backslash\)core\(\backslash\)CheckingFiles.h"}
+
+\textcolor{keywordtype}{int} \hyperlink{_main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}() \{
+    \textcolor{keyword}{const} \textcolor{keywordtype}{char} ch\_radix\_exe[] = \textcolor{stringliteral}{"Radix.exe"};
+    \textcolor{keywordflow}{if} (\hyperlink{_checking_files_8cpp_a06ba6d957eba855cc9f88ce7ac641722}{b\_file\_exists}(ch\_radix\_exe[])) \{
+        \textcolor{comment}{// File found}
+    \} \textcolor{keywordflow}{else} \{
+        \textcolor{comment}{// File not found}
+    \}
+    
+    \textcolor{keywordflow}{if} (\hyperlink{_checking_files_8cpp_a5f44f09549aae42fa22e71e761b40abc}{i\_checking\_files}() == 1) \{
+        \textcolor{comment}{// Successful file verification}
+    \} \textcolor{keywordflow}{else} \{
+        \textcolor{comment}{// Unsuccessful file check.}
+    \}
+    \textcolor{keywordflow}{return} 0;
+\}
+\end{DoxyCodeInclude}
+ 

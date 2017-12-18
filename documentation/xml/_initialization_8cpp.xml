@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_initialization_8cpp" kind="file" language="C++">
+    <compoundname>Initialization.cpp</compoundname>
+    <includes local="no">fstream</includes>
+    <includes refid="_templates_8h" local="yes">..\io\Templates.h</includes>
+    <includes refid="_logger_8h" local="yes">..\io\Logger.h</includes>
+    <includes refid="_constants_8h" local="yes">Constants.h</includes>
+    <includes refid="_load_scale_8h" local="yes">..\ui\LoadScale.h</includes>
+    <incdepgraph>
+      <node id="87">
+        <label>..\io\Logger.h</label>
+        <link refid="_logger_8h"/>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>string</label>
+      </node>
+      <node id="85">
+        <label>fstream</label>
+      </node>
+      <node id="90">
+        <label>..\ui\LoadScale.h</label>
+        <link refid="_load_scale_8h"/>
+      </node>
+      <node id="89">
+        <label>Constants.h</label>
+        <link refid="_constants_8h"/>
+      </node>
+      <node id="84">
+        <label>Initialization.cpp</label>
+        <link refid="_initialization_8cpp"/>
+        <childnode refid="85" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+        <childnode refid="90" relation="include">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>..\io\Templates.h</label>
+        <link refid="_templates_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_initialization_8cpp_1a61271965777637ec3d70f6d7ab0a466a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_initialization_logger_log</definition>
+        <argsstring>()</argsstring>
+        <name>v_initialization_logger_log</name>
+        <briefdescription>
+<para>Проверка файла logger.log. </para>        </briefdescription>
+        <detaileddescription>
+<para>Проверка файла logger.log</para><para>При отсутствии файла создаёт его</para><para>При наличии файла пропуск</para><para>Всё логируется </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Initialization.cpp" line="26" column="1" bodyfile="src/core/Initialization.cpp" bodystart="64" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="_initialization_8cpp_1a9f137f3ae0426a1e7c1a398ad930dc70" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_initialization_settings_ini</definition>
+        <argsstring>()</argsstring>
+        <name>v_initialization_settings_ini</name>
+        <briefdescription>
+<para>Проверка файла settings.ini. </para>        </briefdescription>
+        <detaileddescription>
+<para>Проверка файла settings.ini</para><para>При отсутствии файла создаёт его</para><para>При наличии файла пропуск</para><para>Всё логируется </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Initialization.cpp" line="27" column="1" bodyfile="src/core/Initialization.cpp" bodystart="89" bodyend="100"/>
+      </memberdef>
+      <memberdef kind="function" id="_initialization_8cpp_1a86860ef24d9abdaddea8e817e84528a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_initialization_rules_txt</definition>
+        <argsstring>()</argsstring>
+        <name>v_initialization_rules_txt</name>
+        <briefdescription>
+<para>Проверка файла rules.txt. </para>        </briefdescription>
+        <detaileddescription>
+<para>Проверка файла rules.txt</para><para>При отсутствии файла создаёт его</para><para>При наличии файла пропуск</para><para>Всё логируется </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Initialization.cpp" line="28" column="1" bodyfile="src/core/Initialization.cpp" bodystart="114" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="_initialization_8cpp_1a11b373fd61e18cd28810a5b607e1749a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_initialization</definition>
+        <argsstring>()</argsstring>
+        <name>v_initialization</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Функция проверяет наличие 3 стандартных файлов программы <verbatim>logger.log
+
+rules.txt
+
+settings.ini</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Initialization.cpp" line="42" column="1" bodyfile="src/core/Initialization.cpp" bodystart="42" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Модуль проверки стандартных файлов программы. </para>    </briefdescription>
+    <detaileddescription>
+<para>Модуль проверяет наличие стандартных файлов программы</para><para>Файлы: <verbatim>logger.log - вывод логера
+
+rules.txt - правила программы, с которыми должен согласиться пользователь
+
+settings.ini - файл настроек</verbatim> </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="17"><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\io\Templates.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\io\Logger.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_constants_8h" kindref="compound">Constants.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\ui\LoadScale.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_initialization_8cpp_1a61271965777637ec3d70f6d7ab0a466a" kindref="member">v_initialization_logger_log</ref>();<sp/></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_initialization_8cpp_1a9f137f3ae0426a1e7c1a398ad930dc70" kindref="member">v_initialization_settings_ini</ref>();<sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_initialization_8cpp_1a86860ef24d9abdaddea8e817e84528a7" kindref="member">v_initialization_rules_txt</ref>();<sp/></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="comment">//<sp/><sp/>Инициализация<sp/>дополнительных<sp/>файлов<sp/>программы</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"></highlight></codeline>
+<codeline lineno="42" refid="_initialization_8h_1a11b373fd61e18cd28810a5b607e1749a" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_initialization_8cpp_1a11b373fd61e18cd28810a5b607e1749a" kindref="member">v_initialization</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_load_scale_8cpp_1ab957e5514a924cccac4e53b2a576d063" kindref="member">v_loadscale</ref>(0);<sp/></highlight><highlight class="comment">//<sp/>Шкала<sp/>загрузки<sp/>0<sp/>положение</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_initialization_8cpp_1a61271965777637ec3d70f6d7ab0a466a" kindref="member">v_initialization_logger_log</ref>();<sp/></highlight><highlight class="comment">//<sp/>Проверка<sp/>файла<sp/>logger.log</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_load_scale_8cpp_1ab957e5514a924cccac4e53b2a576d063" kindref="member">v_loadscale</ref>(10);<sp/></highlight><highlight class="comment">//<sp/>Шкала<sp/>загрузки<sp/>10<sp/>положение</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_initialization_8cpp_1a9f137f3ae0426a1e7c1a398ad930dc70" kindref="member">v_initialization_settings_ini</ref>();<sp/></highlight><highlight class="comment">//<sp/>Проверка<sp/>файла<sp/>settings.ini</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_load_scale_8cpp_1ab957e5514a924cccac4e53b2a576d063" kindref="member">v_loadscale</ref>(20);<sp/></highlight><highlight class="comment">//<sp/>Шкала<sp/>загрузки<sp/>20<sp/>положение</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_initialization_8cpp_1a86860ef24d9abdaddea8e817e84528a7" kindref="member">v_initialization_rules_txt</ref>();<sp/></highlight><highlight class="comment">//<sp/>Проверка<sp/>файла<sp/>rules.txt</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_load_scale_8cpp_1ab957e5514a924cccac4e53b2a576d063" kindref="member">v_loadscale</ref>(24);<sp/></highlight><highlight class="comment">//<sp/>Шкала<sp/>загрузки<sp/>24<sp/>положение</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="comment">//<sp/><sp/>Проверка<sp/>файла<sp/>logger.log</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"></highlight></codeline>
+<codeline lineno="64" refid="_initialization_8cpp_1a61271965777637ec3d70f6d7ab0a466a" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_initialization_8cpp_1a61271965777637ec3d70f6d7ab0a466a" kindref="member">v_initialization_logger_log</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>ifstream<sp/>fin(<ref refid="namespaceradix_1a11c5bfe5c65a0f88a2a950111c6ffc09" kindref="member">radix::logger_list</ref>);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Если<sp/>файл<sp/>есть<sp/>и<sp/>его<sp/>можно<sp/>открыть</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fin.is_open())<sp/>{</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" kindref="member">log</ref>(</highlight><highlight class="stringliteral">&quot;MSG&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Logger<sp/>module<sp/>is<sp/>loaded&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>При<sp/>отсутствии<sp/>файла<sp/>и<sp/>отсутствии<sp/>возможности<sp/>прочитать<sp/>файл,<sp/>создание<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_templates_8cpp_1abeb0b4d4d31b9c74744a0b9881d95066" kindref="member">v_templates_create_logger_log</ref>();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" kindref="member">log</ref>(</highlight><highlight class="stringliteral">&quot;WARN&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Logger<sp/>module.<sp/>logger.log<sp/>file<sp/>not<sp/>found&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Сообщение<sp/>в<sp/>лог<sp/>уровня<sp/>warn.<sp/>Нет<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>fin.close();<sp/></highlight><highlight class="comment">//<sp/>Закрытие<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="comment">//<sp/><sp/>Проверка<sp/>файла<sp/>settings.ini</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"></highlight></codeline>
+<codeline lineno="89" refid="_initialization_8cpp_1a9f137f3ae0426a1e7c1a398ad930dc70" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_initialization_8cpp_1a9f137f3ae0426a1e7c1a398ad930dc70" kindref="member">v_initialization_settings_ini</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>ifstream<sp/>fin(<ref refid="namespaceradix_1a43bff57dbd1b7dcebee0228ccbab7f17" kindref="member">radix::settings_list</ref>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Если<sp/>файл<sp/>есть<sp/>и<sp/>его<sp/>можно<sp/>открыть</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fin.is_open())<sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" kindref="member">log</ref>(</highlight><highlight class="stringliteral">&quot;LOG&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Settings<sp/>module<sp/>is<sp/>loaded&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>При<sp/>отсутствии<sp/>файла<sp/>и<sp/>отсутствии<sp/>возможности<sp/>прочитать<sp/>файл,<sp/>создание<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_templates_8cpp_1a593e33d5988d6a49d581f52d94471895" kindref="member">v_templates_create_settings_ini</ref>();</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" kindref="member">log</ref>(</highlight><highlight class="stringliteral">&quot;WARN&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Settings<sp/>module.<sp/>settings.ini<sp/>file<sp/>not<sp/>found&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Сообщение<sp/>в<sp/>лог<sp/>уровня<sp/>warn.<sp/>Нет<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>fin.close();<sp/></highlight><highlight class="comment">//<sp/>Закрытие<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="comment">//<sp/><sp/>Проверка<sp/>файла<sp/>rules.txt</highlight></codeline>
+<codeline lineno="105"><highlight class="comment"></highlight></codeline>
+<codeline lineno="114" refid="_initialization_8cpp_1a86860ef24d9abdaddea8e817e84528a7" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_initialization_8cpp_1a86860ef24d9abdaddea8e817e84528a7" kindref="member">v_initialization_rules_txt</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>ifstream<sp/>fin(<ref refid="namespaceradix_1a73b088a3e903cc2845c2299b9ab8ccaf" kindref="member">radix::rules_list</ref>);</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Если<sp/>файл<sp/>есть<sp/>и<sp/>его<sp/>можно<sp/>открыть</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fin.is_open())<sp/>{</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" kindref="member">log</ref>(</highlight><highlight class="stringliteral">&quot;LOG&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Rules<sp/>module<sp/>is<sp/>loaded&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>При<sp/>отсутствии<sp/>файла<sp/>и<sp/>отсутствии<sp/>возможности<sp/>прочитать<sp/>файл,<sp/>создание<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_templates_8cpp_1afbd4b91587b894d5e8b6ea50209ed5dc" kindref="member">v_templates_create_rules_txt</ref>();</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" kindref="member">log</ref>(</highlight><highlight class="stringliteral">&quot;WARN&quot;</highlight><highlight class="normal">,<sp/></highlight><highlight class="stringliteral">&quot;Rules<sp/>module.<sp/>rules.txt<sp/>file<sp/>not<sp/>found&quot;</highlight><highlight class="normal">);<sp/></highlight><highlight class="comment">//<sp/>Сообщение<sp/>в<sp/>лог<sp/>уровня<sp/>warn.<sp/>Нет<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>fin.close();<sp/></highlight><highlight class="comment">//<sp/>Закрытие<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/core/Initialization.cpp"/>
+  </compounddef>
+</doxygen>

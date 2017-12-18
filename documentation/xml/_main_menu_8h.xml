@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_main_menu_8h" kind="file" language="C++">
+    <compoundname>MainMenu.h</compoundname>
+    <includedby refid="_radix_8cpp" local="yes">Radix.cpp</includedby>
+    <invincdepgraph>
+      <node id="151">
+        <label>MainMenu.h</label>
+        <link refid="_main_menu_8h"/>
+        <childnode refid="152" relation="include">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>Radix.cpp</label>
+        <link refid="_radix_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_main_menu_8h_1adc9252b438b3b385bf6ccb207688fd4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int i_mainmenu</definition>
+        <argsstring>()</argsstring>
+        <name>i_mainmenu</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вызов модуля главного меню. <simplesect kind="return"><para>0 - Выход из программы. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ui/MainMenu.h" line="12" column="1" bodyfile="src/ui/MainMenu.cpp" bodystart="65" bodyend="147"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Заголовочный файл с подключением модуля главного меню. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>SavaLione </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>MAINMENU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAINMENU_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_main_menu_8h_1adc9252b438b3b385bf6ccb207688fd4e" kindref="member">i_mainmenu</ref>();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>MAINMENU_H</highlight></codeline>
+    </programlisting>
+    <location file="src/ui/MainMenu.h"/>
+  </compounddef>
+</doxygen>

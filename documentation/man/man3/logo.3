@@ -1,0 +1,221 @@
+.TH "logo" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+logo
+.SH SYNOPSIS
+.br
+.PP
+.SS "Переменные"
+
+.in +1c
+.ti -1c
+.RI "const std::string \fBborder\fP = '===========================\\n'"
+.br
+.ti -1c
+.RI "const std::string \fBlittle_help\fP = '==== <\- use to \fBmove\fP \-> ====\\n'"
+.br
+.ti -1c
+.RI "const std::string \fBlicense\fP = 'Do you agree with the license?\\n'"
+.br
+.ti -1c
+.RI "const std::string \fBmove_indentation\fP = ' '"
+.br
+.ti -1c
+.RI "const std::string \fBmove\fP = '<\- use to move \->\\n'"
+.br
+.ti -1c
+.RI "const std::string \fBradix\fP = ' _____ _ _ \\n | __ \\\\ | (_) \\n | |__) |__ _ __| |___ __\\n | _ // _` |/ _` | \\\\ \\\\/ /\\n | | \\\\ \\\\ (_| | (_| | |> < \\n |_| \\\\_\\\\__,_|\\\\__,_|_/_/\\\\_\\\\ \\n'"
+.br
+.ti -1c
+.RI "const std::string \fBloading\fP = ' _ _ \\n | | | |\\n | | ___ __ _ __| |\\n | | / _ \\\\ / _` |/ _` |\\n | |___| (_) | (_| | (_| |\\n |______\\\\___/ \\\\__,_|\\\\__,_|\\n'"
+.br
+.ti -1c
+.RI "const std::string \fBexit\fP = ' ______ _ _ \\n | ____| (_) | \\n | |__ __ ___| |_ \\n | __| \\\\ \\\\/ / | __|\\n | |____ > <| | |_ \\n |______/_/\\\\_\\\\_|\\\\__|\\n'"
+.br
+.ti -1c
+.RI "const std::string \fBs_continue\fP = 'Continue?\\n'"
+.br
+.ti -1c
+.RI "const std::string \fBs_manual\fP = ' Manual\\n1) Put the file recovery\&.img in the \fBroot\fP of the program\&.\\n2) Put the file su\&.zip in the \fBroot\fP of the program\&.\\n3) Continue\&.\\n'"
+.br
+.ti -1c
+.RI "const std::string \fBenter\fP = 'Press any key to continue\&.'"
+.br
+.in -1c
+.SH "Переменные"
+.PP 
+.SS "const std::string logo::border = '===========================\\n'"
+Линия\&. 
+.PP
+.nf
+===========================
+
+.fi
+.PP
+ 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlogo\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logo\&.h строка 17
+.SS "const std::string logo::enter = 'Press any key to continue\&.'"
+Продолжить выполнение программы по нажатию любой клавиши\&. 
+.PP
+.nf
+Press any key to continue\&.
+
+.fi
+.PP
+ 
+.PP
+См\&. определение в файле Logo\&.h строка 108
+.SS "const std::string logo::exit = ' ______ _ _ \\n | ____| (_) | \\n | |__ __ ___| |_ \\n | __| \\\\ \\\\/ / | __|\\n | |____ > <| | |_ \\n |______/_/\\\\_\\\\_|\\\\__|\\n'"
+Выход 
+.PP
+.nf
+ ______      _ _   
+|  ____|    (_) |  
+| |__  __  ___| |_ 
+|  __| \ \/ / | __|
+| |____ >  <| | |_ 
+|______/_/\_\_|\__|
+
+.fi
+.PP
+ 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlogo\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logo\&.h строка 84
+.SS "const std::string logo::license = 'Do you agree with the license?\\n'"
+Вопрос о согласии с лицензионным соглашением\&. 
+.PP
+.nf
+Do you agree with the license?
+
+.fi
+.PP
+ 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlogo\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logo\&.h строка 31
+.SS "const std::string logo::little_help = '==== <\- use to \fBmove\fP \-> ====\\n'"
+Помощь по управлению\&. 
+.PP
+.nf
+==== <- use to move -> ====
+
+.fi
+.PP
+ 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlogo\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logo\&.h строка 24
+.SS "const std::string logo::loading = ' _ _ \\n | | | |\\n | | ___ __ _ __| |\\n | | / _ \\\\ / _` |/ _` |\\n | |___| (_) | (_| | (_| |\\n |______\\\\___/ \\\\__,_|\\\\__,_|\\n'"
+Логотип загрузки 
+.PP
+.nf
+ _                     _ 
+| |                   | |
+| |     ___   __ _  __| |
+| |    / _ \ / _` |/ _` |
+| |___| (_) | (_| | (_| |
+|______\___/ \__,_|\__,_|  
+
+.fi
+.PP
+ 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlogo\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logo\&.h строка 71
+.SS "const std::string logo::move = '<\- use to move \->\\n'"
+Помощь по управлению\&. 
+.PP
+.nf
+<- use to move ->
+
+.fi
+.PP
+ 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlogo\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logo\&.h строка 45
+.SS "const std::string logo::move_indentation = ' '"
+Отступ\&. Используется в связке с move\&. 
+.PP
+.nf
+{       }<- use to move ->
+
+.fi
+.PP
+ 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlogo\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logo\&.h строка 38
+.SS "const std::string logo::radix = ' _____ _ _ \\n | __ \\\\ | (_) \\n | |__) |__ _ __| |___ __\\n | _ // _` |/ _` | \\\\ \\\\/ /\\n | | \\\\ \\\\ (_| | (_| | |> < \\n |_| \\\\_\\\\__,_|\\\\__,_|_/_/\\\\_\\\\ \\n'"
+Логотип программы 
+.PP
+.nf
+ _____           _ _      
+|  __ \         | (_)     
+| |__) |__ _  __| |___  __
+|  _  // _` |/ _` | \ \/ /
+| | \ \ (_| | (_| | |>  < 
+|_|  \_\__,_|\__,_|_/_/\_\
+
+.fi
+.PP
+ 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlogo\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logo\&.h строка 58
+.SS "const std::string logo::s_continue = 'Continue?\\n'"
+Вопрос о продолжении выполнения программы\&. 
+.PP
+.nf
+Continue?
+
+.fi
+.PP
+ 
+.PP
+См\&. определение в файле Logo\&.h строка 91
+.SS "const std::string logo::s_manual = ' Manual\\n1) Put the file recovery\&.img in the \fBroot\fP of the program\&.\\n2) Put the file su\&.zip in the \fBroot\fP of the program\&.\\n3) Continue\&.\\n'"
+Инструкция к программе\&. 
+.PP
+.nf
+        Manual
+1) Put the file recovery\&.img in the root of the program\&.
+2) Put the file su\&.zip in the root of the program\&.
+3) Continue\&.
+
+.fi
+.PP
+ 
+.PP
+См\&. определение в файле Logo\&.h строка 101
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

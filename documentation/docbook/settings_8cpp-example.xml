@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="settings_8cpp-example">
+    <title>settings.cpp</title>
+
+<para><formalpara><title>Автор: </title>
+
+<para>SavaLione <literallayout><computeroutput><emphasis class="preprocessor">#include&#32;&quot;..\io\Settings.h&quot;</emphasis>
+
+<emphasis class="keywordtype">int</emphasis>&#32;<link linkend="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>()&#32;{
+&#32;&#32;&#32;&#32;<emphasis class="keywordflow">if</emphasis>&#32;(<link linkend="_settings_8cpp_1a7fcd42142e325cb27a380f49d655f9de">b_settings</link>(<emphasis class="stringliteral">&quot;rules&quot;</emphasis>))&#32;{
+&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis class="comment">//&#32;rules&#32;=&#32;true</emphasis>
+&#32;&#32;&#32;&#32;}
+&#32;&#32;&#32;&#32;<emphasis class="keywordflow">return</emphasis>&#32;0;
+}
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+
+</section>

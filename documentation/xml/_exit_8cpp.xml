@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_exit_8cpp" kind="file" language="C++">
+    <compoundname>Exit.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes refid="_color_8h" local="yes">..\core\Color.h</includes>
+    <includes refid="_logo_8h" local="yes">..\core\Logo.h</includes>
+    <includes refid="_constants_menu_8h" local="yes">..\core\ConstantsMenu.h</includes>
+    <incdepgraph>
+      <node id="76">
+        <label>..\core\Color.h</label>
+        <link refid="_color_8h"/>
+      </node>
+      <node id="78">
+        <label>string</label>
+      </node>
+      <node id="74">
+        <label>Exit.cpp</label>
+        <link refid="_exit_8cpp"/>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>..\core\Logo.h</label>
+        <link refid="_logo_8h"/>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+      <node id="75">
+        <label>iostream</label>
+      </node>
+      <node id="79">
+        <label>..\core\ConstantsMenu.h</label>
+        <link refid="_constants_menu_8h"/>
+        <childnode refid="78" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_exit_8cpp_1a540f8b6f2205a3bcf98d2b8f81e8aa09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_exit</definition>
+        <argsstring>()</argsstring>
+        <name>v_exit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вывод текста. Выход из программы. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ui/Exit.cpp" line="16" column="1" bodyfile="src/ui/Exit.cpp" bodystart="16" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Модуль выхода из программы. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\Color.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\Logo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\ConstantsMenu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_exit_8h_1a540f8b6f2205a3bcf98d2b8f81e8aa09" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_exit_8cpp_1a540f8b6f2205a3bcf98d2b8f81e8aa09" kindref="member">v_exit</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Очистка<sp/>экрана<sp/>консоли</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>чёрный,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>белый.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>,<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kindref="member">WHITE</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Вывод<sp/>линии<sp/>в<sp/>консоль.<sp/>===========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b" kindref="member">logo::border</ref>;</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>пурпурный,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>чёрный.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa56926c820ad72d0977e7ee44d9916e62" kindref="member">MAGENTA</ref>,<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1aba8ca66bcf8abe6a0991a13887671863" kindref="member">logo::exit</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Перенос<sp/>строки.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>чёрный,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>белый.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>,<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kindref="member">WHITE</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Вывод<sp/>линии<sp/>в<sp/>консоль.<sp/>===========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b" kindref="member">logo::border</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/ui/Exit.cpp"/>
+  </compounddef>
+</doxygen>

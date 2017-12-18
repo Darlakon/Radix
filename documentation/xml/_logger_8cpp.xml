@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_logger_8cpp" kind="file" language="C++">
+    <compoundname>Logger.cpp</compoundname>
+    <includes local="no">string</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">thread</includes>
+    <includes local="no">windows.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes refid="_logger_8h" local="yes">Logger.h</includes>
+    <includes refid="_settings_8h" local="yes">Settings.h</includes>
+    <incdepgraph>
+      <node id="113">
+        <label>Logger.h</label>
+        <link refid="_logger_8h"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+      </node>
+      <node id="111">
+        <label>windows.h</label>
+      </node>
+      <node id="108">
+        <label>string</label>
+      </node>
+      <node id="107">
+        <label>Logger.cpp</label>
+        <link refid="_logger_8cpp"/>
+        <childnode refid="108" relation="include">
+        </childnode>
+        <childnode refid="109" relation="include">
+        </childnode>
+        <childnode refid="110" relation="include">
+        </childnode>
+        <childnode refid="111" relation="include">
+        </childnode>
+        <childnode refid="112" relation="include">
+        </childnode>
+        <childnode refid="113" relation="include">
+        </childnode>
+        <childnode refid="114" relation="include">
+        </childnode>
+      </node>
+      <node id="109">
+        <label>fstream</label>
+      </node>
+      <node id="114">
+        <label>Settings.h</label>
+        <link refid="_settings_8h"/>
+      </node>
+      <node id="110">
+        <label>thread</label>
+      </node>
+      <node id="112">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_logger_8cpp_1a37ded7634d8547536bbd135208109766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void log_thr</definition>
+        <argsstring>(string &amp;s, string &amp;level)</argsstring>
+        <name>log_thr</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>string &amp;</type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Функция, для записи лога в файл <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">&amp;s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Передача ссылки с сообщением для логирования </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">&amp;level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Передача ссылки с уровнем логирования </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/io/Logger.cpp" line="45" column="1" bodyfile="src/io/Logger.cpp" bodystart="74" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void log</definition>
+        <argsstring>(string level, string s)</argsstring>
+        <name>log</name>
+        <param>
+          <type>string</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Логирование сообщений в файл logger.log <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Уровень логирования </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">s</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Логируемая информация </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/io/Logger.cpp" line="54" column="1" bodyfile="src/io/Logger.cpp" bodystart="54" bodyend="68"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Модуль логирования </para>    </briefdescription>
+    <detaileddescription>
+<para><programlisting><codeline><highlight class="normal">Логгер</highlight></codeline>
+<codeline><highlight class="normal">Логгирование<sp/>сообщений<sp/>в<sp/>файл<sp/>logger.log</highlight></codeline>
+<codeline><highlight class="normal">Уровеней<sp/>лога<sp/>-<sp/>3</highlight></codeline>
+<codeline><highlight class="normal">Уровень<sp/>0:</highlight></codeline>
+<codeline><highlight class="normal">Вывод<sp/>сообщений<sp/>вида:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>[<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>]<sp/>{MESSAGE}</highlight></codeline>
+<codeline><highlight class="normal">Применение:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Обработка<sp/>простых<sp/>сообщений,<sp/>без<sp/>времени<sp/>и<sp/>префикса<sp/>([PREFIX])</highlight></codeline>
+<codeline><highlight class="normal">Уровень<sp/>1:</highlight></codeline>
+<codeline><highlight class="normal">Вывод<sp/>сообщений<sp/>вида:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>[{YEAR}/{MONTH}/{DAY}<sp/>{HOUR}:{MINUTE}:{SECOND}]<sp/>[LOG]<sp/>{MESSAGE}</highlight></codeline>
+<codeline><highlight class="normal">Применение:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Обработка<sp/>простых<sp/>сообщений(загрузка<sp/>модуля,<sp/>отключение<sp/>модуля,<sp/>вход<sp/>в<sp/>программу,<sp/>выход<sp/>из<sp/>программы<sp/>и<sp/>тд.)<sp/>С<sp/>временем<sp/>и<sp/>префиксом<sp/>([LOG])</highlight></codeline>
+<codeline><highlight class="normal">Уровень<sp/>2:</highlight></codeline>
+<codeline><highlight class="normal">Вывод<sp/>сообщений<sp/>вида:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>[{YEAR}/{MONTH}/{DAY}<sp/>{HOUR}:{MINUTE}:{SECOND}]<sp/>[WARN]<sp/>{MESSAGE}</highlight></codeline>
+<codeline><highlight class="normal">Применение:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>Обработка<sp/>важных<sp/>сообщений<sp/>ошибки(не<sp/>удачная<sp/>загрузка<sp/>модуля,<sp/>не<sp/>удачный<sp/>вход<sp/>в<sp/>программу,<sp/>экстренный<sp/>выход<sp/>из<sp/>программы<sp/>и<sp/>тд.)<sp/>С<sp/>временем<sp/>и<sp/>префиксом<sp/>([WARN])</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="29"><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;fstream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;thread&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_logger_8h" kindref="compound">Logger.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_settings_8h" kindref="compound">Settings.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="keyword">inline</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_logger_8cpp_1a37ded7634d8547536bbd135208109766" kindref="member">log_thr</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;s,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;level);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="comment">//<sp/><sp/>Logger</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"></highlight></codeline>
+<codeline lineno="54" refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" kindref="member">log</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>level,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>s)<sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Проверка<sp/>Включен<sp/>ли<sp/>модуль<sp/>логирования.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="_settings_8cpp_1a7fcd42142e325cb27a380f49d655f9de" kindref="member">b_settings</ref>(</highlight><highlight class="stringliteral">&quot;logger&quot;</highlight><highlight class="normal">))<sp/>{</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Создание<sp/>потока</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log_thr<sp/>Функция<sp/>для<sp/>вызова.</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref(s)<sp/>Передача<sp/>ссылки<sp/>с<sp/>сообщением<sp/>для<sp/>логирования.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ref(level)<sp/>Передача<sp/>ссылки<sp/>с<sp/>уровнем<sp/>логирования.</highlight></codeline>
+<codeline lineno="62"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Создание<sp/>потока.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thread<sp/>thr(<ref refid="_logger_8cpp_1a37ded7634d8547536bbd135208109766" kindref="member">log_thr</ref>,<sp/>ref(s),<sp/>ref(level));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Запуск<sp/>потока.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>thr.join();</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74" refid="_logger_8cpp_1a37ded7634d8547536bbd135208109766" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_logger_8cpp_1a37ded7634d8547536bbd135208109766" kindref="member">log_thr</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;s,<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>&amp;level){</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>s_year<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>s_month<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>s_day<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>s_hour<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>s_minute<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">,<sp/>s_second<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Создание<sp/>структуры<sp/>time.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>SYSTEMTIME<sp/>time;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>По<sp/>ссылке<sp/>присвоение<sp/>переменной<sp/>time<sp/>время<sp/>системы.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>GetLocalTime(&amp;time);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Более<sp/>читаемое<sp/>время<sp/>в<sp/>консоль.<sp/>Если<sp/>число<sp/>&lt;<sp/>10,<sp/>переменная<sp/>string<sp/>меняет<sp/>значение<sp/>с<sp/>&quot;&quot;<sp/>на<sp/>&quot;0&quot;.<sp/>Это<sp/>необходимо<sp/>для<sp/>того,<sp/>чтобы<sp/>время<sp/>не<sp/>было<sp/>вида<sp/>2017/6/11<sp/>9:1:26</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(time.wYear<sp/>&lt;<sp/>10)<sp/>{<sp/>s_year<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(time.wMonth<sp/>&lt;<sp/>10)<sp/>{<sp/>s_month<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(time.wDay<sp/>&lt;<sp/>10)<sp/>{<sp/>s_day<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(time.wHour<sp/>&lt;<sp/>10)<sp/>{<sp/>s_hour<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(time.wMinute<sp/>&lt;<sp/>10)<sp/>{<sp/>s_minute<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(time.wSecond<sp/>&lt;<sp/>10)<sp/>{<sp/>s_second<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;0&quot;</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Открытие<sp/>файла<sp/>logger.log.<sp/>Запись<sp/>данных<sp/>в<sp/>конец<sp/>файла.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>ofstream<sp/>fout(</highlight><highlight class="stringliteral">&quot;logger.log&quot;</highlight><highlight class="normal">,<sp/>ios_base::app);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Строка<sp/>для<sp/>записи<sp/>в<sp/>файл<sp/>logger.log</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>fout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;[&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>s_year<sp/>&lt;&lt;<sp/>time.wYear<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>s_month<sp/>&lt;&lt;<sp/>time.wMonth<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;/&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>s_day<sp/>&lt;&lt;<sp/>time.wDay<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;<sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>s_hour<sp/>&lt;&lt;<sp/>time.wHour<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>s_minute<sp/>&lt;&lt;<sp/>time.wMinute<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>s_second<sp/>&lt;&lt;<sp/>time.wSecond<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;]<sp/>[&quot;</highlight><highlight class="normal">&lt;&lt;<sp/>level<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;]<sp/><sp/><sp/>&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>s<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Закрытие<sp/>файла<sp/>logger.log.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>fout.close();</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/io/Logger.cpp"/>
+  </compounddef>
+</doxygen>

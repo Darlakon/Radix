@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_constants_8h" kind="file" language="C++">
+    <compoundname>Constants.h</compoundname>
+    <includedby refid="_checking_files_8cpp" local="yes">CheckingFiles.cpp</includedby>
+    <includedby refid="_initialization_8cpp" local="yes">Initialization.cpp</includedby>
+    <includedby refid="_rules_list_8cpp" local="yes">RulesList.cpp</includedby>
+    <includedby refid="_settings_8cpp" local="yes">Settings.cpp</includedby>
+    <includedby refid="_templates_8cpp" local="yes">Templates.cpp</includedby>
+    <invincdepgraph>
+      <node id="63">
+        <label>Settings.cpp</label>
+        <link refid="_settings_8cpp"/>
+      </node>
+      <node id="64">
+        <label>Templates.cpp</label>
+        <link refid="_templates_8cpp"/>
+      </node>
+      <node id="59">
+        <label>Constants.h</label>
+        <link refid="_constants_8h"/>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>CheckingFiles.cpp</label>
+        <link refid="_checking_files_8cpp"/>
+      </node>
+      <node id="61">
+        <label>Initialization.cpp</label>
+        <link refid="_initialization_8cpp"/>
+      </node>
+      <node id="62">
+        <label>RulesList.cpp</label>
+        <link refid="_rules_list_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespaceradix">radix</innernamespace>
+    <briefdescription>
+<para>Заголовочный файл с константами. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#ifndef<sp/>CONSTANTS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CONSTANTS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="namespaceradix" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceradix" kindref="compound">radix</ref><sp/>{</highlight></codeline>
+<codeline lineno="15" refid="namespaceradix_1a82e81e89088b6430b7ec11a8a0329e9c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a82e81e89088b6430b7ec11a8a0329e9c" kindref="member">buff_size</ref><sp/>=<sp/>32;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="21" refid="namespaceradix_1a8f000aabf647d34fd877c33958bad711" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a8f000aabf647d34fd877c33958bad711" kindref="member">buff_ruleslist</ref><sp/>=<sp/>256;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="namespaceradix_1a11c5bfe5c65a0f88a2a950111c6ffc09" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a11c5bfe5c65a0f88a2a950111c6ffc09" kindref="member">logger_list</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;logger.log&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="27" refid="namespaceradix_1a43bff57dbd1b7dcebee0228ccbab7f17" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a43bff57dbd1b7dcebee0228ccbab7f17" kindref="member">settings_list</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;settings.ini&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="30" refid="namespaceradix_1a73b088a3e903cc2845c2299b9ab8ccaf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a73b088a3e903cc2845c2299b9ab8ccaf" kindref="member">rules_list</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;rules.txt&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="namespaceradix_1a123392a7ece6e11efaf3ad3df291ff3d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a123392a7ece6e11efaf3ad3df291ff3d" kindref="member">firmware_way</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\\assets\\firmware\\&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="36" refid="namespaceradix_1aa90f63f1d0143b58469670ccbb86cfc4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1aa90f63f1d0143b58469670ccbb86cfc4" kindref="member">patch</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;\\assets\\&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="namespaceradix_1a01a09f0b88f6fd375ea20667bd318035" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a01a09f0b88f6fd375ea20667bd318035" kindref="member">expansion_file</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;.zip&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="42" refid="namespaceradix_1a91c21d6be385236a564ef5bf1f3f3602" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a91c21d6be385236a564ef5bf1f3f3602" kindref="member">recovery_file</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;recovery.img&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45" refid="namespaceradix_1abcd4cb3ab01a6a642ba224e2d9b1eda5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1abcd4cb3ab01a6a642ba224e2d9b1eda5" kindref="member">su_file</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;su.zip&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="48" refid="namespaceradix_1a9f0187ab8d7f9931ed08159a233408c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a9f0187ab8d7f9931ed08159a233408c0" kindref="member">not_found</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>not<sp/>found.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="51" refid="namespaceradix_1a27726ea7eb8e2bea153425bce9328be5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1a27726ea7eb8e2bea153425bce9328be5" kindref="member">found</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/>found.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="54" refid="namespaceradix_1ad5e76eca849713be360ed8478545d801" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1ad5e76eca849713be360ed8478545d801" kindref="member">ch_user_continue</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>user<sp/>continued<sp/>the<sp/>program<sp/>despite<sp/>the<sp/>error.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57" refid="namespaceradix_1afd1855af7805a1bb408ea9175a626ac7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="namespaceradix_1afd1855af7805a1bb408ea9175a626ac7" kindref="member">ch_user_not_continue</ref>[]<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;The<sp/>user<sp/>did<sp/>not<sp/>continue<sp/>the<sp/>program<sp/>despite<sp/>the<sp/>error.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CONSTANTS_H</highlight></codeline>
+    </programlisting>
+    <location file="src/core/Constants.h"/>
+  </compounddef>
+</doxygen>

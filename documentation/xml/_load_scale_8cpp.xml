@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_load_scale_8cpp" kind="file" language="C++">
+    <compoundname>LoadScale.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">windows.h</includes>
+    <includes refid="_color_8h" local="yes">..\core\Color.h</includes>
+    <includes refid="_logo_8h" local="yes">..\core\Logo.h</includes>
+    <includes refid="_constants_menu_8h" local="yes">..\core\ConstantsMenu.h</includes>
+    <incdepgraph>
+      <node id="97">
+        <label>windows.h</label>
+      </node>
+      <node id="98">
+        <label>..\core\Color.h</label>
+        <link refid="_color_8h"/>
+      </node>
+      <node id="100">
+        <label>string</label>
+      </node>
+      <node id="99">
+        <label>..\core\Logo.h</label>
+        <link refid="_logo_8h"/>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="96">
+        <label>iostream</label>
+      </node>
+      <node id="101">
+        <label>..\core\ConstantsMenu.h</label>
+        <link refid="_constants_menu_8h"/>
+        <childnode refid="100" relation="include">
+        </childnode>
+      </node>
+      <node id="95">
+        <label>LoadScale.cpp</label>
+        <link refid="_load_scale_8cpp"/>
+        <childnode refid="96" relation="include">
+        </childnode>
+        <childnode refid="97" relation="include">
+        </childnode>
+        <childnode refid="98" relation="include">
+        </childnode>
+        <childnode refid="99" relation="include">
+        </childnode>
+        <childnode refid="101" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_load_scale_8cpp_1ab957e5514a924cccac4e53b2a576d063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_loadscale</definition>
+        <argsstring>(size_t position)</argsstring>
+        <name>v_loadscale</name>
+        <param>
+          <type>size_t</type>
+          <declname>position</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Переключение пунктов меню <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">position</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>значение до которого отрисовывать шкалу. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ui/LoadScale.cpp" line="19" column="1" bodyfile="src/ui/LoadScale.cpp" bodystart="19" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Модуль вывода шкалы загрузки. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\Color.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\Logo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\ConstantsMenu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="_load_scale_8h_1ab957e5514a924cccac4e53b2a576d063" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_load_scale_8cpp_1ab957e5514a924cccac4e53b2a576d063" kindref="member">v_loadscale</ref>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>position)<sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Очистка<sp/>экрана<sp/>консоли</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>белый,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>чёрный.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>,<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kindref="member">WHITE</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Вывод<sp/>линии<sp/>в<sp/>консоль.<sp/>===========================</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b" kindref="member">logo::border</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>светло-сине-зелёный,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>чёрный.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fac8d7b8737ca95d137a05f3bb8f3d1a17" kindref="member">LIGHTCYAN</ref>,<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1ad29ac81055f7eb3624a283f55af8d5ad" kindref="member">logo::loading</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>чёрный,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>белый.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>,<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kindref="member">WHITE</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacemenu_1a56af6a2d586e2b6baa4ebf128a690266" kindref="member">menu::loading_left</ref>;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>sz<sp/>=<sp/>0;<sp/>sz<sp/>&lt;=<sp/>25;<sp/>sz++)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sz<sp/>&lt;=<sp/>9)<sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>красный,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>чёрный.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf80f9a890089d211842d59625e561f88" kindref="member">RED</ref>);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((sz<sp/>&gt;<sp/>9)<sp/>&amp;&amp;<sp/>(sz<sp/>&lt;=18))<sp/>{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>жёлтый,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>чёрный.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa83b21f0c4fad21a5b08f2fa1e1856ca9" kindref="member">LIGHTYELLOW</ref>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sz<sp/>&gt;<sp/>19)<sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>зелёный,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>чёрный.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faa60bd322f93178d68184e30e162571ca" kindref="member">GREEN</ref>);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(sz<sp/>&lt;=<sp/>position)<sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacemenu_1ab79f369195d81dcb241b1ab5269c9d3d" kindref="member">menu::loading_progress</ref>;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacemenu_1ad004c327a8a1c14388a6c7f23d6953a6" kindref="member">menu::loading_indenting</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Установить<sp/>цвет<sp/>текста<sp/>-<sp/>чёрный,<sp/>цвет<sp/>заднего<sp/>фона<sp/>-<sp/>белый.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>,<sp/><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kindref="member">WHITE</ref>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacemenu_1a272b2c0c591457b2aeccaae0c122a1fc" kindref="member">menu::loading_right</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Сброс<sp/>к<sp/>стандартным<sp/>настройкам<sp/>цвета<sp/>консоли.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a85ab2b1666a933ebb14c6ffb2db6d4a6" kindref="member">v_color_reset</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Перенос<sp/>строки.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Тестирование<sp/>работы<sp/>модуля<sp/>вывода<sp/>шкалы<sp/>загрузки.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<ref refid="namespacemenu_1aaea5c70964114a416caa58676ddf8066" kindref="member">menu::loading_check_module</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Пауза<sp/>в<sp/>мс.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Sleep(<ref refid="namespacemenu_1a69bce854c4a150920a5c77eede8cab0a" kindref="member">menu::loading_check_module_sleep</ref>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/ui/LoadScale.cpp"/>
+  </compounddef>
+</doxygen>

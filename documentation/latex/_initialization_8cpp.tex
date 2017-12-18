@@ -1,0 +1,124 @@
+\hypertarget{_initialization_8cpp}{}\section{Файл Initialization.\+cpp}
+\label{_initialization_8cpp}\index{Initialization.\+cpp@{Initialization.\+cpp}}
+
+
+Модуль проверки стандартных файлов программы.  
+
+
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}io\textbackslash{}\+Templates.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}io\textbackslash{}\+Logger.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Constants.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}ui\textbackslash{}\+Load\+Scale.\+h\char`\"{}}\newline
+Граф включаемых заголовочных файлов для Initialization.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_initialization_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_initialization_8cpp_a61271965777637ec3d70f6d7ab0a466a}{v\+\_\+initialization\+\_\+logger\+\_\+log} ()
+\begin{DoxyCompactList}\small\item\em Проверка файла logger.\+log. \end{DoxyCompactList}\item 
+void \hyperlink{_initialization_8cpp_a9f137f3ae0426a1e7c1a398ad930dc70}{v\+\_\+initialization\+\_\+settings\+\_\+ini} ()
+\begin{DoxyCompactList}\small\item\em Проверка файла settings.\+ini. \end{DoxyCompactList}\item 
+void \hyperlink{_initialization_8cpp_a86860ef24d9abdaddea8e817e84528a7}{v\+\_\+initialization\+\_\+rules\+\_\+txt} ()
+\begin{DoxyCompactList}\small\item\em Проверка файла rules.\+txt. \end{DoxyCompactList}\item 
+void \hyperlink{_initialization_8cpp_a11b373fd61e18cd28810a5b607e1749a}{v\+\_\+initialization} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Модуль проверки стандартных файлов программы. 
+
+Модуль проверяет наличие стандартных файлов программы
+
+Файлы\+: \begin{DoxyVerb}logger.log - вывод логера
+
+rules.txt - правила программы, с которыми должен согласиться пользователь
+
+settings.ini - файл настроек\end{DoxyVerb}
+
+
+\subsection{Функции}
+\mbox{\Hypertarget{_initialization_8cpp_a11b373fd61e18cd28810a5b607e1749a}\label{_initialization_8cpp_a11b373fd61e18cd28810a5b607e1749a}} 
+\index{Initialization.\+cpp@{Initialization.\+cpp}!v\+\_\+initialization@{v\+\_\+initialization}}
+\index{v\+\_\+initialization@{v\+\_\+initialization}!Initialization.\+cpp@{Initialization.\+cpp}}
+\subsubsection{\texorpdfstring{v\+\_\+initialization()}{v\_initialization()}}
+{\footnotesize\ttfamily void v\+\_\+initialization (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Функция проверяет наличие 3 стандартных файлов программы \begin{DoxyVerb}logger.log
+
+rules.txt
+
+settings.ini\end{DoxyVerb}
+ \begin{Desc}
+\item[Примеры\+: ]\par
+\hyperlink{initialization_8cpp-example}{initialization.\+cpp}.\end{Desc}
+
+
+См. определение в файле Initialization.\+cpp строка 42
+
+\mbox{\Hypertarget{_initialization_8cpp_a61271965777637ec3d70f6d7ab0a466a}\label{_initialization_8cpp_a61271965777637ec3d70f6d7ab0a466a}} 
+\index{Initialization.\+cpp@{Initialization.\+cpp}!v\+\_\+initialization\+\_\+logger\+\_\+log@{v\+\_\+initialization\+\_\+logger\+\_\+log}}
+\index{v\+\_\+initialization\+\_\+logger\+\_\+log@{v\+\_\+initialization\+\_\+logger\+\_\+log}!Initialization.\+cpp@{Initialization.\+cpp}}
+\subsubsection{\texorpdfstring{v\+\_\+initialization\+\_\+logger\+\_\+log()}{v\_initialization\_logger\_log()}}
+{\footnotesize\ttfamily void v\+\_\+initialization\+\_\+logger\+\_\+log (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Проверка файла logger.\+log. 
+
+Проверка файла logger.\+log
+
+При отсутствии файла создаёт его
+
+При наличии файла пропуск
+
+Всё логируется 
+
+См. определение в файле Initialization.\+cpp строка 64
+
+\mbox{\Hypertarget{_initialization_8cpp_a86860ef24d9abdaddea8e817e84528a7}\label{_initialization_8cpp_a86860ef24d9abdaddea8e817e84528a7}} 
+\index{Initialization.\+cpp@{Initialization.\+cpp}!v\+\_\+initialization\+\_\+rules\+\_\+txt@{v\+\_\+initialization\+\_\+rules\+\_\+txt}}
+\index{v\+\_\+initialization\+\_\+rules\+\_\+txt@{v\+\_\+initialization\+\_\+rules\+\_\+txt}!Initialization.\+cpp@{Initialization.\+cpp}}
+\subsubsection{\texorpdfstring{v\+\_\+initialization\+\_\+rules\+\_\+txt()}{v\_initialization\_rules\_txt()}}
+{\footnotesize\ttfamily void v\+\_\+initialization\+\_\+rules\+\_\+txt (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Проверка файла rules.\+txt. 
+
+Проверка файла rules.\+txt
+
+При отсутствии файла создаёт его
+
+При наличии файла пропуск
+
+Всё логируется 
+
+См. определение в файле Initialization.\+cpp строка 114
+
+\mbox{\Hypertarget{_initialization_8cpp_a9f137f3ae0426a1e7c1a398ad930dc70}\label{_initialization_8cpp_a9f137f3ae0426a1e7c1a398ad930dc70}} 
+\index{Initialization.\+cpp@{Initialization.\+cpp}!v\+\_\+initialization\+\_\+settings\+\_\+ini@{v\+\_\+initialization\+\_\+settings\+\_\+ini}}
+\index{v\+\_\+initialization\+\_\+settings\+\_\+ini@{v\+\_\+initialization\+\_\+settings\+\_\+ini}!Initialization.\+cpp@{Initialization.\+cpp}}
+\subsubsection{\texorpdfstring{v\+\_\+initialization\+\_\+settings\+\_\+ini()}{v\_initialization\_settings\_ini()}}
+{\footnotesize\ttfamily void v\+\_\+initialization\+\_\+settings\+\_\+ini (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Проверка файла settings.\+ini. 
+
+Проверка файла settings.\+ini
+
+При отсутствии файла создаёт его
+
+При наличии файла пропуск
+
+Всё логируется 
+
+См. определение в файле Initialization.\+cpp строка 89
+

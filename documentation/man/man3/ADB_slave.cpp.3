@@ -1,0 +1,58 @@
+.TH "ADB_slave.cpp" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ADB_slave.cpp \- Модуль работы с adb\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'ADB_mod\&.h'\fP
+.br
+\fC#include '\&.\&.\\io\\Logger\&.h'\fP
+.br
+
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "void \fBadb_state\fP ()"
+.br
+.ti -1c
+.RI "void \fBadb_flash\fP ()"
+.br
+.ti -1c
+.RI "void \fBadb_root\fP ()"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+Модуль работы с adb\&. 
+
+
+.PP
+\fBАвтор:\fP
+.RS 4
+Darlakon 
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBADB_slave\&.cpp\fP
+.SH "Функции"
+.PP 
+.SS "void adb_flash ()"
+Вызов модуля установки кастомной рекавери\&. 
+.PP
+См\&. определение в файле ADB_slave\&.cpp строка 24
+.SS "void adb_root ()"
+Вызов модуля получения root-прав\&. 
+.PP
+См\&. определение в файле ADB_slave\&.cpp строка 51
+.SS "void adb_state ()"
+Вызов модуля проверки состояния устройства\&. 
+.PP
+См\&. определение в файле ADB_slave\&.cpp строка 11
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

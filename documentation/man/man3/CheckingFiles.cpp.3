@@ -1,0 +1,81 @@
+.TH "CheckingFiles.cpp" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CheckingFiles.cpp \- Модуль проверки файлов для рутирования телефона\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <string>\fP
+.br
+\fC#include <io\&.h>\fP
+.br
+\fC#include '\&.\&.\\core\\Constants\&.h'\fP
+.br
+\fC#include '\&.\&.\\core\\CheckingFiles\&.h'\fP
+.br
+\fC#include '\&.\&.\\io\\Logger\&.h'\fP
+.br
+\fC#include '\&.\&.\\ui\\LoadScale\&.h'\fP
+.br
+\fC#include '\&.\&.\\ui\\QueryMenu\&.h'\fP
+.br
+
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "bool \fBb_file_exists\fP (const char *ch_file_name)"
+.br
+.ti -1c
+.RI "int \fBi_checking_files\fP ()"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+Модуль проверки файлов для рутирования телефона\&. 
+
+Модуль проверяет наличие файлов для рутирования телефона\&. 
+.PP
+См\&. определение в файле \fBCheckingFiles\&.cpp\fP
+.SH "Функции"
+.PP 
+.SS "bool b_file_exists (const char * ch_file_name)"
+Вызов модуля проверки файла на наличие в папке\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIch_file_name\fP Путь и файл, для проверки\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+наличие файла\&. 
+.RE
+.PP
+
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBcheckingfiles\&.cpp\fP\&.
+.PP
+См\&. определение в файле CheckingFiles\&.cpp строка 23
+.SS "int i_checking_files ()"
+Вызов модуля проверки файлов\&. 
+.PP
+\fBВозвращает:\fP
+.RS 4
+0 - неуспешная проверка файлов\&. 1 - успешная проверка файлов\&. 
+.RE
+.PP
+
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBcheckingfiles\&.cpp\fP\&.
+.PP
+См\&. определение в файле CheckingFiles\&.cpp строка 30
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

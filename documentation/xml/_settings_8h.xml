@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_settings_8h" kind="file" language="C++">
+    <compoundname>Settings.h</compoundname>
+    <includedby refid="_logger_8cpp" local="yes">Logger.cpp</includedby>
+    <invincdepgraph>
+      <node id="206">
+        <label>Logger.cpp</label>
+        <link refid="_logger_8cpp"/>
+      </node>
+      <node id="205">
+        <label>Settings.h</label>
+        <link refid="_settings_8h"/>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_settings_8h_1a7fcd42142e325cb27a380f49d655f9de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool b_settings</definition>
+        <argsstring>(char ch_arr_value[])</argsstring>
+        <name>b_settings</name>
+        <param>
+          <type>char</type>
+          <declname>ch_arr_value</declname>
+          <array>[]</array>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Парсинг параметров <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ch_arr_value[]</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Значение, которое надо найти в файле </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Значение переменной true false </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/io/Settings.h" line="16" column="1" bodyfile="src/io/Settings.cpp" bodystart="22" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Заголовочный файл с подключением модуля настроек. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#ifndef<sp/>SETTINGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SETTINGS_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_settings_8h_1a7fcd42142e325cb27a380f49d655f9de" kindref="member">b_settings</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>ch_arr_value[]);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SETTINGS_H</highlight></codeline>
+    </programlisting>
+    <location file="src/io/Settings.h"/>
+  </compounddef>
+</doxygen>

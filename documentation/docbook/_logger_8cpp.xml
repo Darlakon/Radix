@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_logger_8cpp">
+    <title>Logger.cpp File Reference</title>
+    <programlisting>#include &lt;string&gt;</programlisting>
+    <programlisting>#include &lt;fstream&gt;</programlisting>
+    <programlisting>#include &lt;thread&gt;</programlisting>
+    <programlisting>#include &lt;windows.h&gt;</programlisting>
+    <programlisting>#include &lt;stdio.h&gt;</programlisting>
+    <programlisting>#include &quot;Logger.h&quot;</programlisting>
+    <programlisting>#include &quot;Settings.h&quot;</programlisting>
+<para>Include dependency diagram for Logger.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_logger_8cpp__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for Logger.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_logger_8cpp__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Функции</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_logger_8cpp_1a37ded7634d8547536bbd135208109766">log_thr</link> (
+string &amp; s, string &amp; level)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959">log</link> (
+string level, string s)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Подробное описание</title>
+
+<para>Модуль логирования </para>
+
+<para><literallayout><computeroutput>Логгер
+Логгирование&#32;сообщений&#32;в&#32;файл&#32;logger.log
+Уровеней&#32;лога&#32;-&#32;3
+Уровень&#32;0:
+Вывод&#32;сообщений&#32;вида:
+&#32;&#32;&#32;&#32;[&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;]&#32;{MESSAGE}
+Применение:
+&#32;&#32;&#32;&#32;Обработка&#32;простых&#32;сообщений,&#32;без&#32;времени&#32;и&#32;префикса&#32;([PREFIX])
+Уровень&#32;1:
+Вывод&#32;сообщений&#32;вида:
+&#32;&#32;&#32;&#32;[{YEAR}/{MONTH}/{DAY}&#32;{HOUR}:{MINUTE}:{SECOND}]&#32;[LOG]&#32;{MESSAGE}
+Применение:
+&#32;&#32;&#32;&#32;Обработка&#32;простых&#32;сообщений(загрузка&#32;модуля,&#32;отключение&#32;модуля,&#32;вход&#32;в&#32;программу,&#32;выход&#32;из&#32;программы&#32;и&#32;тд.)&#32;С&#32;временем&#32;и&#32;префиксом&#32;([LOG])
+Уровень&#32;2:
+Вывод&#32;сообщений&#32;вида:
+&#32;&#32;&#32;&#32;[{YEAR}/{MONTH}/{DAY}&#32;{HOUR}:{MINUTE}:{SECOND}]&#32;[WARN]&#32;{MESSAGE}
+Применение:
+&#32;&#32;&#32;&#32;Обработка&#32;важных&#32;сообщений&#32;ошибки(не&#32;удачная&#32;загрузка&#32;модуля,&#32;не&#32;удачный&#32;вход&#32;в&#32;программу,&#32;экстренный&#32;выход&#32;из&#32;программы&#32;и&#32;тд.)&#32;С&#32;временем&#32;и&#32;префиксом&#32;([WARN])
+</computeroutput></literallayout> </para>
+    <para>Definition in file Logger.cpp</para>
+    </simplesect>
+</section>

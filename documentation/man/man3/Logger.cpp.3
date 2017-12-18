@@ -1,0 +1,100 @@
+.TH "Logger.cpp" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Logger.cpp \- Модуль логирования  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <string>\fP
+.br
+\fC#include <fstream>\fP
+.br
+\fC#include <thread>\fP
+.br
+\fC#include <windows\&.h>\fP
+.br
+\fC#include <stdio\&.h>\fP
+.br
+\fC#include 'Logger\&.h'\fP
+.br
+\fC#include 'Settings\&.h'\fP
+.br
+
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "void \fBlog_thr\fP (string &s, string &level)"
+.br
+.ti -1c
+.RI "void \fBlog\fP (string level, string s)"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+Модуль логирования 
+
+
+.PP
+.nf
+Логгер
+Логгирование сообщений в файл logger\&.log
+Уровеней лога - 3
+Уровень 0:
+Вывод сообщений вида:
+    [                   ] {MESSAGE}
+Применение:
+    Обработка простых сообщений, без времени и префикса ([PREFIX])
+Уровень 1:
+Вывод сообщений вида:
+    [{YEAR}/{MONTH}/{DAY} {HOUR}:{MINUTE}:{SECOND}] [LOG] {MESSAGE}
+Применение:
+    Обработка простых сообщений(загрузка модуля, отключение модуля, вход в программу, выход из программы и тд\&.) С временем и префиксом ([LOG])
+Уровень 2:
+Вывод сообщений вида:
+    [{YEAR}/{MONTH}/{DAY} {HOUR}:{MINUTE}:{SECOND}] [WARN] {MESSAGE}
+Применение:
+    Обработка важных сообщений ошибки(не удачная загрузка модуля, не удачный вход в программу, экстренный выход из программы и тд\&.) С временем и префиксом ([WARN])
+
+.fi
+.PP
+ 
+.PP
+См\&. определение в файле \fBLogger\&.cpp\fP
+.SH "Функции"
+.PP 
+.SS "void log (string level, string s)"
+Логирование сообщений в файл logger\&.log 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIlevel\fP Уровень логирования 
+.br
+\fIs\fP Логируемая информация 
+.RE
+.PP
+
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBlog\&.cpp\fP\&.
+.PP
+См\&. определение в файле Logger\&.cpp строка 54
+.SS "void log_thr (string & s, string & level)\fC [inline]\fP"
+Функция, для записи лога в файл 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fI&s\fP Передача ссылки с сообщением для логирования 
+.br
+\fI&level\fP Передача ссылки с уровнем логирования 
+.RE
+.PP
+
+.PP
+См\&. определение в файле Logger\&.cpp строка 74
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

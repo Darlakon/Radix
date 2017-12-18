@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_initialization_8cpp">
+    <title>Initialization.cpp File Reference</title>
+    <programlisting>#include &lt;fstream&gt;</programlisting>
+    <programlisting>#include &quot;..\io\Templates.h&quot;</programlisting>
+    <programlisting>#include &quot;..\io\Logger.h&quot;</programlisting>
+    <programlisting>#include &quot;Constants.h&quot;</programlisting>
+    <programlisting>#include &quot;..\ui\LoadScale.h&quot;</programlisting>
+<para>Include dependency diagram for Initialization.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_initialization_8cpp__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for Initialization.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_initialization_8cpp__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Функции</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_initialization_8cpp_1a61271965777637ec3d70f6d7ab0a466a">v_initialization_logger_log</link> (
+)<para><emphasis>Проверка файла logger.log.</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_initialization_8cpp_1a9f137f3ae0426a1e7c1a398ad930dc70">v_initialization_settings_ini</link> (
+)<para><emphasis>Проверка файла settings.ini.</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_initialization_8cpp_1a86860ef24d9abdaddea8e817e84528a7">v_initialization_rules_txt</link> (
+)<para><emphasis>Проверка файла rules.txt.</emphasis></para>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_initialization_8cpp_1a11b373fd61e18cd28810a5b607e1749a">v_initialization</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Подробное описание</title>
+
+<para>Модуль проверки стандартных файлов программы. </para>
+
+<para>Модуль проверяет наличие стандартных файлов программы</para>
+
+<para>Файлы: <literallayout>logger.log - вывод логера
+
+rules.txt - правила программы, с которыми должен согласиться пользователь
+
+settings.ini - файл настроек</literallayout> </para>
+    <para>Definition in file Initialization.cpp</para>
+    </simplesect>
+</section>

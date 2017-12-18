@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_initialization_8h" kind="file" language="C++">
+    <compoundname>Initialization.h</compoundname>
+    <includedby refid="_radix_8cpp" local="yes">Radix.cpp</includedby>
+    <invincdepgraph>
+      <node id="93">
+        <label>Initialization.h</label>
+        <link refid="_initialization_8h"/>
+        <childnode refid="94" relation="include">
+        </childnode>
+      </node>
+      <node id="94">
+        <label>Radix.cpp</label>
+        <link refid="_radix_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_initialization_8h_1a11b373fd61e18cd28810a5b607e1749a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_initialization</definition>
+        <argsstring>()</argsstring>
+        <name>v_initialization</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Функция проверяет наличие 3 стандартных файлов программы <verbatim>logger.log
+
+rules.txt
+
+settings.ini</verbatim> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Initialization.h" line="24" column="1" bodyfile="src/core/Initialization.cpp" bodystart="42" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Заголовочный файл с вызовом модуля инициализации </para>    </briefdescription>
+    <detaileddescription>
+<para>Вызов: <programlisting><codeline><highlight class="normal">void<sp/>v_initialization();</highlight></codeline>
+</programlisting></para><para><simplesect kind="author"><para>SavaLione </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#ifndef<sp/>INITIALIZATION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INITIALIZATION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_initialization_8h_1a11b373fd61e18cd28810a5b607e1749a" kindref="member">v_initialization</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>INITIALIZATION_H</highlight></codeline>
+    </programlisting>
+    <location file="src/core/Initialization.h"/>
+  </compounddef>
+</doxygen>

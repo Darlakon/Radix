@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <info>
+    <title>Radix</title>
+    </info>
+    <chapter>
+        <title>Namespace Documentation</title>
+        <xi:include href="namespacelogo.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespacemenu.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespaceradix.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="namespacestd.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Файлы</title>
+        <xi:include href="_a_d_b__mod_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_a_d_b__mod_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_a_d_b__slave_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_a_d_b__slave_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_check_agreement_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_check_agreement_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_checking_files_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_checking_files_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_color_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_color_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_constants_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_constants_menu_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_exit_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_exit_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_initialization_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_initialization_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_load_scale_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_load_scale_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_logger_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_logger_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_logo_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_main_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_main_menu_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_main_menu_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_manual_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_manual_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_query_menu_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_query_menu_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_radix_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_radix_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_rules_list_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_rules_list_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_settings_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_settings_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_templates_8cpp.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="_templates_8h.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Директории</title>
+        <xi:include href="dir_aebb8dcc11953d78e620bbef0b9e2183.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_c184e51c84f2c3f0345bbc8a0d75d3e1.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_68267d1309a1af8e8297ef4c3efbcdba.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="dir_da5c6b39c0a2f54e57df6799511cd3ab.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+    <chapter>
+        <title>Примеры</title>
+        <xi:include href="checkagreement_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="checkingfiles_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="color_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="constants_8h-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="exit_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="initialization_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="loadscale_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="log_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="logo_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="mainmenu_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="manual_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="querymenu_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="radix_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="ruleslist_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="settings_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="templates_8cpp-example.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    </chapter>
+</book>

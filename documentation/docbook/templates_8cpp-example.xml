@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="templates_8cpp-example">
+    <title>templates.cpp</title>
+
+<para><formalpara><title>Автор: </title>
+
+<para>SavaLione <literallayout><computeroutput><emphasis class="preprocessor">#include&#32;&quot;..\io\Templates.h&quot;</emphasis>
+
+<emphasis class="keywordtype">int</emphasis>&#32;<link linkend="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>()&#32;{
+&#32;&#32;&#32;&#32;<link linkend="_templates_8cpp_1abeb0b4d4d31b9c74744a0b9881d95066">v_templates_create_logger_log</link>();
+&#32;&#32;&#32;&#32;<link linkend="_templates_8cpp_1afbd4b91587b894d5e8b6ea50209ed5dc">v_templates_create_rules_txt</link>();
+&#32;&#32;&#32;&#32;<link linkend="_templates_8cpp_1a593e33d5988d6a49d581f52d94471895">v_templates_create_settings_ini</link>();
+&#32;&#32;&#32;&#32;<emphasis class="keywordflow">return</emphasis>&#32;0;
+}
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+
+</section>

@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_checking_files_8h" kind="file" language="C++">
+    <compoundname>CheckingFiles.h</compoundname>
+    <includedby refid="_checking_files_8cpp" local="yes">CheckingFiles.cpp</includedby>
+    <includedby refid="_main_menu_8cpp" local="yes">MainMenu.cpp</includedby>
+    <invincdepgraph>
+      <node id="43">
+        <label>MainMenu.cpp</label>
+        <link refid="_main_menu_8cpp"/>
+      </node>
+      <node id="41">
+        <label>CheckingFiles.h</label>
+        <link refid="_checking_files_8h"/>
+        <childnode refid="42" relation="include">
+        </childnode>
+        <childnode refid="43" relation="include">
+        </childnode>
+      </node>
+      <node id="42">
+        <label>CheckingFiles.cpp</label>
+        <link refid="_checking_files_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_checking_files_8h_1a06ba6d957eba855cc9f88ce7ac641722" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool b_file_exists</definition>
+        <argsstring>(const char *ch_file_name)</argsstring>
+        <name>b_file_exists</name>
+        <param>
+          <type>const char *</type>
+          <declname>ch_file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вызов модуля проверки файла на наличие в папке. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ch_file_name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Путь и файл, для проверки. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>наличие файла. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/CheckingFiles.h" line="19" column="1" bodyfile="src/core/CheckingFiles.cpp" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="_checking_files_8h_1a5f44f09549aae42fa22e71e761b40abc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int i_checking_files</definition>
+        <argsstring>()</argsstring>
+        <name>i_checking_files</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вызов модуля проверки файлов. <simplesect kind="return"><para>0 - неуспешная проверка файлов. 1 - успешная проверка файлов. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/CheckingFiles.h" line="24" column="1" bodyfile="src/core/CheckingFiles.cpp" bodystart="30" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Заголовочный файл с вызовом модуля проверки файлов для рутирования телефона. </para>    </briefdescription>
+    <detaileddescription>
+<para>Вызов: <programlisting><codeline><highlight class="normal">void<sp/>v_checking_files();</highlight></codeline>
+</programlisting></para><para><simplesect kind="author"><para>SavaLione </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="12"><highlight class="preprocessor">#ifndef<sp/>CHEKINGFILES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>CHEKINGFILES_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="_checking_files_8h_1a06ba6d957eba855cc9f88ce7ac641722" kindref="member">b_file_exists</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*ch_file_name);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_checking_files_8h_1a5f44f09549aae42fa22e71e761b40abc" kindref="member">i_checking_files</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>CHEKINGFILES_H</highlight></codeline>
+    </programlisting>
+    <location file="src/core/CheckingFiles.h"/>
+  </compounddef>
+</doxygen>

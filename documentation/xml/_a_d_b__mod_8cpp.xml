@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_a_d_b__mod_8cpp" kind="file" language="C++">
+    <compoundname>ADB_mod.cpp</compoundname>
+    <includes local="no">Windows.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">cstdlib</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>Windows.h</label>
+      </node>
+      <node id="2">
+        <label>string.h</label>
+      </node>
+      <node id="4">
+        <label>cstdlib</label>
+      </node>
+      <node id="3">
+        <label>iostream</label>
+      </node>
+      <node id="0">
+        <label>ADB_mod.cpp</label>
+        <link refid="_a_d_b__mod_8cpp"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespacestd">std</innernamespace>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_a_d_b__mod_8cpp_1a5d0a3a01ef690bcd93495becd3273063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void adb</definition>
+        <argsstring>(LPSTR cmdArgs)</argsstring>
+        <name>adb</name>
+        <param>
+          <type>LPSTR</type>
+          <declname>cmdArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вызов adb-интерфейса. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cmdArgs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- команда для adb вида &quot;adb X&quot;. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/ADB_mod.cpp" line="16" column="1" bodyfile="src/core/ADB_mod.cpp" bodystart="16" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="_a_d_b__mod_8cpp_1a3b7f80fa75c7705429c3d7402fec0eb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void fastboot</definition>
+        <argsstring>(LPSTR cmdArgs)</argsstring>
+        <name>fastboot</name>
+        <param>
+          <type>LPSTR</type>
+          <declname>cmdArgs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вызов fastboot-интерфейса. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">cmdArgs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>- команда для fastboot вида &quot;fastboot X&quot;. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/ADB_mod.cpp" line="40" column="1" bodyfile="src/core/ADB_mod.cpp" bodystart="40" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Модуль работы с adb. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Darlakon </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#include<sp/>&lt;Windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;cstdlib&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="_a_d_b__mod_8h_1a5d0a3a01ef690bcd93495becd3273063" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_a_d_b__mod_8cpp_1a5d0a3a01ef690bcd93495becd3273063" kindref="member">adb</ref>(LPSTR<sp/>cmdArgs)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>PROCESS_INFORMATION<sp/>ProcessInfo;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>STARTUPINFO<sp/>StartupInfo;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>ZeroMemory(&amp;StartupInfo,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(StartupInfo));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>StartupInfo.cb<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>StartupInfo;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>LPCSTR<sp/>cmdPath<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;assets\\platform-tools\\adb.exe&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CreateProcess(cmdPath,<sp/>cmdArgs,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL,<sp/>NULL,<sp/>FALSE,<sp/>0,<sp/>NULL,</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL,<sp/>&amp;StartupInfo,<sp/>&amp;ProcessInfo))</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaitForSingleObject(ProcessInfo.hProcess,<sp/>INFINITE);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(ProcessInfo.hThread);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(ProcessInfo.hProcess);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="_a_d_b__mod_8h_1a3b7f80fa75c7705429c3d7402fec0eb0" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_a_d_b__mod_8cpp_1a3b7f80fa75c7705429c3d7402fec0eb0" kindref="member">fastboot</ref>(LPSTR<sp/>cmdArgs)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>PROCESS_INFORMATION<sp/>ProcessInfo;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>STARTUPINFO<sp/>StartupInfo;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>ZeroMemory(&amp;StartupInfo,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(StartupInfo));</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/>StartupInfo.cb<sp/>=<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>StartupInfo;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>LPCSTR<sp/>cmdPath<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;assets\\platform-tools\\fastboot.exe&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(CreateProcess(cmdPath,<sp/>cmdArgs,</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL,<sp/>NULL,<sp/>FALSE,<sp/>0,<sp/>NULL,</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NULL,<sp/>&amp;StartupInfo,<sp/>&amp;ProcessInfo))</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WaitForSingleObject(ProcessInfo.hProcess,<sp/>INFINITE);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(ProcessInfo.hThread);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(ProcessInfo.hProcess);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/core/ADB_mod.cpp"/>
+  </compounddef>
+</doxygen>

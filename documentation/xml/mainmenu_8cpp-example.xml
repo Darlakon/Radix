@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="mainmenu_8cpp-example" kind="example">
+    <compoundname>mainmenu.cpp</compoundname>
+    <detaileddescription>
+<para><simplesect kind="author"><para>SavaLione <programlisting><codeline><highlight class="preprocessor">#include<sp/>&quot;..\ui\MainMenu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="_main_menu_8cpp_1adc9252b438b3b385bf6ccb207688fd4e" kindref="member">i_mainmenu</ref>();</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para></simplesect>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,79 @@
+.TH "QueryMenu.cpp" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+QueryMenu.cpp \- Модуль сообщения с вопросом для пользователя\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <conio\&.h>\fP
+.br
+\fC#include <string>\fP
+.br
+\fC#include <Windows\&.h>\fP
+.br
+\fC#include '\&.\&.\\core\\Color\&.h'\fP
+.br
+\fC#include '\&.\&.\\core\\Logo\&.h'\fP
+.br
+\fC#include '\&.\&.\\core\\ConstantsMenu\&.h'\fP
+.br
+
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "void \fBv_querymenu_choice\fP (size_t choice, string s)"
+.br
+.ti -1c
+.RI "int \fBi_querymenu\fP (string s)"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+Модуль сообщения с вопросом для пользователя\&. 
+
+
+.PP
+См\&. определение в файле \fBQueryMenu\&.cpp\fP
+.SH "Функции"
+.PP 
+.SS "int i_querymenu (string s)"
+Вызов модуля сообщения с вопросом для пользователя\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIs\fP вопрос 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+0 - пользователь не готов продолжить, выход из программы\&. 1 - пользователь готов продолжить, продолжить\&. 
+.RE
+.PP
+
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBquerymenu\&.cpp\fP\&.
+.PP
+См\&. определение в файле QueryMenu\&.cpp строка 64
+.SS "void v_querymenu_choice (size_t choice, string s)"
+Переключение пунктов меню 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIchoice\fP выбор 
+.br
+\fIs\fP вопрос 
+.RE
+.PP
+
+.PP
+См\&. определение в файле QueryMenu\&.cpp строка 24
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

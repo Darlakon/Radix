@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_main_menu_8cpp">
+    <title>MainMenu.cpp File Reference</title>
+    <programlisting>#include &lt;iostream&gt;</programlisting>
+    <programlisting>#include &lt;conio.h&gt;</programlisting>
+    <programlisting>#include &lt;string&gt;</programlisting>
+    <programlisting>#include &lt;Windows.h&gt;</programlisting>
+    <programlisting>#include &quot;..\core\Color.h&quot;</programlisting>
+    <programlisting>#include &quot;..\core\ConstantsMenu.h&quot;</programlisting>
+    <programlisting>#include &quot;..\core\Logo.h&quot;</programlisting>
+    <programlisting>#include &quot;..\core\ADB_slave.h&quot;</programlisting>
+    <programlisting>#include &quot;..\core\CheckingFiles.h&quot;</programlisting>
+<para>Include dependency diagram for MainMenu.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_main_menu_8cpp__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for MainMenu.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_main_menu_8cpp__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Функции</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_main_menu_8cpp_1ad224308b960ec4f2215ffa68350131f8">v_menu_choice</link> (
+size_t choice)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_main_menu_8cpp_1a784c09041cf40075e8eb016a2d8419d6">root</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="_main_menu_8cpp_1adc9252b438b3b385bf6ccb207688fd4e">i_mainmenu</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Подробное описание</title>
+
+<para>Модуль вывода главного меню программы. </para>
+    <para>Definition in file MainMenu.cpp</para>
+    </simplesect>
+</section>

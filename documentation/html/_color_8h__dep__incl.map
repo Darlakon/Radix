@@ -1,0 +1,9 @@
+<map id="Color.h" name="Color.h">
+<area shape="rect" id="node2" href="$_color_8cpp.html" title="Модуль работы с цветом в консоли. " alt="" coords="5,80,83,107"/>
+<area shape="rect" id="node3" href="$_check_agreement_8cpp.html" title="Модуль проверки согласия пользователя с правилами. " alt="" coords="107,80,253,107"/>
+<area shape="rect" id="node4" href="$_exit_8cpp.html" title="Модуль выхода из программы. " alt="" coords="278,80,349,107"/>
+<area shape="rect" id="node5" href="$_load_scale_8cpp.html" title="Модуль вывода шкалы загрузки. " alt="" coords="373,80,481,107"/>
+<area shape="rect" id="node6" href="$_main_menu_8cpp.html" title="Модуль вывода главного меню программы. " alt="" coords="505,80,612,107"/>
+<area shape="rect" id="node7" href="$_manual_8cpp.html" title="Модуль инструкции. " alt="" coords="637,80,726,107"/>
+<area shape="rect" id="node8" href="$_query_menu_8cpp.html" title="Модуль сообщения с вопросом для пользователя. " alt="" coords="751,80,865,107"/>
+</map>

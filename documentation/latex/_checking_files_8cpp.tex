@@ -1,0 +1,74 @@
+\hypertarget{_checking_files_8cpp}{}\section{Файл Checking\+Files.\+cpp}
+\label{_checking_files_8cpp}\index{Checking\+Files.\+cpp@{Checking\+Files.\+cpp}}
+
+
+Модуль проверки файлов для рутирования телефона.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$io.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}core\textbackslash{}\+Constants.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}core\textbackslash{}\+Checking\+Files.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}io\textbackslash{}\+Logger.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}ui\textbackslash{}\+Load\+Scale.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}..\textbackslash{}ui\textbackslash{}\+Query\+Menu.\+h\char`\"{}}\newline
+Граф включаемых заголовочных файлов для Checking\+Files.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_checking_files_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{_checking_files_8cpp_a06ba6d957eba855cc9f88ce7ac641722}{b\+\_\+file\+\_\+exists} (const char $\ast$ch\+\_\+file\+\_\+name)
+\item 
+int \hyperlink{_checking_files_8cpp_a5f44f09549aae42fa22e71e761b40abc}{i\+\_\+checking\+\_\+files} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Модуль проверки файлов для рутирования телефона. 
+
+Модуль проверяет наличие файлов для рутирования телефона. 
+
+\subsection{Функции}
+\mbox{\Hypertarget{_checking_files_8cpp_a06ba6d957eba855cc9f88ce7ac641722}\label{_checking_files_8cpp_a06ba6d957eba855cc9f88ce7ac641722}} 
+\index{Checking\+Files.\+cpp@{Checking\+Files.\+cpp}!b\+\_\+file\+\_\+exists@{b\+\_\+file\+\_\+exists}}
+\index{b\+\_\+file\+\_\+exists@{b\+\_\+file\+\_\+exists}!Checking\+Files.\+cpp@{Checking\+Files.\+cpp}}
+\subsubsection{\texorpdfstring{b\+\_\+file\+\_\+exists()}{b\_file\_exists()}}
+{\footnotesize\ttfamily bool b\+\_\+file\+\_\+exists (\begin{DoxyParamCaption}\item[{const char $\ast$}]{ch\+\_\+file\+\_\+name }\end{DoxyParamCaption})}
+
+Вызов модуля проверки файла на наличие в папке. 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em ch\+\_\+file\+\_\+name} & Путь и файл, для проверки. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+наличие файла. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Примеры\+: ]\par
+\hyperlink{checkingfiles_8cpp-example}{checkingfiles.\+cpp}.\end{Desc}
+
+
+См. определение в файле Checking\+Files.\+cpp строка 23
+
+\mbox{\Hypertarget{_checking_files_8cpp_a5f44f09549aae42fa22e71e761b40abc}\label{_checking_files_8cpp_a5f44f09549aae42fa22e71e761b40abc}} 
+\index{Checking\+Files.\+cpp@{Checking\+Files.\+cpp}!i\+\_\+checking\+\_\+files@{i\+\_\+checking\+\_\+files}}
+\index{i\+\_\+checking\+\_\+files@{i\+\_\+checking\+\_\+files}!Checking\+Files.\+cpp@{Checking\+Files.\+cpp}}
+\subsubsection{\texorpdfstring{i\+\_\+checking\+\_\+files()}{i\_checking\_files()}}
+{\footnotesize\ttfamily int i\+\_\+checking\+\_\+files (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Вызов модуля проверки файлов. \begin{DoxyReturn}{Возвращает}
+0 -\/ неуспешная проверка файлов. 1 -\/ успешная проверка файлов. 
+\end{DoxyReturn}
+\begin{Desc}
+\item[Примеры\+: ]\par
+\hyperlink{checkingfiles_8cpp-example}{checkingfiles.\+cpp}.\end{Desc}
+
+
+См. определение в файле Checking\+Files.\+cpp строка 30
+

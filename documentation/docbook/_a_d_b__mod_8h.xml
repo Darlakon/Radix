@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_a_d_b__mod_8h">
+    <title>ADB_mod.h File Reference</title>
+    <programlisting>#include &lt;Windows.h&gt;</programlisting>
+<para>Include dependency diagram for ADB_mod.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_a_d_b__mod_8h__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for ADB_mod.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_a_d_b__mod_8h__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Функции</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_a_d_b__mod_8h_1a5d0a3a01ef690bcd93495becd3273063">adb</link> (
+LPSTR cmdArgs)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_a_d_b__mod_8h_1a3b7f80fa75c7705429c3d7402fec0eb0">fastboot</link> (
+LPSTR cmdArgs)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Подробное описание</title>
+
+<para>Заголовочный файл с подключением модуля работы с adb. </para>
+
+<para><formalpara><title>Автор: </title>
+
+<para>Darlakon </para>
+</formalpara>
+</para>
+    <para>Definition in file ADB_mod.h</para>
+    </simplesect>
+</section>

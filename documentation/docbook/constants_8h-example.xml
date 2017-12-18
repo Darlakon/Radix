@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="constants_8h-example">
+    <title>constants.h</title>
+
+<para><formalpara><title>Автор: </title>
+
+<para>SavaLione <literallayout><computeroutput><emphasis class="preprocessor">#include&#32;&lt;iostream&gt;</emphasis>
+
+<emphasis class="preprocessor">#include&#32;&quot;..\core\Constants.h&quot;</emphasis>
+
+<emphasis class="keywordtype">int</emphasis>&#32;<link linkend="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>()&#32;{
+&#32;&#32;&#32;&#32;<emphasis class="comment">//&#32;The&#32;user&#32;continued&#32;the&#32;program&#32;despite&#32;the&#32;error.</emphasis>
+&#32;&#32;&#32;&#32;std::cout&#32;&lt;&lt;&#32;<link linkend="namespaceradix_1ad5e76eca849713be360ed8478545d801">radix::ch_user_continue</link>&#32;&lt;&lt;&#32;std::endl;
+&#32;&#32;&#32;&#32;<emphasis class="keywordflow">return</emphasis>&#32;0;
+}
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+
+</section>

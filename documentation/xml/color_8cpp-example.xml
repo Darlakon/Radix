@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="color_8cpp-example" kind="example">
+    <compoundname>color.cpp</compoundname>
+    <detaileddescription>
+<para><simplesect kind="author"><para>SavaLione <programlisting><codeline><highlight class="preprocessor">#include<sp/>&quot;..\core\Color.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight></codeline>
+<codeline><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kindref="member">main</ref>()<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa35d6719cb4d7577c031b3d79057a1b79" kindref="member">BLUE</ref>,<sp/><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kindref="member">WHITE</ref>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faa60bd322f93178d68184e30e162571ca" kindref="member">GREEN</ref>);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>();</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline><highlight class="normal">}</highlight></codeline>
+</programlisting> </para></simplesect>
+</para>    </detaileddescription>
+  </compounddef>
+</doxygen>

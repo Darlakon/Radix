@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_color_8h">
+    <title>Color.h File Reference</title>
+<para>Include dependency diagram for Color.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_color_8h__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for Color.h</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_color_8h__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Перечисления</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                            <para><literallayout>enum <link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8f">color</link> {
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3">BLACK</link>= 0,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa35d6719cb4d7577c031b3d79057a1b79">BLUE</link>= 1,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8faa60bd322f93178d68184e30e162571ca">GREEN</link>= 2,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8faafe71cad474c15ce63b300c470eef8cc">CYAN</link>= 3,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8faf80f9a890089d211842d59625e561f88">RED</link>= 4,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa56926c820ad72d0977e7ee44d9916e62">MAGENTA</link>= 5,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa1fa14482e7e4dc1332ab8c9d995fe570">BROWN</link>= 6,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa3dcbd50f6d434719ddfb9da673977307">LIGHTGRAY</link>= 7,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa52a9af0edd45f66d37996edcb1ca69f0">DARKGRAY</link>= 8,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa272b71e84bc2640b193e9fe3c72cb3de">LIGHTBLUE</link>= 9,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa0c9ed06b5de60ddd26bb2808e5f4b5dd">LIGHTGREEN</link>= 10,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fac8d7b8737ca95d137a05f3bb8f3d1a17">LIGHTCYAN</link>= 11,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8faf3a6d81d1da6f2134cc3cca6f02b1114">LIGHTRED</link>= 12,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fae19b6d1fedca830c608811b77bd0affc">LIGHTMAGENTA</link>= 13,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa83b21f0c4fad21a5b08f2fa1e1856ca9">LIGHTYELLOW</link>= 14,
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50">WHITE</link>= 15
+}</literallayout>
+</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+        <section>
+            <title>Функции</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_color_8h_1a8bfe4542d1f10bae3f4ff0ec688aa67f">v_set_color</link> (
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8f">color</link> ConsoleText, <link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8f">color</link> ConsoleBackground)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_color_8h_1ac4b485399ce8f366e640bbfe8ea40f7b">v_set_color</link> (
+<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8f">color</link> ConsoleText)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>void <link linkend="_color_8h_1a85ab2b1666a933ebb14c6ffb2db6d4a6">v_color_reset</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Подробное описание</title>
+
+<para>Заголовочный файл с цветами и модулем смены цвета в консоли. </para>
+
+<para><formalpara><title>Автор: </title>
+
+<para>SavaLione </para>
+</formalpara>
+</para>
+    <para>Definition in file Color.h</para>
+    </simplesect>
+</section>

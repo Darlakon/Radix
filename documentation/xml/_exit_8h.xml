@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_exit_8h" kind="file" language="C++">
+    <compoundname>Exit.h</compoundname>
+    <includedby refid="_radix_8cpp" local="yes">Radix.cpp</includedby>
+    <invincdepgraph>
+      <node id="82">
+        <label>Exit.h</label>
+        <link refid="_exit_8h"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>Radix.cpp</label>
+        <link refid="_radix_8cpp"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_exit_8h_1a540f8b6f2205a3bcf98d2b8f81e8aa09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_exit</definition>
+        <argsstring>()</argsstring>
+        <name>v_exit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вывод текста. Выход из программы. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ui/Exit.h" line="10" column="1" bodyfile="src/ui/Exit.cpp" bodystart="16" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Заголовочный файл с подключением модуля выхода из программы. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>SavaLione </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>EXIT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EXIT_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_exit_8h_1a540f8b6f2205a3bcf98d2b8f81e8aa09" kindref="member">v_exit</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>EXIT_H</highlight></codeline>
+    </programlisting>
+    <location file="src/ui/Exit.h"/>
+  </compounddef>
+</doxygen>

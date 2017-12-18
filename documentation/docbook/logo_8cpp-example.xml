@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="logo_8cpp-example">
+    <title>logo.cpp</title>
+
+<para><formalpara><title>Автор: </title>
+
+<para>SavaLione <literallayout><computeroutput><emphasis class="preprocessor">#include&#32;&quot;..\core\Logo.h&quot;</emphasis>
+
+<emphasis class="preprocessor">#include&#32;&lt;iostring&gt;</emphasis>
+
+<emphasis class="keyword">using&#32;namespace&#32;</emphasis><link linkend="namespacestd">std</link>;
+
+<emphasis class="keywordtype">int</emphasis>&#32;<link linkend="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>()&#32;{
+&#32;&#32;&#32;&#32;<emphasis class="comment">//&#32;===========================</emphasis>
+&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<link linkend="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b">logo::border</link>&#32;&lt;&lt;&#32;endl;
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<emphasis class="comment">//&#32;&#32;====&#32;&lt;-&#32;use&#32;to&#32;move&#32;-&gt;&#32;====</emphasis>
+&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<link linkend="namespacelogo_1adf18ab31906b644891fc8311df747a9d">logo::little_help</link>&#32;&lt;&lt;&#32;endl;
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<emphasis class="comment">//&#32;&#32;Do&#32;you&#32;agree&#32;with&#32;the&#32;license?</emphasis>
+&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<link linkend="namespacelogo_1ae5491adc000fde7d3d8229372c877da2">logo::license</link>&#32;&lt;&lt;&#32;endl;
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<emphasis class="comment">//&#32;{&#32;&#32;&#32;&#32;&#32;&#32;&#32;}&lt;-&#32;use&#32;to&#32;move&#32;-&gt;</emphasis>
+&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<link linkend="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53">logo::move_indentation</link>&#32;&lt;&lt;&#32;endl;
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<emphasis class="comment">//&#32;&lt;-&#32;use&#32;to&#32;move&#32;-&gt;</emphasis>
+&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<link linkend="namespacelogo_1a03b6b80b5648e7dbbbf00b258df733b6">logo::move</link>&#32;&lt;&lt;&#32;endl;
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<emphasis class="comment">/*</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_____&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_&#32;_&#32;&#32;&#32;&#32;&#32;&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;&#32;__&#32;\&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;(_)&#32;&#32;&#32;&#32;&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|__)&#32;|__&#32;_&#32;&#32;__|&#32;|___&#32;&#32;__</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;&#32;_&#32;&#32;//&#32;_`&#32;|/&#32;_`&#32;|&#32;\&#32;\/&#32;/</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|&#32;\&#32;\&#32;(_|&#32;|&#32;(_|&#32;|&#32;|&gt;&#32;&#32;&lt;&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|_|&#32;&#32;\_\__,_|\__,_|_/_/\_\</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;*/</emphasis>
+&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<link linkend="namespacelogo_1abbbdbfbbcae50e2017f3ed1bdf0e1fa3">logo::radix</link>&#32;&lt;&lt;&#32;endl;
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<emphasis class="comment">/*</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;_&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|&#32;&#32;&#32;&#32;&#32;___&#32;&#32;&#32;__&#32;_&#32;&#32;__|&#32;|</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|&#32;&#32;&#32;&#32;/&#32;_&#32;\&#32;/&#32;_`&#32;|/&#32;_`&#32;|</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|___|&#32;(_)&#32;|&#32;(_|&#32;|&#32;(_|&#32;|</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|______\___/&#32;\__,_|\__,_|&#32;&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;*/</emphasis>
+&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<link linkend="namespacelogo_1ad29ac81055f7eb3624a283f55af8d5ad">logo::loading</link>&#32;&lt;&lt;&#32;endl;
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<emphasis class="comment">/*</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;______&#32;&#32;&#32;&#32;&#32;&#32;_&#32;_&#32;&#32;&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;&#32;____|&#32;&#32;&#32;&#32;(_)&#32;|&#32;&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|__&#32;&#32;__&#32;&#32;___|&#32;|_&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;&#32;__|&#32;\&#32;\/&#32;/&#32;|&#32;__|</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;|____&#32;&gt;&#32;&#32;&lt;|&#32;|&#32;|_&#32;</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;|______/_/\_\_|\__|</emphasis>
+<emphasis class="comment">&#32;&#32;&#32;&#32;*/</emphasis>
+&#32;&#32;&#32;&#32;cout&#32;&lt;&lt;&#32;<link linkend="namespacelogo_1aba8ca66bcf8abe6a0991a13887671863">logo::exit</link>&#32;&lt;&lt;&#32;endl;
+&#32;&#32;&#32;&#32;<emphasis class="keywordflow">return</emphasis>&#32;0;
+}
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+
+</section>

@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_rules_list_8h" kind="file" language="C++">
+    <compoundname>RulesList.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="_check_agreement_8cpp" local="yes">CheckAgreement.cpp</includedby>
+    <incdepgraph>
+      <node id="196">
+        <label>string</label>
+      </node>
+      <node id="195">
+        <label>RulesList.h</label>
+        <link refid="_rules_list_8h"/>
+        <childnode refid="196" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="198">
+        <label>CheckAgreement.cpp</label>
+        <link refid="_check_agreement_8cpp"/>
+      </node>
+      <node id="197">
+        <label>RulesList.h</label>
+        <link refid="_rules_list_8h"/>
+        <childnode refid="198" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_rules_list_8h_1a5010d1a6599fe48d9bd963375613da92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string s_ruleslist</definition>
+        <argsstring>()</argsstring>
+        <name>s_ruleslist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Чтение правил программы <simplesect kind="return"><para>строка с правилами </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/io/RulesList.h" line="14" column="1" bodyfile="src/io/RulesList.cpp" bodystart="17" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Заголовочный файл с подключением модуля чтения правил. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>SavaLione </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>RULESLIST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RULESLIST_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">std::string<sp/><ref refid="_rules_list_8h_1a5010d1a6599fe48d9bd963375613da92" kindref="member">s_ruleslist</ref>();</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>RULESLIST_H</highlight></codeline>
+    </programlisting>
+    <location file="src/io/RulesList.h"/>
+  </compounddef>
+</doxygen>

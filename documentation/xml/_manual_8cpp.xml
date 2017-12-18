@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_manual_8cpp" kind="file" language="C++">
+    <compoundname>Manual.cpp</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">conio.h</includes>
+    <includes local="no">string</includes>
+    <includes local="no">Windows.h</includes>
+    <includes refid="_color_8h" local="yes">..\core\Color.h</includes>
+    <includes refid="_logo_8h" local="yes">..\core\Logo.h</includes>
+    <includes refid="_constants_menu_8h" local="yes">..\core\ConstantsMenu.h</includes>
+    <incdepgraph>
+      <node id="153">
+        <label>Manual.cpp</label>
+        <link refid="_manual_8cpp"/>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="157">
+        <label>Windows.h</label>
+      </node>
+      <node id="158">
+        <label>..\core\Color.h</label>
+        <link refid="_color_8h"/>
+      </node>
+      <node id="156">
+        <label>string</label>
+      </node>
+      <node id="155">
+        <label>conio.h</label>
+      </node>
+      <node id="159">
+        <label>..\core\Logo.h</label>
+        <link refid="_logo_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="154">
+        <label>iostream</label>
+      </node>
+      <node id="160">
+        <label>..\core\ConstantsMenu.h</label>
+        <link refid="_constants_menu_8h"/>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_manual_8cpp_1ae0f9a7fdce9e3a275336f70656c0c4fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_manual</definition>
+        <argsstring>()</argsstring>
+        <name>v_manual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вызов модуля инструкции. Вывод инструкции в консоль. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/ui/Manual.cpp" line="22" column="1" bodyfile="src/ui/Manual.cpp" bodystart="22" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Модуль инструкции. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;conio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;Windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\Color.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\Logo.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;..\core\ConstantsMenu.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="_manual_8h_1ae0f9a7fdce9e3a275336f70656c0c4fc" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_manual_8cpp_1ae0f9a7fdce9e3a275336f70656c0c4fc" kindref="member">v_manual</ref>(){</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="namespacemenu" kindref="compound">menu</ref><sp/>=<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>system(</highlight><highlight class="stringliteral">&quot;cls&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1a0a26b9dd91d59364dce6d78c217af1a0" kindref="member">logo::s_manual</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53" kindref="member">logo::move_indentation</ref><sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53" kindref="member">logo::move_indentation</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53" kindref="member">logo::move_indentation</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>,<sp/><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kindref="member">WHITE</ref>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/><ref refid="namespacelogo_1ac55b3c4624556820a987ccdf67101bae" kindref="member">logo::enter</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kindref="member">WHITE</ref>,<sp/><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>cout<sp/>&lt;&lt;<sp/>endl;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(menu)<sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/>key<sp/>=<sp/>_getch();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(key)<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:<sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>menu<sp/>=<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/ui/Manual.cpp"/>
+  </compounddef>
+</doxygen>

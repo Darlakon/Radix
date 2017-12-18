@@ -1,0 +1,196 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="namespacelogo" kind="namespace" language="C++">
+    <compoundname>logo</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::border</definition>
+        <argsstring></argsstring>
+        <name>border</name>
+        <initializer>= &quot;===========================\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Линия. <programlisting><codeline><highlight class="normal">===========================</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="17" column="1" bodyfile="src/core/Logo.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1adf18ab31906b644891fc8311df747a9d" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::little_help</definition>
+        <argsstring></argsstring>
+        <name>little_help</name>
+        <initializer>= &quot;==== &lt;- use to <ref refid="namespacelogo_1a03b6b80b5648e7dbbbf00b258df733b6" kindref="member">move</ref> -&gt; ====\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Помощь по управлению. <programlisting><codeline><highlight class="normal">====<sp/>&lt;-<sp/>use<sp/>to<sp/>move<sp/>-&gt;<sp/>====</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="24" column="1" bodyfile="src/core/Logo.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1ae5491adc000fde7d3d8229372c877da2" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::license</definition>
+        <argsstring></argsstring>
+        <name>license</name>
+        <initializer>= &quot;Do you agree with the license?\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вопрос о согласии с лицензионным соглашением. <programlisting><codeline><highlight class="normal">Do<sp/>you<sp/>agree<sp/>with<sp/>the<sp/>license?</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="31" column="1" bodyfile="src/core/Logo.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::move_indentation</definition>
+        <argsstring></argsstring>
+        <name>move_indentation</name>
+        <initializer>= &quot;       &quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Отступ. Используется в связке с move. <programlisting><codeline><highlight class="normal">{<sp/><sp/><sp/><sp/><sp/><sp/><sp/>}&lt;-<sp/>use<sp/>to<sp/>move<sp/>-&gt;</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="38" column="1" bodyfile="src/core/Logo.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1a03b6b80b5648e7dbbbf00b258df733b6" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::move</definition>
+        <argsstring></argsstring>
+        <name>move</name>
+        <initializer>= &quot;&lt;- use to move -&gt;\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Помощь по управлению. <programlisting><codeline><highlight class="normal">&lt;-<sp/>use<sp/>to<sp/>move<sp/>-&gt;</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="45" column="1" bodyfile="src/core/Logo.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1abbbdbfbbcae50e2017f3ed1bdf0e1fa3" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::radix</definition>
+        <argsstring></argsstring>
+        <name>radix</name>
+        <initializer>= &quot;  _____           _ _      \n |  __ \\         | (_)     \n | |__) |__ _  __| |___  __\n |  _  // _` |/ _` | \\ \\/ /\n | | \\ \\ (_| | (_| | |&gt;  &lt; \n |_|  \\_\\__,_|\\__,_|_/_/\\_\\ \n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Логотип программы <programlisting><codeline><highlight class="normal"><sp/>_____<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_<sp/>_<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>__<sp/>\<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>(_)<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">|<sp/>|__)<sp/>|__<sp/>_<sp/><sp/>__|<sp/>|___<sp/><sp/>__</highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>_<sp/><sp/>//<sp/>_`<sp/>|/<sp/>_`<sp/>|<sp/>\<sp/>\/<sp/>/</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>|<sp/>\<sp/>\<sp/>(_|<sp/>|<sp/>(_|<sp/>|<sp/>|&gt;<sp/><sp/>&lt;<sp/></highlight></codeline>
+<codeline><highlight class="normal">|_|<sp/><sp/>\_\__,_|\__,_|_/_/\_\</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="58" column="1" bodyfile="src/core/Logo.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1ad29ac81055f7eb3624a283f55af8d5ad" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::loading</definition>
+        <argsstring></argsstring>
+        <name>loading</name>
+        <initializer>= &quot;  _                     _ \n | |                   | |\n | |     ___   __ _  __| |\n | |    / _ \\ / _` |/ _` |\n | |___| (_) | (_| | (_| |\n |______\\___/ \\__,_|\\__,_|\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Логотип загрузки <programlisting><codeline><highlight class="normal"><sp/>_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_<sp/></highlight></codeline>
+<codeline><highlight class="normal">|<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>|<sp/><sp/><sp/><sp/><sp/>___<sp/><sp/><sp/>__<sp/>_<sp/><sp/>__|<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>|<sp/><sp/><sp/><sp/>/<sp/>_<sp/>\<sp/>/<sp/>_`<sp/>|/<sp/>_`<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>|___|<sp/>(_)<sp/>|<sp/>(_|<sp/>|<sp/>(_|<sp/>|</highlight></codeline>
+<codeline><highlight class="normal">|______\___/<sp/>\__,_|\__,_|<sp/><sp/></highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="71" column="1" bodyfile="src/core/Logo.h" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1aba8ca66bcf8abe6a0991a13887671863" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::exit</definition>
+        <argsstring></argsstring>
+        <name>exit</name>
+        <initializer>= &quot;  ______      _ _   \n |  ____|    (_) |  \n | |__  __  ___| |_ \n |  __| \\ \\/ / | __|\n | |____ &gt;  &lt;| | |_ \n |______/_/\\_\\_|\\__|\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Выход <programlisting><codeline><highlight class="normal"><sp/>______<sp/><sp/><sp/><sp/><sp/><sp/>_<sp/>_<sp/><sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>____|<sp/><sp/><sp/><sp/>(_)<sp/>|<sp/><sp/></highlight></codeline>
+<codeline><highlight class="normal">|<sp/>|__<sp/><sp/>__<sp/><sp/>___|<sp/>|_<sp/></highlight></codeline>
+<codeline><highlight class="normal">|<sp/><sp/>__|<sp/>\<sp/>\/<sp/>/<sp/>|<sp/>__|</highlight></codeline>
+<codeline><highlight class="normal">|<sp/>|____<sp/>&gt;<sp/><sp/>&lt;|<sp/>|<sp/>|_<sp/></highlight></codeline>
+<codeline><highlight class="normal">|______/_/\_\_|\__|</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="84" column="1" bodyfile="src/core/Logo.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1a6bb2bd19b13072f69598ed9f64b77350" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::s_continue</definition>
+        <argsstring></argsstring>
+        <name>s_continue</name>
+        <initializer>= &quot;Continue?\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вопрос о продолжении выполнения программы. <programlisting><codeline><highlight class="normal">Continue?</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="91" column="1" bodyfile="src/core/Logo.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1a0a26b9dd91d59364dce6d78c217af1a0" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::s_manual</definition>
+        <argsstring></argsstring>
+        <name>s_manual</name>
+        <initializer>= &quot;		Manual\n1) Put the file recovery.img in the <ref refid="_main_menu_8cpp_1a784c09041cf40075e8eb016a2d8419d6" kindref="member">root</ref> of the program.\n2) Put the file su.zip in the <ref refid="_main_menu_8cpp_1a784c09041cf40075e8eb016a2d8419d6" kindref="member">root</ref> of the program.\n3) Continue.\n&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Инструкция к программе. <programlisting><codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Manual</highlight></codeline>
+<codeline><highlight class="normal">1)<sp/>Put<sp/>the<sp/>file<sp/>recovery.img<sp/>in<sp/>the<sp/>root<sp/>of<sp/>the<sp/>program.</highlight></codeline>
+<codeline><highlight class="normal">2)<sp/>Put<sp/>the<sp/>file<sp/>su.zip<sp/>in<sp/>the<sp/>root<sp/>of<sp/>the<sp/>program.</highlight></codeline>
+<codeline><highlight class="normal">3)<sp/>Continue.</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="101" column="1" bodyfile="src/core/Logo.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespacelogo_1ac55b3c4624556820a987ccdf67101bae" prot="public" static="no" mutable="no">
+        <type>const std::string</type>
+        <definition>const std::string logo::enter</definition>
+        <argsstring></argsstring>
+        <name>enter</name>
+        <initializer>= &quot;Press any key to continue.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Продолжить выполнение программы по нажатию любой клавиши. <programlisting><codeline><highlight class="normal">Press<sp/>any<sp/>key<sp/>to<sp/>continue.</highlight></codeline>
+</programlisting> </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Logo.h" line="108" column="1" bodyfile="src/core/Logo.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/Logo.h" line="11" column="1"/>
+  </compounddef>
+</doxygen>

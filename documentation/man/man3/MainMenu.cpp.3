@@ -1,0 +1,83 @@
+.TH "MainMenu.cpp" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+MainMenu.cpp \- Модуль вывода главного меню программы\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include <iostream>\fP
+.br
+\fC#include <conio\&.h>\fP
+.br
+\fC#include <string>\fP
+.br
+\fC#include <Windows\&.h>\fP
+.br
+\fC#include '\&.\&.\\core\\Color\&.h'\fP
+.br
+\fC#include '\&.\&.\\core\\ConstantsMenu\&.h'\fP
+.br
+\fC#include '\&.\&.\\core\\Logo\&.h'\fP
+.br
+\fC#include '\&.\&.\\core\\ADB_slave\&.h'\fP
+.br
+\fC#include '\&.\&.\\core\\CheckingFiles\&.h'\fP
+.br
+
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "void \fBv_menu_choice\fP (size_t choice)"
+.br
+.ti -1c
+.RI "void \fBroot\fP ()"
+.br
+.ti -1c
+.RI "int \fBi_mainmenu\fP ()"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+Модуль вывода главного меню программы\&. 
+
+
+.PP
+См\&. определение в файле \fBMainMenu\&.cpp\fP
+.SH "Функции"
+.PP 
+.SS "int i_mainmenu ()"
+Вызов модуля главного меню\&. 
+.PP
+\fBВозвращает:\fP
+.RS 4
+0 - Выход из программы\&. 
+.RE
+.PP
+
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBmainmenu\&.cpp\fP\&.
+.PP
+См\&. определение в файле MainMenu\&.cpp строка 65
+.SS "void root ()"
+Пункт рутирования телефона\&. 
+.PP
+См\&. определение в файле MainMenu\&.cpp строка 150
+.SS "void v_menu_choice (size_t choice)"
+Переключение пунктов меню 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIchoice\fP выбор 
+.RE
+.PP
+
+.PP
+См\&. определение в файле MainMenu\&.cpp строка 26
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

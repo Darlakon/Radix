@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_aebb8dcc11953d78e620bbef0b9e2183" kind="dir">
+    <compoundname>core</compoundname>
+    <innerfile refid="_a_d_b__mod_8cpp">ADB_mod.cpp</innerfile>
+    <innerfile refid="_a_d_b__mod_8h">ADB_mod.h</innerfile>
+    <innerfile refid="_a_d_b__slave_8cpp">ADB_slave.cpp</innerfile>
+    <innerfile refid="_a_d_b__slave_8h">ADB_slave.h</innerfile>
+    <innerfile refid="_checking_files_8cpp">CheckingFiles.cpp</innerfile>
+    <innerfile refid="_checking_files_8h">CheckingFiles.h</innerfile>
+    <innerfile refid="_color_8cpp">Color.cpp</innerfile>
+    <innerfile refid="_color_8h">Color.h</innerfile>
+    <innerfile refid="_constants_8h">Constants.h</innerfile>
+    <innerfile refid="_constants_menu_8h">ConstantsMenu.h</innerfile>
+    <innerfile refid="_initialization_8cpp">Initialization.cpp</innerfile>
+    <innerfile refid="_initialization_8h">Initialization.h</innerfile>
+    <innerfile refid="_logo_8h">Logo.h</innerfile>
+    <innerfile refid="_main_8cpp">Main.cpp</innerfile>
+    <innerfile refid="_radix_8cpp">Radix.cpp</innerfile>
+    <innerfile refid="_radix_8h">Radix.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/core/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,119 @@
+.TH "radix" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+radix
+.SH SYNOPSIS
+.br
+.PP
+.SS "Переменные"
+
+.in +1c
+.ti -1c
+.RI "const size_t \fBbuff_size\fP = 32"
+.br
+.ti -1c
+.RI "const size_t \fBbuff_ruleslist\fP = 256"
+.br
+.ti -1c
+.RI "const char \fBlogger_list\fP [] = 'logger\&.log'"
+.br
+.ti -1c
+.RI "const char \fBsettings_list\fP [] = 'settings\&.ini'"
+.br
+.ti -1c
+.RI "const char \fBrules_list\fP [] = 'rules\&.txt'"
+.br
+.ti -1c
+.RI "const char \fBfirmware_way\fP [] = '\\\\assets\\\\firmware\\\\'"
+.br
+.ti -1c
+.RI "const char \fBpatch\fP [] = '\\\\assets\\\\'"
+.br
+.ti -1c
+.RI "const char \fBexpansion_file\fP [] = '\&.zip'"
+.br
+.ti -1c
+.RI "const char \fBrecovery_file\fP [] = 'recovery\&.img'"
+.br
+.ti -1c
+.RI "const char \fBsu_file\fP [] = 'su\&.zip'"
+.br
+.ti -1c
+.RI "const char \fBnot_found\fP [] = ' not found\&.'"
+.br
+.ti -1c
+.RI "const char \fBfound\fP [] = ' found\&.'"
+.br
+.ti -1c
+.RI "const char \fBch_user_continue\fP [] = 'The user continued the program despite the error\&.'"
+.br
+.ti -1c
+.RI "const char \fBch_user_not_continue\fP [] = 'The user did not continue the program despite the error\&.'"
+.br
+.in -1c
+.SH "Переменные"
+.PP 
+.SS "const size_t radix::buff_ruleslist = 256"
+Размер буфера для чтения правил программы\&. В основном используется для чтения правил программы\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 21
+.SS "const size_t radix::buff_size = 32"
+Размер буфера\&. В основном используется для чтения строк из файла\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 15
+.SS "const char radix::ch_user_continue[] = 'The user continued the program despite the error\&.'"
+Сообщение о том, что пользователь продолжил выполнение программы, невзирая на ошибку\&. 
+.PP
+\fBПримеры: \fP
+.in +1c
+\fBconstants\&.h\fP\&.
+.PP
+См\&. определение в файле Constants\&.h строка 54
+.SS "const char radix::ch_user_not_continue[] = 'The user did not continue the program despite the error\&.'"
+Сообщение о том, что пользователь не продолжил выполнение программы, невзирая на ошибку\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 57
+.SS "const char radix::expansion_file[] = '\&.zip'"
+Расширение прошивок\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 39
+.SS "const char radix::firmware_way[] = '\\\\assets\\\\firmware\\\\'"
+Путь к прошивкам\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 33
+.SS "const char radix::found[] = ' found\&.'"
+Сообщение о том, что файл не найден\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 51
+.SS "const char radix::logger_list[] = 'logger\&.log'"
+Файл с выводом логера\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 24
+.SS "const char radix::not_found[] = ' not found\&.'"
+Сообщение о том, что файл не найден\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 48
+.SS "const char radix::patch[] = '\\\\assets\\\\'"
+Путь к дополнительным файлам программы\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 36
+.SS "const char radix::recovery_file[] = 'recovery\&.img'"
+Файл с прошивкой\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 42
+.SS "const char radix::rules_list[] = 'rules\&.txt'"
+Файл с пользовательским соглашением\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 30
+.SS "const char radix::settings_list[] = 'settings\&.ini'"
+Файл с настройками программы\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 27
+.SS "const char radix::su_file[] = 'su\&.zip'"
+Файл с su для root\&. 
+.PP
+См\&. определение в файле Constants\&.h строка 45
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

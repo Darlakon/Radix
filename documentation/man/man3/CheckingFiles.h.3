@@ -1,0 +1,71 @@
+.TH "CheckingFiles.h" 3 "Пн 18 Дек 2017" "Radix" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+CheckingFiles.h \- Заголовочный файл с вызовом модуля проверки файлов для рутирования телефона\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Функции"
+
+.in +1c
+.ti -1c
+.RI "bool \fBb_file_exists\fP (const char *ch_file_name)"
+.br
+.ti -1c
+.RI "int \fBi_checking_files\fP ()"
+.br
+.in -1c
+.SH "Подробное описание"
+.PP 
+Заголовочный файл с вызовом модуля проверки файлов для рутирования телефона\&. 
+
+Вызов: 
+.PP
+.nf
+void v_checking_files();
+
+.fi
+.PP
+.PP
+\fBАвтор:\fP
+.RS 4
+SavaLione 
+.RE
+.PP
+
+.PP
+См\&. определение в файле \fBCheckingFiles\&.h\fP
+.SH "Функции"
+.PP 
+.SS "bool b_file_exists (const char * ch_file_name)"
+Вызов модуля проверки файла на наличие в папке\&. 
+.PP
+\fBАргументы:\fP
+.RS 4
+\fIch_file_name\fP Путь и файл, для проверки\&. 
+.RE
+.PP
+\fBВозвращает:\fP
+.RS 4
+наличие файла\&. 
+.RE
+.PP
+
+.PP
+См\&. определение в файле CheckingFiles\&.cpp строка 23
+.SS "int i_checking_files ()"
+Вызов модуля проверки файлов\&. 
+.PP
+\fBВозвращает:\fP
+.RS 4
+0 - неуспешная проверка файлов\&. 1 - успешная проверка файлов\&. 
+.RE
+.PP
+
+.PP
+См\&. определение в файле CheckingFiles\&.cpp строка 30
+.SH "Автор"
+.PP 
+Автоматически создано Doxygen для Radix из исходного текста\&.

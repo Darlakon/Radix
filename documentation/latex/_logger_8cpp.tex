@@ -1,0 +1,97 @@
+\hypertarget{_logger_8cpp}{}\section{Файл Logger.\+cpp}
+\label{_logger_8cpp}\index{Logger.\+cpp@{Logger.\+cpp}}
+
+
+Модуль логирования  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$thread$>$}\newline
+{\ttfamily \#include $<$windows.\+h$>$}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}Logger.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Settings.\+h\char`\"{}}\newline
+Граф включаемых заголовочных файлов для Logger.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{_logger_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{_logger_8cpp_a37ded7634d8547536bbd135208109766}{log\+\_\+thr} (string \&s, string \&level)
+\item 
+void \hyperlink{_logger_8cpp_a85cbef1702d055318336f0f3a5036959}{log} (string level, string s)
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Модуль логирования 
+
+
+\begin{DoxyCode}
+Логгер
+Логгирование сообщений в файл logger.log
+Уровеней лога - 3
+Уровень 0:
+Вывод сообщений вида:
+    [                   ] \{MESSAGE\}
+Применение:
+    Обработка простых сообщений, без времени и префикса ([PREFIX])
+Уровень 1:
+Вывод сообщений вида:
+    [\{YEAR\}/\{MONTH\}/\{DAY\} \{HOUR\}:\{MINUTE\}:\{SECOND\}] [LOG] \{MESSAGE\}
+Применение:
+    Обработка простых сообщений(загрузка модуля, отключение модуля, вход в программу, выход из программы и 
+      тд.) С временем и префиксом ([LOG])
+Уровень 2:
+Вывод сообщений вида:
+    [\{YEAR\}/\{MONTH\}/\{DAY\} \{HOUR\}:\{MINUTE\}:\{SECOND\}] [WARN] \{MESSAGE\}
+Применение:
+    Обработка важных сообщений ошибки(не удачная загрузка модуля, не удачный вход в программу, экстренный 
+      выход из программы и тд.) С временем и префиксом ([WARN])
+\end{DoxyCode}
+ 
+
+\subsection{Функции}
+\mbox{\Hypertarget{_logger_8cpp_a85cbef1702d055318336f0f3a5036959}\label{_logger_8cpp_a85cbef1702d055318336f0f3a5036959}} 
+\index{Logger.\+cpp@{Logger.\+cpp}!log@{log}}
+\index{log@{log}!Logger.\+cpp@{Logger.\+cpp}}
+\subsubsection{\texorpdfstring{log()}{log()}}
+{\footnotesize\ttfamily void log (\begin{DoxyParamCaption}\item[{string}]{level,  }\item[{string}]{s }\end{DoxyParamCaption})}
+
+Логирование сообщений в файл logger.\+log 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em level} & Уровень логирования \\
+\hline
+\mbox{\tt in}  & {\em s} & Логируемая информация \\
+\hline
+\end{DoxyParams}
+\begin{Desc}
+\item[Примеры\+: ]\par
+\hyperlink{log_8cpp-example}{log.\+cpp}.\end{Desc}
+
+
+См. определение в файле Logger.\+cpp строка 54
+
+\mbox{\Hypertarget{_logger_8cpp_a37ded7634d8547536bbd135208109766}\label{_logger_8cpp_a37ded7634d8547536bbd135208109766}} 
+\index{Logger.\+cpp@{Logger.\+cpp}!log\+\_\+thr@{log\+\_\+thr}}
+\index{log\+\_\+thr@{log\+\_\+thr}!Logger.\+cpp@{Logger.\+cpp}}
+\subsubsection{\texorpdfstring{log\+\_\+thr()}{log\_thr()}}
+{\footnotesize\ttfamily void log\+\_\+thr (\begin{DoxyParamCaption}\item[{string \&}]{s,  }\item[{string \&}]{level }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Функция, для записи лога в файл 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em \&s} & Передача ссылки с сообщением для логирования \\
+\hline
+\mbox{\tt in}  & {\em \&level} & Передача ссылки с уровнем логирования \\
+\hline
+\end{DoxyParams}
+
+
+См. определение в файле Logger.\+cpp строка 74
+

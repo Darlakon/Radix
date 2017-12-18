@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_checking_files_8cpp">
+    <title>CheckingFiles.cpp File Reference</title>
+    <programlisting>#include &lt;string&gt;</programlisting>
+    <programlisting>#include &lt;io.h&gt;</programlisting>
+    <programlisting>#include &quot;..\core\Constants.h&quot;</programlisting>
+    <programlisting>#include &quot;..\core\CheckingFiles.h&quot;</programlisting>
+    <programlisting>#include &quot;..\io\Logger.h&quot;</programlisting>
+    <programlisting>#include &quot;..\ui\LoadScale.h&quot;</programlisting>
+    <programlisting>#include &quot;..\ui\QueryMenu.h&quot;</programlisting>
+<para>Include dependency diagram for CheckingFiles.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_checking_files_8cpp__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+<para>Included by dependency diagram for CheckingFiles.cpp</para>
+<para>
+    <figure>
+        <title>Dependency diagram</title>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="1" fileref="_checking_files_8cpp__dep__incl.svg"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </figure>
+</para>
+        <section>
+            <title>Функции</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>bool <link linkend="_checking_files_8cpp_1a06ba6d957eba855cc9f88ce7ac641722">b_file_exists</link> (
+const char * ch_file_name)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>int <link linkend="_checking_files_8cpp_1a5f44f09549aae42fa22e71e761b40abc">i_checking_files</link> (
+)</para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+    <simplesect>
+        <title>Подробное описание</title>
+
+<para>Модуль проверки файлов для рутирования телефона. </para>
+
+<para>Модуль проверяет наличие файлов для рутирования телефона. </para>
+    <para>Definition in file CheckingFiles.cpp</para>
+    </simplesect>
+</section>

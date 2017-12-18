@@ -1,0 +1,8 @@
+<map id="ConstantsMenu.h" name="ConstantsMenu.h">
+<area shape="rect" id="node2" href="$_check_agreement_8cpp.html" title="Модуль проверки согласия пользователя с правилами. " alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$_exit_8cpp.html" title="Модуль выхода из программы. " alt="" coords="177,80,247,107"/>
+<area shape="rect" id="node4" href="$_load_scale_8cpp.html" title="Модуль вывода шкалы загрузки. " alt="" coords="271,80,379,107"/>
+<area shape="rect" id="node5" href="$_main_menu_8cpp.html" title="Модуль вывода главного меню программы. " alt="" coords="404,80,511,107"/>
+<area shape="rect" id="node6" href="$_manual_8cpp.html" title="Модуль инструкции. " alt="" coords="535,80,625,107"/>
+<area shape="rect" id="node7" href="$_query_menu_8cpp.html" title="Модуль сообщения с вопросом для пользователя. " alt="" coords="649,80,764,107"/>
+</map>

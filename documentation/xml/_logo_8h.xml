@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_logo_8h" kind="file" language="C++">
+    <compoundname>Logo.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="_check_agreement_8cpp" local="yes">CheckAgreement.cpp</includedby>
+    <includedby refid="_exit_8cpp" local="yes">Exit.cpp</includedby>
+    <includedby refid="_load_scale_8cpp" local="yes">LoadScale.cpp</includedby>
+    <includedby refid="_main_menu_8cpp" local="yes">MainMenu.cpp</includedby>
+    <includedby refid="_manual_8cpp" local="yes">Manual.cpp</includedby>
+    <includedby refid="_query_menu_8cpp" local="yes">QueryMenu.cpp</includedby>
+    <incdepgraph>
+      <node id="126">
+        <label>string</label>
+      </node>
+      <node id="125">
+        <label>Logo.h</label>
+        <link refid="_logo_8h"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="131">
+        <label>MainMenu.cpp</label>
+        <link refid="_main_menu_8cpp"/>
+      </node>
+      <node id="132">
+        <label>Manual.cpp</label>
+        <link refid="_manual_8cpp"/>
+      </node>
+      <node id="129">
+        <label>Exit.cpp</label>
+        <link refid="_exit_8cpp"/>
+      </node>
+      <node id="127">
+        <label>Logo.h</label>
+        <link refid="_logo_8h"/>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="128">
+        <label>CheckAgreement.cpp</label>
+        <link refid="_check_agreement_8cpp"/>
+      </node>
+      <node id="133">
+        <label>QueryMenu.cpp</label>
+        <link refid="_query_menu_8cpp"/>
+      </node>
+      <node id="130">
+        <label>LoadScale.cpp</label>
+        <link refid="_load_scale_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innernamespace refid="namespacelogo">logo</innernamespace>
+    <briefdescription>
+<para>Заголовочный файл с логотипами. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="7"><highlight class="preprocessor">#ifndef<sp/>LOGO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOGO_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="namespacelogo" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespacelogo" kindref="compound">logo</ref><sp/>{</highlight></codeline>
+<codeline lineno="17" refid="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b" kindref="member">border</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;===========================\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="24" refid="namespacelogo_1adf18ab31906b644891fc8311df747a9d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1adf18ab31906b644891fc8311df747a9d" kindref="member">little_help</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;====<sp/>&lt;-<sp/>use<sp/>to<sp/>move<sp/>-&gt;<sp/>====\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31" refid="namespacelogo_1ae5491adc000fde7d3d8229372c877da2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1ae5491adc000fde7d3d8229372c877da2" kindref="member">license</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Do<sp/>you<sp/>agree<sp/>with<sp/>the<sp/>license?\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="38" refid="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53" kindref="member">move_indentation</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/><sp/><sp/><sp/><sp/>&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="45" refid="namespacelogo_1a03b6b80b5648e7dbbbf00b258df733b6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1a03b6b80b5648e7dbbbf00b258df733b6" kindref="member">move</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;&lt;-<sp/>use<sp/>to<sp/>move<sp/>-&gt;\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58" refid="namespacelogo_1abbbdbfbbcae50e2017f3ed1bdf0e1fa3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespaceradix" kindref="compound">radix</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/>_____<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_<sp/>_<sp/><sp/><sp/><sp/><sp/><sp/>\n<sp/>|<sp/><sp/>__<sp/>\\<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>(_)<sp/><sp/><sp/><sp/><sp/>\n<sp/>|<sp/>|__)<sp/>|__<sp/>_<sp/><sp/>__|<sp/>|___<sp/><sp/>__\n<sp/>|<sp/><sp/>_<sp/><sp/>//<sp/>_`<sp/>|/<sp/>_`<sp/>|<sp/>\\<sp/>\\/<sp/>/\n<sp/>|<sp/>|<sp/>\\<sp/>\\<sp/>(_|<sp/>|<sp/>(_|<sp/>|<sp/>|&gt;<sp/><sp/>&lt;<sp/>\n<sp/>|_|<sp/><sp/>\\_\\__,_|\\__,_|_/_/\\_\\<sp/>\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="71" refid="namespacelogo_1ad29ac81055f7eb3624a283f55af8d5ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1ad29ac81055f7eb3624a283f55af8d5ad" kindref="member">loading</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/>_<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_<sp/>\n<sp/>|<sp/>|<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|<sp/>|\n<sp/>|<sp/>|<sp/><sp/><sp/><sp/><sp/>___<sp/><sp/><sp/>__<sp/>_<sp/><sp/>__|<sp/>|\n<sp/>|<sp/>|<sp/><sp/><sp/><sp/>/<sp/>_<sp/>\\<sp/>/<sp/>_`<sp/>|/<sp/>_`<sp/>|\n<sp/>|<sp/>|___|<sp/>(_)<sp/>|<sp/>(_|<sp/>|<sp/>(_|<sp/>|\n<sp/>|______\\___/<sp/>\\__,_|\\__,_|\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="84" refid="namespacelogo_1aba8ca66bcf8abe6a0991a13887671863" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1aba8ca66bcf8abe6a0991a13887671863" kindref="member">exit</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/>______<sp/><sp/><sp/><sp/><sp/><sp/>_<sp/>_<sp/><sp/><sp/>\n<sp/>|<sp/><sp/>____|<sp/><sp/><sp/><sp/>(_)<sp/>|<sp/><sp/>\n<sp/>|<sp/>|__<sp/><sp/>__<sp/><sp/>___|<sp/>|_<sp/>\n<sp/>|<sp/><sp/>__|<sp/>\\<sp/>\\/<sp/>/<sp/>|<sp/>__|\n<sp/>|<sp/>|____<sp/>&gt;<sp/><sp/>&lt;|<sp/>|<sp/>|_<sp/>\n<sp/>|______/_/\\_\\_|\\__|\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="91" refid="namespacelogo_1a6bb2bd19b13072f69598ed9f64b77350" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1a6bb2bd19b13072f69598ed9f64b77350" kindref="member">s_continue</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Continue?\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="101" refid="namespacelogo_1a0a26b9dd91d59364dce6d78c217af1a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1a0a26b9dd91d59364dce6d78c217af1a0" kindref="member">s_manual</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;<sp/><sp/><sp/><sp/><sp/><sp/>Manual\n1)<sp/>Put<sp/>the<sp/>file<sp/>recovery.img<sp/>in<sp/>the<sp/>root<sp/>of<sp/>the<sp/>program.\n2)<sp/>Put<sp/>the<sp/>file<sp/>su.zip<sp/>in<sp/>the<sp/>root<sp/>of<sp/>the<sp/>program.\n3)<sp/>Continue.\n&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108" refid="namespacelogo_1ac55b3c4624556820a987ccdf67101bae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>std::string<sp/><ref refid="namespacelogo_1ac55b3c4624556820a987ccdf67101bae" kindref="member">enter</ref><sp/>=<sp/></highlight><highlight class="stringliteral">&quot;Press<sp/>any<sp/>key<sp/>to<sp/>continue.&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>LOGO_H</highlight></codeline>
+    </programlisting>
+    <location file="src/core/Logo.h"/>
+  </compounddef>
+</doxygen>

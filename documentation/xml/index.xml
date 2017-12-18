@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="namespacelogo" kind="namespace"><name>logo</name>
+    <member refid="namespacelogo_1a75fab9a3dcd27565e40b08dbbcbf5e6b" kind="variable"><name>border</name></member>
+    <member refid="namespacelogo_1adf18ab31906b644891fc8311df747a9d" kind="variable"><name>little_help</name></member>
+    <member refid="namespacelogo_1ae5491adc000fde7d3d8229372c877da2" kind="variable"><name>license</name></member>
+    <member refid="namespacelogo_1a7570bf74bf945a06ced26f6fccaeab53" kind="variable"><name>move_indentation</name></member>
+    <member refid="namespacelogo_1a03b6b80b5648e7dbbbf00b258df733b6" kind="variable"><name>move</name></member>
+    <member refid="namespacelogo_1abbbdbfbbcae50e2017f3ed1bdf0e1fa3" kind="variable"><name>radix</name></member>
+    <member refid="namespacelogo_1ad29ac81055f7eb3624a283f55af8d5ad" kind="variable"><name>loading</name></member>
+    <member refid="namespacelogo_1aba8ca66bcf8abe6a0991a13887671863" kind="variable"><name>exit</name></member>
+    <member refid="namespacelogo_1a6bb2bd19b13072f69598ed9f64b77350" kind="variable"><name>s_continue</name></member>
+    <member refid="namespacelogo_1a0a26b9dd91d59364dce6d78c217af1a0" kind="variable"><name>s_manual</name></member>
+    <member refid="namespacelogo_1ac55b3c4624556820a987ccdf67101bae" kind="variable"><name>enter</name></member>
+  </compound>
+  <compound refid="namespacemenu" kind="namespace"><name>menu</name>
+    <member refid="namespacemenu_1ac0906d6effd5dc68552a724a3edb9330" kind="variable"><name>indentation</name></member>
+    <member refid="namespacemenu_1ab9230afa22bdf260e3944290026a5a86" kind="variable"><name>frame_left</name></member>
+    <member refid="namespacemenu_1a3f786c7ab3caec7dfef9e1fa61b52ae7" kind="variable"><name>frame_right</name></member>
+    <member refid="namespacemenu_1aa3bc0d7f62e04dc52dd8f276902448ae" kind="variable"><name>loading_size</name></member>
+    <member refid="namespacemenu_1aaea5c70964114a416caa58676ddf8066" kind="variable"><name>loading_check_module</name></member>
+    <member refid="namespacemenu_1a69bce854c4a150920a5c77eede8cab0a" kind="variable"><name>loading_check_module_sleep</name></member>
+    <member refid="namespacemenu_1a56af6a2d586e2b6baa4ebf128a690266" kind="variable"><name>loading_left</name></member>
+    <member refid="namespacemenu_1a272b2c0c591457b2aeccaae0c122a1fc" kind="variable"><name>loading_right</name></member>
+    <member refid="namespacemenu_1ab79f369195d81dcb241b1ab5269c9d3d" kind="variable"><name>loading_progress</name></member>
+    <member refid="namespacemenu_1ad004c327a8a1c14388a6c7f23d6953a6" kind="variable"><name>loading_indenting</name></member>
+  </compound>
+  <compound refid="namespaceradix" kind="namespace"><name>radix</name>
+    <member refid="namespaceradix_1a82e81e89088b6430b7ec11a8a0329e9c" kind="variable"><name>buff_size</name></member>
+    <member refid="namespaceradix_1a8f000aabf647d34fd877c33958bad711" kind="variable"><name>buff_ruleslist</name></member>
+    <member refid="namespaceradix_1a11c5bfe5c65a0f88a2a950111c6ffc09" kind="variable"><name>logger_list</name></member>
+    <member refid="namespaceradix_1a43bff57dbd1b7dcebee0228ccbab7f17" kind="variable"><name>settings_list</name></member>
+    <member refid="namespaceradix_1a73b088a3e903cc2845c2299b9ab8ccaf" kind="variable"><name>rules_list</name></member>
+    <member refid="namespaceradix_1a123392a7ece6e11efaf3ad3df291ff3d" kind="variable"><name>firmware_way</name></member>
+    <member refid="namespaceradix_1aa90f63f1d0143b58469670ccbb86cfc4" kind="variable"><name>patch</name></member>
+    <member refid="namespaceradix_1a01a09f0b88f6fd375ea20667bd318035" kind="variable"><name>expansion_file</name></member>
+    <member refid="namespaceradix_1a91c21d6be385236a564ef5bf1f3f3602" kind="variable"><name>recovery_file</name></member>
+    <member refid="namespaceradix_1abcd4cb3ab01a6a642ba224e2d9b1eda5" kind="variable"><name>su_file</name></member>
+    <member refid="namespaceradix_1a9f0187ab8d7f9931ed08159a233408c0" kind="variable"><name>not_found</name></member>
+    <member refid="namespaceradix_1a27726ea7eb8e2bea153425bce9328be5" kind="variable"><name>found</name></member>
+    <member refid="namespaceradix_1ad5e76eca849713be360ed8478545d801" kind="variable"><name>ch_user_continue</name></member>
+    <member refid="namespaceradix_1afd1855af7805a1bb408ea9175a626ac7" kind="variable"><name>ch_user_not_continue</name></member>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_a_d_b__mod_8cpp" kind="file"><name>ADB_mod.cpp</name>
+    <member refid="_a_d_b__mod_8cpp_1a5d0a3a01ef690bcd93495becd3273063" kind="function"><name>adb</name></member>
+    <member refid="_a_d_b__mod_8cpp_1a3b7f80fa75c7705429c3d7402fec0eb0" kind="function"><name>fastboot</name></member>
+  </compound>
+  <compound refid="_a_d_b__mod_8h" kind="file"><name>ADB_mod.h</name>
+    <member refid="_a_d_b__mod_8h_1a5d0a3a01ef690bcd93495becd3273063" kind="function"><name>adb</name></member>
+    <member refid="_a_d_b__mod_8h_1a3b7f80fa75c7705429c3d7402fec0eb0" kind="function"><name>fastboot</name></member>
+  </compound>
+  <compound refid="_a_d_b__slave_8cpp" kind="file"><name>ADB_slave.cpp</name>
+    <member refid="_a_d_b__slave_8cpp_1ad1f1e991625b5f039ea46c20d003ed0f" kind="function"><name>adb_state</name></member>
+    <member refid="_a_d_b__slave_8cpp_1a6b830192de1fd9a84e95434750984282" kind="function"><name>adb_flash</name></member>
+    <member refid="_a_d_b__slave_8cpp_1abe46e301720694fb6fcec4868d54f516" kind="function"><name>adb_root</name></member>
+  </compound>
+  <compound refid="_a_d_b__slave_8h" kind="file"><name>ADB_slave.h</name>
+    <member refid="_a_d_b__slave_8h_1ad1f1e991625b5f039ea46c20d003ed0f" kind="function"><name>adb_state</name></member>
+    <member refid="_a_d_b__slave_8h_1a6b830192de1fd9a84e95434750984282" kind="function"><name>adb_flash</name></member>
+    <member refid="_a_d_b__slave_8h_1abe46e301720694fb6fcec4868d54f516" kind="function"><name>adb_root</name></member>
+  </compound>
+  <compound refid="_check_agreement_8cpp" kind="file"><name>CheckAgreement.cpp</name>
+    <member refid="_check_agreement_8cpp_1acf2bff465d8177c63f6904d73e1cafdf" kind="function"><name>v_checkagreement_choice</name></member>
+    <member refid="_check_agreement_8cpp_1a3d3fea8d8c6da49b2f73fc0b2c2e7574" kind="function"><name>i_checkagreement</name></member>
+  </compound>
+  <compound refid="_check_agreement_8h" kind="file"><name>CheckAgreement.h</name>
+    <member refid="_check_agreement_8h_1a3d3fea8d8c6da49b2f73fc0b2c2e7574" kind="function"><name>i_checkagreement</name></member>
+  </compound>
+  <compound refid="_checking_files_8cpp" kind="file"><name>CheckingFiles.cpp</name>
+    <member refid="_checking_files_8cpp_1a06ba6d957eba855cc9f88ce7ac641722" kind="function"><name>b_file_exists</name></member>
+    <member refid="_checking_files_8cpp_1a5f44f09549aae42fa22e71e761b40abc" kind="function"><name>i_checking_files</name></member>
+  </compound>
+  <compound refid="_checking_files_8h" kind="file"><name>CheckingFiles.h</name>
+    <member refid="_checking_files_8h_1a06ba6d957eba855cc9f88ce7ac641722" kind="function"><name>b_file_exists</name></member>
+    <member refid="_checking_files_8h_1a5f44f09549aae42fa22e71e761b40abc" kind="function"><name>i_checking_files</name></member>
+  </compound>
+  <compound refid="_color_8cpp" kind="file"><name>Color.cpp</name>
+    <member refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kind="function"><name>v_set_color</name></member>
+    <member refid="_color_8cpp_1ac4b485399ce8f366e640bbfe8ea40f7b" kind="function"><name>v_set_color</name></member>
+    <member refid="_color_8cpp_1a85ab2b1666a933ebb14c6ffb2db6d4a6" kind="function"><name>v_color_reset</name></member>
+  </compound>
+  <compound refid="_color_8h" kind="file"><name>Color.h</name>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8f" kind="enum"><name>color</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kind="enumvalue"><name>BLACK</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa35d6719cb4d7577c031b3d79057a1b79" kind="enumvalue"><name>BLUE</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faa60bd322f93178d68184e30e162571ca" kind="enumvalue"><name>GREEN</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faafe71cad474c15ce63b300c470eef8cc" kind="enumvalue"><name>CYAN</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf80f9a890089d211842d59625e561f88" kind="enumvalue"><name>RED</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa56926c820ad72d0977e7ee44d9916e62" kind="enumvalue"><name>MAGENTA</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa1fa14482e7e4dc1332ab8c9d995fe570" kind="enumvalue"><name>BROWN</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa3dcbd50f6d434719ddfb9da673977307" kind="enumvalue"><name>LIGHTGRAY</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa52a9af0edd45f66d37996edcb1ca69f0" kind="enumvalue"><name>DARKGRAY</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa272b71e84bc2640b193e9fe3c72cb3de" kind="enumvalue"><name>LIGHTBLUE</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa0c9ed06b5de60ddd26bb2808e5f4b5dd" kind="enumvalue"><name>LIGHTGREEN</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fac8d7b8737ca95d137a05f3bb8f3d1a17" kind="enumvalue"><name>LIGHTCYAN</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf3a6d81d1da6f2134cc3cca6f02b1114" kind="enumvalue"><name>LIGHTRED</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fae19b6d1fedca830c608811b77bd0affc" kind="enumvalue"><name>LIGHTMAGENTA</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa83b21f0c4fad21a5b08f2fa1e1856ca9" kind="enumvalue"><name>LIGHTYELLOW</name></member>
+    <member refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50" kind="enumvalue"><name>WHITE</name></member>
+    <member refid="_color_8h_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kind="function"><name>v_set_color</name></member>
+    <member refid="_color_8h_1ac4b485399ce8f366e640bbfe8ea40f7b" kind="function"><name>v_set_color</name></member>
+    <member refid="_color_8h_1a85ab2b1666a933ebb14c6ffb2db6d4a6" kind="function"><name>v_color_reset</name></member>
+  </compound>
+  <compound refid="_constants_8h" kind="file"><name>Constants.h</name>
+  </compound>
+  <compound refid="_constants_menu_8h" kind="file"><name>ConstantsMenu.h</name>
+  </compound>
+  <compound refid="_exit_8cpp" kind="file"><name>Exit.cpp</name>
+    <member refid="_exit_8cpp_1a540f8b6f2205a3bcf98d2b8f81e8aa09" kind="function"><name>v_exit</name></member>
+  </compound>
+  <compound refid="_exit_8h" kind="file"><name>Exit.h</name>
+    <member refid="_exit_8h_1a540f8b6f2205a3bcf98d2b8f81e8aa09" kind="function"><name>v_exit</name></member>
+  </compound>
+  <compound refid="_initialization_8cpp" kind="file"><name>Initialization.cpp</name>
+    <member refid="_initialization_8cpp_1a61271965777637ec3d70f6d7ab0a466a" kind="function"><name>v_initialization_logger_log</name></member>
+    <member refid="_initialization_8cpp_1a9f137f3ae0426a1e7c1a398ad930dc70" kind="function"><name>v_initialization_settings_ini</name></member>
+    <member refid="_initialization_8cpp_1a86860ef24d9abdaddea8e817e84528a7" kind="function"><name>v_initialization_rules_txt</name></member>
+    <member refid="_initialization_8cpp_1a11b373fd61e18cd28810a5b607e1749a" kind="function"><name>v_initialization</name></member>
+  </compound>
+  <compound refid="_initialization_8h" kind="file"><name>Initialization.h</name>
+    <member refid="_initialization_8h_1a11b373fd61e18cd28810a5b607e1749a" kind="function"><name>v_initialization</name></member>
+  </compound>
+  <compound refid="_load_scale_8cpp" kind="file"><name>LoadScale.cpp</name>
+    <member refid="_load_scale_8cpp_1ab957e5514a924cccac4e53b2a576d063" kind="function"><name>v_loadscale</name></member>
+  </compound>
+  <compound refid="_load_scale_8h" kind="file"><name>LoadScale.h</name>
+    <member refid="_load_scale_8h_1ab957e5514a924cccac4e53b2a576d063" kind="function"><name>v_loadscale</name></member>
+  </compound>
+  <compound refid="_logger_8cpp" kind="file"><name>Logger.cpp</name>
+    <member refid="_logger_8cpp_1a37ded7634d8547536bbd135208109766" kind="function"><name>log_thr</name></member>
+    <member refid="_logger_8cpp_1a85cbef1702d055318336f0f3a5036959" kind="function"><name>log</name></member>
+  </compound>
+  <compound refid="_logger_8h" kind="file"><name>Logger.h</name>
+    <member refid="_logger_8h_1ad35770e66782b0d5c63307682c5de765" kind="function"><name>log</name></member>
+  </compound>
+  <compound refid="_logo_8h" kind="file"><name>Logo.h</name>
+  </compound>
+  <compound refid="_main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_main_menu_8cpp" kind="file"><name>MainMenu.cpp</name>
+    <member refid="_main_menu_8cpp_1ad224308b960ec4f2215ffa68350131f8" kind="function"><name>v_menu_choice</name></member>
+    <member refid="_main_menu_8cpp_1a784c09041cf40075e8eb016a2d8419d6" kind="function"><name>root</name></member>
+    <member refid="_main_menu_8cpp_1adc9252b438b3b385bf6ccb207688fd4e" kind="function"><name>i_mainmenu</name></member>
+  </compound>
+  <compound refid="_main_menu_8h" kind="file"><name>MainMenu.h</name>
+    <member refid="_main_menu_8h_1adc9252b438b3b385bf6ccb207688fd4e" kind="function"><name>i_mainmenu</name></member>
+  </compound>
+  <compound refid="_manual_8cpp" kind="file"><name>Manual.cpp</name>
+    <member refid="_manual_8cpp_1ae0f9a7fdce9e3a275336f70656c0c4fc" kind="function"><name>v_manual</name></member>
+  </compound>
+  <compound refid="_manual_8h" kind="file"><name>Manual.h</name>
+    <member refid="_manual_8h_1ae0f9a7fdce9e3a275336f70656c0c4fc" kind="function"><name>v_manual</name></member>
+  </compound>
+  <compound refid="_query_menu_8cpp" kind="file"><name>QueryMenu.cpp</name>
+    <member refid="_query_menu_8cpp_1a26af9c00eae4fa982218b4448247ed9b" kind="function"><name>v_querymenu_choice</name></member>
+    <member refid="_query_menu_8cpp_1a04810c013cfcaa8934da6d97d2ff79fd" kind="function"><name>i_querymenu</name></member>
+  </compound>
+  <compound refid="_query_menu_8h" kind="file"><name>QueryMenu.h</name>
+    <member refid="_query_menu_8h_1aa08088d1947d336889fbb7a02ccb2b3f" kind="function"><name>i_querymenu</name></member>
+  </compound>
+  <compound refid="_radix_8cpp" kind="file"><name>Radix.cpp</name>
+    <member refid="_radix_8cpp_1a86a56c401ce2783ee9288b33af746520" kind="function"><name>Radix</name></member>
+  </compound>
+  <compound refid="_radix_8h" kind="file"><name>Radix.h</name>
+    <member refid="_radix_8h_1a86a56c401ce2783ee9288b33af746520" kind="function"><name>Radix</name></member>
+  </compound>
+  <compound refid="_rules_list_8cpp" kind="file"><name>RulesList.cpp</name>
+    <member refid="_rules_list_8cpp_1a7c6f9bd6ee5089b03c66028f99271e15" kind="function"><name>s_ruleslist</name></member>
+  </compound>
+  <compound refid="_rules_list_8h" kind="file"><name>RulesList.h</name>
+    <member refid="_rules_list_8h_1a5010d1a6599fe48d9bd963375613da92" kind="function"><name>s_ruleslist</name></member>
+  </compound>
+  <compound refid="_settings_8cpp" kind="file"><name>Settings.cpp</name>
+    <member refid="_settings_8cpp_1a7fcd42142e325cb27a380f49d655f9de" kind="function"><name>b_settings</name></member>
+  </compound>
+  <compound refid="_settings_8h" kind="file"><name>Settings.h</name>
+    <member refid="_settings_8h_1a7fcd42142e325cb27a380f49d655f9de" kind="function"><name>b_settings</name></member>
+  </compound>
+  <compound refid="_templates_8cpp" kind="file"><name>Templates.cpp</name>
+    <member refid="_templates_8cpp_1abeb0b4d4d31b9c74744a0b9881d95066" kind="function"><name>v_templates_create_logger_log</name></member>
+    <member refid="_templates_8cpp_1afbd4b91587b894d5e8b6ea50209ed5dc" kind="function"><name>v_templates_create_rules_txt</name></member>
+    <member refid="_templates_8cpp_1a593e33d5988d6a49d581f52d94471895" kind="function"><name>v_templates_create_settings_ini</name></member>
+  </compound>
+  <compound refid="_templates_8h" kind="file"><name>Templates.h</name>
+    <member refid="_templates_8h_1abeb0b4d4d31b9c74744a0b9881d95066" kind="function"><name>v_templates_create_logger_log</name></member>
+    <member refid="_templates_8h_1afbd4b91587b894d5e8b6ea50209ed5dc" kind="function"><name>v_templates_create_rules_txt</name></member>
+    <member refid="_templates_8h_1a593e33d5988d6a49d581f52d94471895" kind="function"><name>v_templates_create_settings_ini</name></member>
+  </compound>
+  <compound refid="dir_aebb8dcc11953d78e620bbef0b9e2183" kind="dir"><name>core</name>
+  </compound>
+  <compound refid="dir_c184e51c84f2c3f0345bbc8a0d75d3e1" kind="dir"><name>io</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+  <compound refid="dir_da5c6b39c0a2f54e57df6799511cd3ab" kind="dir"><name>ui</name>
+  </compound>
+  <compound refid="checkagreement_8cpp-example" kind="example"><name>checkagreement.cpp</name>
+  </compound>
+  <compound refid="checkingfiles_8cpp-example" kind="example"><name>checkingfiles.cpp</name>
+  </compound>
+  <compound refid="color_8cpp-example" kind="example"><name>color.cpp</name>
+  </compound>
+  <compound refid="constants_8h-example" kind="example"><name>constants.h</name>
+  </compound>
+  <compound refid="exit_8cpp-example" kind="example"><name>exit.cpp</name>
+  </compound>
+  <compound refid="initialization_8cpp-example" kind="example"><name>initialization.cpp</name>
+  </compound>
+  <compound refid="loadscale_8cpp-example" kind="example"><name>loadscale.cpp</name>
+  </compound>
+  <compound refid="log_8cpp-example" kind="example"><name>log.cpp</name>
+  </compound>
+  <compound refid="logo_8cpp-example" kind="example"><name>logo.cpp</name>
+  </compound>
+  <compound refid="mainmenu_8cpp-example" kind="example"><name>mainmenu.cpp</name>
+  </compound>
+  <compound refid="manual_8cpp-example" kind="example"><name>manual.cpp</name>
+  </compound>
+  <compound refid="querymenu_8cpp-example" kind="example"><name>querymenu.cpp</name>
+  </compound>
+  <compound refid="radix_8cpp-example" kind="example"><name>radix.cpp</name>
+  </compound>
+  <compound refid="ruleslist_8cpp-example" kind="example"><name>ruleslist.cpp</name>
+  </compound>
+  <compound refid="settings_8cpp-example" kind="example"><name>settings.cpp</name>
+  </compound>
+  <compound refid="templates_8cpp-example" kind="example"><name>templates.cpp</name>
+  </compound>
+</doxygenindex>

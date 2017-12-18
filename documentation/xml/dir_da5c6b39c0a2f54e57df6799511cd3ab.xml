@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_da5c6b39c0a2f54e57df6799511cd3ab" kind="dir">
+    <compoundname>ui</compoundname>
+    <innerfile refid="_check_agreement_8cpp">CheckAgreement.cpp</innerfile>
+    <innerfile refid="_check_agreement_8h">CheckAgreement.h</innerfile>
+    <innerfile refid="_exit_8cpp">Exit.cpp</innerfile>
+    <innerfile refid="_exit_8h">Exit.h</innerfile>
+    <innerfile refid="_load_scale_8cpp">LoadScale.cpp</innerfile>
+    <innerfile refid="_load_scale_8h">LoadScale.h</innerfile>
+    <innerfile refid="_main_menu_8cpp">MainMenu.cpp</innerfile>
+    <innerfile refid="_main_menu_8h">MainMenu.h</innerfile>
+    <innerfile refid="_manual_8cpp">Manual.cpp</innerfile>
+    <innerfile refid="_manual_8h">Manual.h</innerfile>
+    <innerfile refid="_query_menu_8cpp">QueryMenu.cpp</innerfile>
+    <innerfile refid="_query_menu_8h">QueryMenu.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/ui/"/>
+  </compounddef>
+</doxygen>

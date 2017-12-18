@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_color_8cpp" kind="file" language="C++">
+    <compoundname>Color.cpp</compoundname>
+    <includes local="no">windows.h</includes>
+    <includes local="no">iostream</includes>
+    <includes refid="_color_8h" local="yes">Color.h</includes>
+    <incdepgraph>
+      <node id="45">
+        <label>windows.h</label>
+      </node>
+      <node id="47">
+        <label>Color.h</label>
+        <link refid="_color_8h"/>
+      </node>
+      <node id="46">
+        <label>iostream</label>
+      </node>
+      <node id="44">
+        <label>Color.cpp</label>
+        <link refid="_color_8cpp"/>
+        <childnode refid="45" relation="include">
+        </childnode>
+        <childnode refid="46" relation="include">
+        </childnode>
+        <childnode refid="47" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_set_color</definition>
+        <argsstring>(color ConsoleText, color ConsoleBackground)</argsstring>
+        <name>v_set_color</name>
+        <param>
+          <type><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8f" kindref="member">color</ref></type>
+          <declname>ConsoleText</declname>
+        </param>
+        <param>
+          <type><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8f" kindref="member">color</ref></type>
+          <declname>ConsoleBackground</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Изменение цвета текста и цвета заднего фона в консоли <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ConsoleText</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>цвет текста </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername direction="in">ConsoleBackground</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>цвет заднего фона </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Color.cpp" line="21" column="1" bodyfile="src/core/Color.cpp" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="_color_8cpp_1ac4b485399ce8f366e640bbfe8ea40f7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_set_color</definition>
+        <argsstring>(color ConsoleText)</argsstring>
+        <name>v_set_color</name>
+        <param>
+          <type><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8f" kindref="member">color</ref></type>
+          <declname>ConsoleText</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Изменение цвета текста в консоли. Задний фон по умолчанию чёрный. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername direction="in">ConsoleText</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>цвет текста </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Color.cpp" line="29" column="1" bodyfile="src/core/Color.cpp" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="_color_8cpp_1a85ab2b1666a933ebb14c6ffb2db6d4a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void v_color_reset</definition>
+        <argsstring>()</argsstring>
+        <name>v_color_reset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Вернуть цвет текста и цвет заднего фона в консоли к стандартным значениям. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Color.cpp" line="35" column="1" bodyfile="src/core/Color.cpp" bodystart="35" bodyend="38"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Модуль работы с цветом в консоли. </para>    </briefdescription>
+    <detaileddescription>
+<para>Модуль позволяет менять цвет текста и цвет фона в консоли. </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="10"><highlight class="preprocessor">#include&lt;windows.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_color_8h" kindref="compound">Color.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using<sp/>namespace<sp/></highlight><highlight class="normal"><ref refid="namespacestd" kindref="compound">std</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="_color_8h_1a8bfe4542d1f10bae3f4ff0ec688aa67f" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8f" kindref="member">color</ref><sp/>ConsoleText,<sp/><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8f" kindref="member">color</ref><sp/>ConsoleBackground)<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/>hStdOut<sp/>=<sp/>GetStdHandle(STD_OUTPUT_HANDLE);<sp/></highlight><highlight class="comment">//<sp/>Определение<sp/>дескриптора,<sp/>который<sp/>ссылается<sp/>на<sp/>консоль.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>SetConsoleTextAttribute(hStdOut,<sp/>(WORD)((ConsoleBackground<sp/>&lt;&lt;<sp/>4)<sp/>|<sp/>ConsoleText));<sp/></highlight><highlight class="comment">//<sp/>Приведение<sp/>типа<sp/>color<sp/>к<sp/>word<sp/>и<sp/>задание<sp/>цвета</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="_color_8h_1ac4b485399ce8f366e640bbfe8ea40f7b" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f" kindref="member">v_set_color</ref>(<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8f" kindref="member">color</ref><sp/>ConsoleText)<sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/>hStdOut<sp/>=<sp/>GetStdHandle(STD_OUTPUT_HANDLE);<sp/></highlight><highlight class="comment">//<sp/>Определение<sp/>дескриптора,<sp/>который<sp/>ссылается<sp/>на<sp/>консоль.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>SetConsoleTextAttribute(hStdOut,<sp/>(WORD)((<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref><sp/>&lt;&lt;<sp/>4)<sp/>|<sp/>ConsoleText));<sp/></highlight><highlight class="comment">//<sp/>Приведение<sp/>типа<sp/>color<sp/>к<sp/>word<sp/>и<sp/>задание<sp/>цвета</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="_color_8h_1a85ab2b1666a933ebb14c6ffb2db6d4a6" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_color_8cpp_1a85ab2b1666a933ebb14c6ffb2db6d4a6" kindref="member">v_color_reset</ref>()<sp/>{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/>hStdOut<sp/>=<sp/>GetStdHandle(STD_OUTPUT_HANDLE);<sp/></highlight><highlight class="comment">//<sp/>Определение<sp/>дескриптора,<sp/>который<sp/>ссылается<sp/>на<sp/>консоль.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/>SetConsoleTextAttribute(hStdOut,<sp/>(WORD)((<ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8faf77fb67151d0c18d397069ad8c271ba3" kindref="member">BLACK</ref><sp/>&lt;&lt;<sp/>4)<sp/>|<sp/><ref refid="_color_8h_1a37dbdc30935031c05304482e1be89d8fa3dcbd50f6d434719ddfb9da673977307" kindref="member">LIGHTGRAY</ref>));<sp/></highlight><highlight class="comment">//<sp/>Приведение<sp/>типа<sp/>color<sp/>к<sp/>word<sp/>и<sp/>задание<sp/>цвета</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/core/Color.cpp"/>
+  </compounddef>
+</doxygen>

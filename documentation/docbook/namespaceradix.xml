@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="namespaceradix">
+<title>radix</title>
+        <section>
+            <title>Переменные</title>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const size_t <link linkend="namespaceradix_1a82e81e89088b6430b7ec11a8a0329e9c">buff_size</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const size_t <link linkend="namespaceradix_1a8f000aabf647d34fd877c33958bad711">buff_ruleslist</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1a11c5bfe5c65a0f88a2a950111c6ffc09">logger_list</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1a43bff57dbd1b7dcebee0228ccbab7f17">settings_list</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1a73b088a3e903cc2845c2299b9ab8ccaf">rules_list</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1a123392a7ece6e11efaf3ad3df291ff3d">firmware_way</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1aa90f63f1d0143b58469670ccbb86cfc4">patch</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1a01a09f0b88f6fd375ea20667bd318035">expansion_file</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1a91c21d6be385236a564ef5bf1f3f3602">recovery_file</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1abcd4cb3ab01a6a642ba224e2d9b1eda5">su_file</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1a9f0187ab8d7f9931ed08159a233408c0">not_found</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1a27726ea7eb8e2bea153425bce9328be5">found</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1ad5e76eca849713be360ed8478545d801">ch_user_continue</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+            <para>
+                <itemizedlist>
+                    <listitem>
+                        <para>const char <link linkend="namespaceradix_1afd1855af7805a1bb408ea9175a626ac7">ch_user_not_continue</link></para>
+                    </listitem>
+                </itemizedlist>
+            </para>
+        </section>
+</section>

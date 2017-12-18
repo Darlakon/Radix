@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="color_8cpp-example">
+    <title>color.cpp</title>
+
+<para><formalpara><title>Автор: </title>
+
+<para>SavaLione <literallayout><computeroutput><emphasis class="preprocessor">#include&#32;&quot;..\core\Color.h&quot;</emphasis>
+
+<emphasis class="keywordtype">int</emphasis>&#32;<link linkend="_main_8cpp_1ae66f6b31b5ad750f1fe042a706a4e3d4">main</link>()&#32;{
+&#32;&#32;&#32;&#32;<link linkend="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f">v_set_color</link>(<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa35d6719cb4d7577c031b3d79057a1b79">BLUE</link>,&#32;<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8fa283fc479650da98250635b9c3c0e7e50">WHITE</link>);
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<link linkend="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f">v_set_color</link>(<link linkend="_color_8h_1a37dbdc30935031c05304482e1be89d8faa60bd322f93178d68184e30e162571ca">GREEN</link>);
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<link linkend="_color_8cpp_1a8bfe4542d1f10bae3f4ff0ec688aa67f">v_set_color</link>();
+&#32;&#32;&#32;&#32;
+&#32;&#32;&#32;&#32;<emphasis class="keywordflow">return</emphasis>&#32;0;
+}
+</computeroutput></literallayout> </para>
+</formalpara>
+</para>
+
+</section>

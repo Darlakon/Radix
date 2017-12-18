@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dir_c184e51c84f2c3f0345bbc8a0d75d3e1" kind="dir">
+    <compoundname>io</compoundname>
+    <innerfile refid="_logger_8cpp">Logger.cpp</innerfile>
+    <innerfile refid="_logger_8h">Logger.h</innerfile>
+    <innerfile refid="_rules_list_8cpp">RulesList.cpp</innerfile>
+    <innerfile refid="_rules_list_8h">RulesList.h</innerfile>
+    <innerfile refid="_settings_8cpp">Settings.cpp</innerfile>
+    <innerfile refid="_settings_8h">Settings.h</innerfile>
+    <innerfile refid="_templates_8cpp">Templates.cpp</innerfile>
+    <innerfile refid="_templates_8h">Templates.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/io/"/>
+  </compounddef>
+</doxygen>

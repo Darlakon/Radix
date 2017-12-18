@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Radix: Исходный файл Logger.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Radix
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_c184e51c84f2c3f0345bbc8a0d75d3e1.html">io</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Logger.cpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_logger_8cpp.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &lt;string&gt;</span></div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#include &lt;fstream&gt;</span></div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#include &lt;thread&gt;</span></div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#include &lt;windows.h&gt;</span></div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#include &lt;stdio.h&gt;</span></div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_logger_8h.html">Logger.h</a>&quot;</span></div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_settings_8h.html">Settings.h</a>&quot;</span></div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keyword">inline</span> <span class="keywordtype">void</span> <a class="code" href="_logger_8cpp.html#a37ded7634d8547536bbd135208109766">log_thr</a>(<span class="keywordtype">string</span> &amp;s, <span class="keywordtype">string</span> &amp;level);</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//  Logger</span></div><div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment"></span></div><div class="line"><a name="l00054"></a><span class="lineno"><a class="line" href="_logger_8cpp.html#a85cbef1702d055318336f0f3a5036959">   54</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="_logger_8cpp.html#a85cbef1702d055318336f0f3a5036959">log</a>(<span class="keywordtype">string</span> level, <span class="keywordtype">string</span> s) {</div><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// Проверка Включен ли модуль логирования.</span></div><div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="_settings_8cpp.html#a7fcd42142e325cb27a380f49d655f9de">b_settings</a>(<span class="stringliteral">&quot;logger&quot;</span>)) {</div><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="comment">/*</span></div><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">            Создание потока</span></div><div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">                log_thr Функция для вызова.</span></div><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">                ref(s) Передача ссылки с сообщением для логирования.</span></div><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment">                ref(level) Передача ссылки с уровнем логирования.</span></div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">        */</span></div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="comment">// Создание потока.</span></div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        thread thr(<a class="code" href="_logger_8cpp.html#a37ded7634d8547536bbd135208109766">log_thr</a>, ref(s), ref(level));</div><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="comment">// Запуск потока.</span></div><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        thr.join();</div><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    }</div><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div><div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="_logger_8cpp.html#a37ded7634d8547536bbd135208109766">   74</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="_logger_8cpp.html#a37ded7634d8547536bbd135208109766">log_thr</a>(<span class="keywordtype">string</span> &amp;s, <span class="keywordtype">string</span> &amp;level){</div><div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordtype">string</span> s_year = <span class="stringliteral">&quot;&quot;</span>, s_month = <span class="stringliteral">&quot;&quot;</span>, s_day = <span class="stringliteral">&quot;&quot;</span>, s_hour = <span class="stringliteral">&quot;&quot;</span>, s_minute = <span class="stringliteral">&quot;&quot;</span>, s_second = <span class="stringliteral">&quot;&quot;</span>;</div><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// Создание структуры time.</span></div><div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    SYSTEMTIME time;</div><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="comment">// По ссылке присвоение переменной time время системы.</span></div><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    GetLocalTime(&amp;time);</div><div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">// Более читаемое время в консоль. Если число &lt; 10, переменная string меняет значение с &quot;&quot; на &quot;0&quot;. Это необходимо для того, чтобы время не было вида 2017/6/11 9:1:26</span></div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">if</span> (time.wYear &lt; 10) { s_year = <span class="stringliteral">&quot;0&quot;</span>; }</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">if</span> (time.wMonth &lt; 10) { s_month = <span class="stringliteral">&quot;0&quot;</span>; }</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span> (time.wDay &lt; 10) { s_day = <span class="stringliteral">&quot;0&quot;</span>; }</div><div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span> (time.wHour &lt; 10) { s_hour = <span class="stringliteral">&quot;0&quot;</span>; }</div><div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span> (time.wMinute &lt; 10) { s_minute = <span class="stringliteral">&quot;0&quot;</span>; }</div><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span> (time.wSecond &lt; 10) { s_second = <span class="stringliteral">&quot;0&quot;</span>; }</div><div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="comment">// Открытие файла logger.log. Запись данных в конец файла.</span></div><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    ofstream fout(<span class="stringliteral">&quot;logger.log&quot;</span>, ios_base::app);</div><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="comment">// Строка для записи в файл logger.log</span></div><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    fout &lt;&lt; <span class="stringliteral">&quot;[&quot;</span> &lt;&lt; s_year &lt;&lt; time.wYear &lt;&lt; <span class="stringliteral">&quot;/&quot;</span> &lt;&lt; s_month &lt;&lt; time.wMonth &lt;&lt; <span class="stringliteral">&quot;/&quot;</span> &lt;&lt; s_day &lt;&lt; time.wDay &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; s_hour &lt;&lt; time.wHour &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; s_minute &lt;&lt; time.wMinute &lt;&lt; <span class="stringliteral">&quot;:&quot;</span> &lt;&lt; s_second &lt;&lt; time.wSecond &lt;&lt; <span class="stringliteral">&quot;] [&quot;</span>&lt;&lt; level &lt;&lt; <span class="stringliteral">&quot;]   &quot;</span> &lt;&lt; s &lt;&lt; <span class="stringliteral">&quot;\n&quot;</span>;</div><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="comment">// Закрытие файла logger.log.</span></div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    fout.close();</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div><div class="ttc" id="_settings_8h_html"><div class="ttname"><a href="_settings_8h.html">Settings.h</a></div><div class="ttdoc">Заголовочный файл с подключением модуля настроек. </div></div>
+<div class="ttc" id="_logger_8cpp_html_a37ded7634d8547536bbd135208109766"><div class="ttname"><a href="_logger_8cpp.html#a37ded7634d8547536bbd135208109766">log_thr</a></div><div class="ttdeci">void log_thr(string &amp;s, string &amp;level)</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8cpp_source.html#l00074">Logger.cpp:74</a></div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="_logger_8h_html"><div class="ttname"><a href="_logger_8h.html">Logger.h</a></div><div class="ttdoc">Заголовочный файл с подключением модуля логирования. </div></div>
+<div class="ttc" id="_logger_8cpp_html_a85cbef1702d055318336f0f3a5036959"><div class="ttname"><a href="_logger_8cpp.html#a85cbef1702d055318336f0f3a5036959">log</a></div><div class="ttdeci">void log(string level, string s)</div><div class="ttdef"><b>Definition:</b> <a href="_logger_8cpp_source.html#l00054">Logger.cpp:54</a></div></div>
+<div class="ttc" id="_settings_8cpp_html_a7fcd42142e325cb27a380f49d655f9de"><div class="ttname"><a href="_settings_8cpp.html#a7fcd42142e325cb27a380f49d655f9de">b_settings</a></div><div class="ttdeci">bool b_settings(char ch_arr_value[])</div><div class="ttdef"><b>Definition:</b> <a href="_settings_8cpp_source.html#l00022">Settings.cpp:22</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>

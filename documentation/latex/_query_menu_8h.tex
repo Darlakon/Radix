@@ -1,0 +1,54 @@
+\hypertarget{_query_menu_8h}{}\section{Файл Query\+Menu.\+h}
+\label{_query_menu_8h}\index{Query\+Menu.\+h@{Query\+Menu.\+h}}
+
+
+Заголовочный файл с подключением модуля сообщения с вопросом для пользователя.  
+
+
+{\ttfamily \#include $<$string$>$}\newline
+Граф включаемых заголовочных файлов для Query\+Menu.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=155pt]{_query_menu_8h__incl}
+\end{center}
+\end{figure}
+Граф файлов, в которые включается этот файл\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=177pt]{_query_menu_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{_query_menu_8h_aa08088d1947d336889fbb7a02ccb2b3f}{i\+\_\+querymenu} (std\+::string s)
+\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+Заголовочный файл с подключением модуля сообщения с вопросом для пользователя. 
+
+\begin{DoxyAuthor}{Автор}
+Sava\+Lione 
+\end{DoxyAuthor}
+
+
+\subsection{Функции}
+\mbox{\Hypertarget{_query_menu_8h_aa08088d1947d336889fbb7a02ccb2b3f}\label{_query_menu_8h_aa08088d1947d336889fbb7a02ccb2b3f}} 
+\index{Query\+Menu.\+h@{Query\+Menu.\+h}!i\+\_\+querymenu@{i\+\_\+querymenu}}
+\index{i\+\_\+querymenu@{i\+\_\+querymenu}!Query\+Menu.\+h@{Query\+Menu.\+h}}
+\subsubsection{\texorpdfstring{i\+\_\+querymenu()}{i\_querymenu()}}
+{\footnotesize\ttfamily int i\+\_\+querymenu (\begin{DoxyParamCaption}\item[{std\+::string}]{s }\end{DoxyParamCaption})}
+
+Вызов модуля сообщения с вопросом для пользователя. 
+\begin{DoxyParams}[1]{Аргументы}
+\mbox{\tt in}  & {\em s} & вопрос \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+0 -\/ пользователь не готов продолжить, выход из программы. 1 -\/ пользователь готов продолжить, продолжить. 
+\end{DoxyReturn}

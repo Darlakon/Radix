@@ -1,0 +1,42 @@
+version: 1.1.{build}
+skip_tags: true
+image:
+- Visual Studio 2017
+configuration: RELEASE
+platform:
+- x64
+before_build:
+  - echo Running cmake...
+  - cd c:\projects\radix
+  - cmake -DCMAKE_BUILD_TYPE=RELEASE -G "Visual Studio 15 2017 Win64"
+build:
+  project: c:\projects\radix\Radix.sln
+  parallel: true
+  verbosity: minimal
+after_build:
+  - MD Deploy
+  - MD Deploy\assets
+  - copy Release\Radix.exe Deploy\Radix.exe
+  - xcopy assets Deploy\assets\ /S /E
+artifacts:
+  - path: Deploy
+    name: 'Radix_x64'
+    type: zip
+  - path: documentation\html
+    name: 'Documentation_html'
+    type: zip
+  - path: documentation
+    name: 'Documentation_all'
+    type: zip
+  - path: assets\architecture
+    name: 'architecture'
+    type: zip
+deploy:
+  provider: GitHub
+  release: v$(appveyor_build_version)
+  description: 'Radix'
+  auth_token:
+    secure: Jj2VTZV7xlAPGxeAUS5HMDRFzgwdkCSMJxUAl7icI7TeBXTR/mH7fIG9+tPt/oRG
+  artifact: Radix_x64, Documentation_html, Documentation_all, architecture
+  draft: false
+  prerelease: false

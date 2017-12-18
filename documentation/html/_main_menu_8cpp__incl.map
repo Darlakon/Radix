@@ -1,0 +1,7 @@
+<map id="MainMenu.cpp" name="MainMenu.cpp">
+<area shape="rect" id="node6" href="$_color_8h.html" title="Заголовочный файл с цветами и модулем смены цвета в консоли. " alt="" coords="352,80,456,107"/>
+<area shape="rect" id="node7" href="$_constants_menu_8h.html" title="Заголовочный файл с константами меню. " alt="" coords="480,80,645,107"/>
+<area shape="rect" id="node8" href="$_logo_8h.html" title="Заголовочный файл с логотипами. " alt="" coords="670,80,773,107"/>
+<area shape="rect" id="node9" href="$_a_d_b__slave_8h.html" title="Заголовочный файл с подключением модуля работы с adb. " alt="" coords="797,80,934,107"/>
+<area shape="rect" id="node10" href="$_checking_files_8h.html" title="Заголовочный файл с вызовом модуля проверки файлов для рутирования телефона. " alt="" coords="958,80,1114,107"/>
+</map>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="_radix_8h" kind="file" language="C++">
+    <compoundname>Radix.h</compoundname>
+    <includedby refid="_main_8cpp" local="yes">Main.cpp</includedby>
+    <invincdepgraph>
+      <node id="189">
+        <label>Main.cpp</label>
+        <link refid="_main_8cpp"/>
+      </node>
+      <node id="188">
+        <label>Radix.h</label>
+        <link refid="_radix_8h"/>
+        <childnode refid="189" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_radix_8h_1a86a56c401ce2783ee9288b33af746520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Radix</definition>
+        <argsstring>()</argsstring>
+        <name>Radix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Запуск программы </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/core/Radix.h" line="10" column="1" bodyfile="src/core/Radix.cpp" bodystart="16" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Заголовочный файл с вызовом главной функции программы </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>SavaLione </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="6"><highlight class="preprocessor">#ifndef<sp/>RADIX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RADIX_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="_radix_8h_1a86a56c401ce2783ee9288b33af746520" kindref="member">Radix</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>RADIX_H</highlight></codeline>
+    </programlisting>
+    <location file="src/core/Radix.h"/>
+  </compounddef>
+</doxygen>
